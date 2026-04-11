@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ruleta</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ffb3c6, #a0c4ff, #caffbf);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+/* CONTENEDOR */
+.ruleta-container {
+  width: 100%;
+  max-width: 420px;
+  background: #fff;
+  padding: clamp(15px, 4vw, 30px);
+  border-radius: 25px;
+  border: 4px solid #000;
+  box-shadow: 8px 8px 0px #000;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+.titulo {
+  font-size: clamp(22px, 5vw, 32px);
+}
+
+.scene {
+  position: relative;
+  width: 100%;
+  max-width: 320px;
+  aspect-ratio: 1;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 4px solid #000;
+  box-shadow: 6px 6px 0px #000;
+}
+
+.pointer {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 24px solid #000;
+}
+
+.pointer::after {
+  content: '';
+  position: absolute;
+  top: -26px;
+  left: -9px;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-top: 20px solid #ffb3c6;
+}
+
+.hub {
+  position: absolute;
+  width: 12%;
+  height: 12%;
+  background: #fff;
+  border-radius: 50%;
+  border: 4px solid #000;
+  box-shadow: 3px 3px 0px #000;
+}
+
+.btn-ruleta {
+  width: 100%;
+  max-width: 250px;
+  padding: 12px;
+  font-size: clamp(14px, 4vw, 18px);
+  border-radius: 15px;
+  border: 3px solid #000;
+  background: #ffb3c6;
+  cursor: pointer;
+  box-shadow: 5px 5px 0px #000;
+  transition: 0.2s;
+}
+
+/* MODAL */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.modal.active {
+  display: flex;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 25px;
+  border-radius: 20px;
+  border: 4px solid #000;
+  box-shadow: 8px 8px 0px #000;
+  text-align: center;
+  max-width: 300px;
+  width: 90%;
+  animation: aparecer 0.3s ease;
+}
+
+.modal-content h2 {
+  margin-bottom: 15px;
+}
+
+.modal-content p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.modal-content a {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #a0c4ff;
+  border: 3px solid #000;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  box-shadow: 4px 4px 0px #000;
+}
+
+@keyframes aparecer {
+  from { transform: scale(0.7); opacity: 0; }
+  to   { transform: scale(1); opacity: 1; }
+}
+</style>
+</head>
+
+<body>
+
+<div class="ruleta-container">
+  <div class="titulo">🎡 Ruleta</div>
+
+  <div class="scene">
+    <div class="pointer"></div>
+    <canvas id="wheel"></canvas>
+    <div class="hub"></div>
+  </div>
+
+  <button class="btn-ruleta" id="spinBtn" onclick="spin()">¡Girar!</button>
+</div>
+
+<!-- MODAL -->
+<div class="modal" id="modal">
+  <div class="modal-content">
+    <h2>Resultado</h2>
+    <p id="modalText"></p>
+    <a href="trivia.html">Continuar</a>
+  </div>
+</div>
+
+<script>
+const ITEMS = [
+  'Ciencias','Historia','Tecnología','Geografía','Cultura',
+  'Música','Videojuegos','Deportes','Biblia'
+];
+
+const COLORS = [
+  '#ffb3c6','#a0c4ff','#caffbf','#ffd6a5',
+  '#bdb2ff','#fdffb6','#9bf6ff','#ffc6ff','#d4f4dd'
+];
+
+const canvas = document.getElementById('wheel');
+const ctx = canvas.getContext('2d');
+
+let size = canvas.offsetWidth;
+canvas.width = size;
+canvas.height = size;
+
+const N = ITEMS.length;
+const ARC = (Math.PI * 2) / N;
+
+let currentAngle = -Math.PI / 2;
+let spinning = false;
+
+function drawWheel(angle) {
+  const CX = canvas.width / 2;
+  const CY = canvas.height / 2;
+  const R = CX - 4;
+
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  for (let i = 0; i < N; i++) {
+    const start = angle + i * ARC;
+    const end = start + ARC;
+
+    ctx.beginPath();
+    ctx.moveTo(CX, CY);
+    ctx.arc(CX, CY, R, start, end);
+    ctx.closePath();
+    ctx.fillStyle = COLORS[i];
+    ctx.fill();
+
+    ctx.strokeStyle = '#000';
+    ctx.stroke();
+
+    ctx.save();
+    ctx.translate(CX, CY);
+    ctx.rotate(start + ARC / 2);
+    ctx.textAlign = 'right';
+    ctx.fillStyle = '#000';
+    ctx.font = 'bold 12px Comic Sans MS';
+    ctx.fillText(ITEMS[i], R - 10, 5);
+    ctx.restore();
+  }
+}
+
+drawWheel(currentAngle);
+
+function spin() {
+  if (spinning) return;
+  spinning = true;
+
+  document.getElementById('spinBtn').disabled = true;
+
+  const extra = (6 + Math.random() * 4) * Math.PI * 2;
+  const offset = Math.random() * Math.PI * 2;
+  const total = extra + offset;
+
+  let start = null;
+  const duration = 4000;
+
+  function ease(t) {
+    return 1 - Math.pow(1 - t, 4);
+  }
+
+  function animate(time) {
+    if (!start) start = time;
+    let t = Math.min((time - start) / duration, 1);
+
+    currentAngle += total * ease(t);
+    drawWheel(currentAngle);
+
+    if (t < 1) {
+      requestAnimationFrame(animate);
+    } else {
+      spinning = false;
+      document.getElementById('spinBtn').disabled = false;
+
+      const normalized = ((-currentAngle - Math.PI / 2) % (Math.PI * 2) + Math.PI * 2) % (Math.PI * 2);
+      const index = Math.floor(normalized / ARC);
+
+          const mapeo = {
+          'Ciencias':    'ciencia',
+          'Historia':    'historia',
+          'Tecnología':  'tecnologia',
+          'Geografía':   'geografia',
+          'Cultura':     'cultura',
+          'Música':      'musica',
+          'Videojuegos': 'videojuegos',
+          'Deportes':    'deportes',
+          'Biblia':      'biblia'
+      };
+
+      localStorage.setItem("categoria", mapeo[ITEMS[index]]);
+      console.log("Categoría seleccionada:", mapeo[ITEMS[index]]);
+
+      document.getElementById('modalText').textContent = "Categoría: " + ITEMS[index];
+      document.getElementById('modal').classList.add('active');
+      
+    
+    }
+  }
+
+  requestAnimationFrame(animate);
+}
+
+
+
+</script>
+
+</body>
+</html>

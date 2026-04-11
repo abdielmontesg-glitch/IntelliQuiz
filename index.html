@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="IntelliQuiz es un juego de trivia interactivo con categorías, temporizador y sistema de puntuación. Aprende y diviértete respondiendo preguntas.">
+    <meta name="author" content="AbdielM">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" type="image/png" sizes="64x32" href="image/logo.png">
+    <title>IntelliQuiz - Juego de Trivia Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <!-- Pantalla de carga -->
+    <div id="loader">
+    <div class="loader-box">
+        <img src="image/logo.png" class="loader-logo" alt="logo">
+
+        <div class="loader-barra-container">
+            <div class="loader-barra" id="barra"></div>
+        </div>
+
+        <span id="porcentaje">0%</span>
+    </div>
+</div>
+
+      <!-- Musica -->
+    <audio id="bgMusic" loop>
+    <source src="musica/Modern Attempt.mp3" type="audio/mpeg">
+</audio>
+
+<button id="btnMusic" class="btn-music off" onclick="toggleMusic()">
+    🔇
+</button>
+
+     <!-- Modal de bienvenida -->
+    <div id="modal-splash" class="modal oculto">
+    <div class="modal-contenido">
+        <button class="btn-cerrar" onclick="cerrarSplash()">✕</button>
+        <h2>¡Bienvenido! 👋</h2>
+        <p>Responde <strong>10 preguntas</strong> de tu categoría favorita.</p>
+        <p>⏱ Tienes <strong>20 segundos</strong> por pregunta.</p>
+        <p>💡 Tienes <strong>2 oportunidades</strong> por pregunta.</p>
+        <p>⭐ Primera correcta = <strong>10 pts</strong>, segunda = <strong>5 pts</strong>.</p>
+        <br>
+        <label>
+            <input type="checkbox" id="no-mostrar"> No mostrar de nuevo
+        </label>
+    </div>
+</div>
+<div class="inicio-container">
+
+    <!-- Título -->
+    <h1 class="titulo">IntelliQuiz</h1>
+
+    <!-- Categorías -->
+    <div class="categorias">
+        <h2>Selecciona una categoría</h2>
+
+        <div class="grid-categorias">
+            <button class="categoria-btn" onclick="seleccionarCategoria('ciencia')">🧪 Ciencia</button>
+            <button class="categoria-btn" onclick="seleccionarCategoria('historia')">📜 Historia</button>
+            <button class="categoria-btn" onclick="seleccionarCategoria('tecnologia')">💻 Tecnología</button>
+            <button class="categoria-btn" onclick="seleccionarCategoria('geografia')">🌎 Geografía</button>
+            <button class="categoria-btn" onclick="seleccionarCategoria('cultura')">🎭 Cultura</button>
+            <button class="categoria-btn" onclick="seleccionarCategoria('musica')">🎵 Música</button>
+            <button class="categoria-btn" onclick="seleccionarCategoria('videojuegos')">🎮 Videojuegos</button>
+            <button class="categoria-btn" onclick="seleccionarCategoria('deportes')">⚽ Deportes</button>
+            <button class="categoria-btn" onclick="seleccionarCategoria('biblia')">🙏 Biblia</button>
+        </div>
+    </div>
+
+    <!-- Botones de acción -->
+    <div class="botones-accion">
+        <a href="ruleta.html">
+            <button class="btn-ruleta">🎰 Ruleta</button>
+        </a>
+        <a href="trivia.html">
+            <button onclick="iniciarJuego()" class="btn-iniciar">Jugar</button>
+        </a>
+    </div>
+
+</div>
+
+<script>
+    
+
+    function iniciarJuego() {
+    localStorage.setItem("musica", "on");
+    window.location.href = "trivia.html";
+}
+
+    function seleccionarCategoria(cat) {
+        localStorage.setItem("categoria", cat);
+        console.log("Categoría guardada:", cat);
+    }
+
+    const botones = document.querySelectorAll(".categoria-btn");
+    botones.forEach(btn => {
+        btn.addEventListener("click", function() {
+            botones.forEach(btn => btn.classList.remove("active"));
+            this.classList.add("active");
+        });
+    });
+
+    // =====================
+    // Modal de bienvenida      
+    // =====================
+    if(!localStorage.getItem("splashVisto")){
+        document.getElementById("modal-splash").classList.remove("oculto");
+    }
+
+    function cerrarSplash(){
+        if(document.getElementById("no-mostrar").checked){
+            localStorage.setItem("splashVisto", "true");
+        }
+        document.getElementById("modal-splash").classList.add("oculto");
+    }
+
+    const musica = document.getElementById("bgMusic");
+    const btnMusic = document.getElementById("btnMusic");
+
+    let activo = false;
+
+
+    // =====================
+    // Control de la música
+    // =====================
+    function toggleMusic(){
+        if(activo){
+            musica.pause();
+            btnMusic.classList.remove("on");
+            btnMusic.classList.add("off");
+           btnMusic.textContent = "🔇";
+           activo = false;
+        } else {
+            musica.volume = 0.3;
+            musica.play().catch(() => {
+                console.log("El navegador bloqueó el autoplay");
+            });
+            btnMusic.classList.remove("off");
+            btnMusic.classList.add("on");
+            btnMusic.textContent = "🔊";
+            activo = true;
+        }
+        localStorage.setItem("musicaActiva", activo);
+        
+        setInterval(() => {
+    if (!musica.paused) {
+        localStorage.setItem("tiempoMusica", musica.currentTime);
+    }
+}, 1000);
+    }
+
+    // =====================
+    // Pantalla de carga
+    // =====================
+
+    window.addEventListener("load", () => {
+
+    const loader = document.getElementById("loader");
+
+    if(sessionStorage.getItem("loaderVisto")){
+        loader.style.display = "none";
+         return;
+    }
+
+    sessionStorage.setItem("loaderVisto", "true");
+    
+    let barra = document.getElementById("barra");
+    let porcentajeText = document.getElementById("porcentaje");
+    
+
+    let duracion = 5000;
+    let inicio = Date.now();
+
+    let intervalo = setInterval(()=>{
+
+        let tiempoActual = Date.now();
+        let progreso = ((tiempoActual - inicio) / duracion) * 100;
+
+        if (progreso >= 100){
+            progreso = 100;
+            clearInterval(intervalo);
+
+            loader.style.opacity = 0;
+
+            setTimeout(()=>{
+                loader.style.display = "none";
+            }, 600);
+        }
+
+        barra.style.width = progreso + "%";
+        porcentajeText.innerText = Math.floor(progreso) + "%";
+    }, 16);
+
+});
+
+    // =====================
+    // cargar musica donde se quedó
+    // =====================
+
+    window.addEventListener("load", () => {
+    const musica = document.getElementById("bgMusic");
+    const activa = localStorage.getItem("musicaActiva") === "true";
+
+    if (activa) {
+        musica.volume = 0.3;
+
+        const tiempo = localStorage.getItem("tiempoMusica");
+        if (tiempo) {
+            musica.currentTime = tiempo;
+        }
+
+        musica.play().catch(() => {
+            console.log("Esperando interacción...");
+        });
+
+        // actualizar botón visual
+        const btn = document.getElementById("btnMusic");
+        btn.classList.remove("off");
+        btn.classList.add("on");
+        btn.textContent = "🔊";
+    }
+});
+
+</script>
+
+</body>
+</html>

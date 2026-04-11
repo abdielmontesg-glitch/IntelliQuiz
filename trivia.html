@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Trivia App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <audio id="bgMusic" loop>
+    <source src="musica/Modern Attempt.mp3" type="audio/mpeg">
+</audio>
+
+<div class="container">
+
+    <!-- Header -->
+    <div class="header">
+        <span class="categoria" id="categoria"></span>
+        <span class="temporizador" id="temporizador"></span>
+    </div>
+
+    <!-- Pregunta -->
+    <div class="pregunta" id="pregunta"></div>
+
+    <!-- Respuestas -->
+    <div class="respuestas">
+        <button class="btn" id="btn1" onclick="oprimir_btn(this)">opcion1</button>
+        <button class="btn" id="btn2" onclick="oprimir_btn(this)">opcion2</button>
+        <button class="btn" id="btn3" onclick="oprimir_btn(this)">opcion3</button>
+        <button class="btn" id="btn4" onclick="oprimir_btn(this)">opcion4</button>
+    </div>
+
+</div>
+
+<!-- Modal pregunta -->
+<div id="modal" class="modal oculto">
+    <div class="modal-contenido">
+        <h2 id="modal-texto">Ganaste 🎉</h2>
+        <p id="modal-mensaje"></p><br>
+        <button id="btn-continuar">Continuar</button>
+    </div>
+</div>
+
+<!-- Modal final -->
+<div id="modal-final" class="modal oculto">
+    <div class="modal-contenido">
+        <h2>¡Terminaste la trivia! 🎉</h2>
+        <p id="texto-puntaje">Tu puntaje: 0/100</p><br>
+        <button id="btn-finalizar" onclick="location.href='index.html'">Jugar de nuevo</button>
+    </div>
+</div>
+
+<script>
+    // =====================
+    // Variables globales
+    // =====================
+    const modal = document.getElementById("modal");
+
+    let categoria = localStorage.getItem("categoria");
+    let intervalo;          // temporizador
+    let numeroPreguntas = 0; // cuántas preguntas han pasado
+    let puntuacion = 0;  // puntaje acumulado
+    let intentos = 0;  // intentos por pregunta
+
+    // =====================
+    // Cargar preguntas
+    // =====================
+    let base = readText("base_preguntas.json");
+    let todasLasPreguntas = JSON.parse(base);
+    let preguntasFiltradas = todasLasPreguntas.filter(p => p.categoria === categoria);
+
+    console.log("Categoria seleccionada:", categoria);
+
+    // =====================
+    // Inicio
+    // =====================
+    temporizador();
+    randomQuestion();
+
+    // =====================
+    // Funciones utilitarias
+    // =====================
+    function select_id(id) {
+        return document.getElementById(id);
+    }
+
+    function style(id) {
+        return select_id(id).style;
+    }
+
+    function readText(ruta_local) {
+        var texto = null;
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.open("GET", ruta_local, false);
+        xmlhttp.send();
+        if (xmlhttp.status === 200) {
+            texto = xmlhttp.responseText;
+        }
+        return texto;
+    }
+
+    // =====================
+    // Lógica de preguntas
+    // =====================
+    function randomQuestion() {
+        let aleatorio = Math.floor(Math.random() * preguntasFiltradas.length);
+        escogerPregunta(aleatorio);
+        preguntasFiltradas.splice(aleatorio, 1);
+    }
+
+    function escogerPregunta(n) {
+        pregunta = preguntasFiltradas[n];
+
+        select_id("categoria").innerHTML  = pregunta.categoria;
+        select_id("pregunta").innerHTML   = pregunta.pregunta;
+        select_id("btn1").innerHTML       = pregunta.opciones[0];
+        select_id("btn2").innerHTML       = pregunta.opciones[1];
+        select_id("btn3").innerHTML       = pregunta.opciones[2];
+        select_id("btn4").innerHTML       = pregunta.opciones[3];
+    }
+
+    // =====================
+    // Responder
+    // =====================
+    function oprimir_btn(botonSeleccionado) {
+        let texto = botonSeleccionado.innerText;
+        
+
+        if (texto == pregunta.respuesta_correcta) {
+            botonSeleccionado.classList.add("correcto");
+            select_id("modal-texto").innerHTML = "¡Correcto! 🎉";
+            select_id("modal-mensaje").innerHTML = `Dato interesante: ${pregunta.dato_interesante}`;
+             clearInterval(intervalo);
+            if (intentos == 0) puntuacion += 10;
+            else if (intentos == 1) puntuacion += 5;
+
+            intentos = 0; // reinicia intentos para la siguiente pregunta
+            console.log("Puntaje actual:", puntuacion);
+            mostrarModal();
+
+        } else {
+            intentos++;
+            botonSeleccionado.classList.add("incorrecto");
+            botonSeleccionado.disabled = true;
+
+            if(intentos >=2){
+                intentos = 0; // reinicia intentos para la siguiente pregunta
+                clearInterval(intervalo);
+                mostrarModal();
+                select_id("modal-texto").innerHTML = "¡Respuesta incorrecta! 😢";
+                select_id("modal-mensaje").innerHTML = `Pista: ${pregunta.pista_estudio}`;
+            }
+        }
+    }
+
+    // =====================
+    // Temporizador
+    // =====================
+    function temporizador() {
+        let tiempo = 20;
+        clearInterval(intervalo);
+
+        intervalo = setInterval(() => {
+            select_id("temporizador").innerHTML = `⏱ ${tiempo}s`;
+
+            if (tiempo == 0) {
+                clearInterval(intervalo);
+                select_id("modal-texto").innerHTML = "¡Se acabó el tiempo! 😢";
+                select_id("modal-mensaje").innerHTML = `Pista: ${pregunta.pista_estudio}`;
+                document.querySelectorAll(".btn").forEach(btn => btn.disabled = true);
+                mostrarModal();
+            }
+
+            tiempo--;
+        }, 1000);
+    }
+
+    // =====================
+    // Modales
+    // =====================
+    function mostrarModal() {
+        select_id("modal").classList.remove("oculto");
+
+        select_id("btn-continuar").onclick = () => {
+            numeroPreguntas++;
+
+            const todosLosBotones = document.querySelectorAll(".btn");
+            todosLosBotones.forEach(btn => {
+                btn.classList.remove("correcto", "incorrecto");
+                btn.disabled = false;
+            });
+
+            if (numeroPreguntas >= 10) {
+                mostrarModalFinal();
+                return;
+            }
+
+            select_id("modal").classList.add("oculto");
+            randomQuestion();
+            temporizador();
+        };
+    }
+
+    function mostrarModalFinal() {
+        select_id("modal").classList.add("oculto");
+        select_id("modal-final").classList.remove("oculto");
+        select_id("texto-puntaje").innerHTML = `Tu puntaje: ${puntuacion}/100`;
+    }
+
+    // =====================
+    // Música de fondo
+    // =====================
+const musica = document.getElementById("bgMusic");
+
+window.addEventListener("load", () => {
+    const activa = localStorage.getItem("musicaActiva") === "true";
+
+    if (activa) {
+        musica.volume = 0.3;
+
+        // recuperar tiempo
+        const tiempo = localStorage.getItem("tiempoMusica");
+        if (tiempo) {
+            musica.currentTime = tiempo;
+        }
+
+        musica.play().catch(() => {
+            console.log("Esperando interacción...");
+        });
+    }
+});
+
+// Guardar tiempo de la musica
+setInterval(() => {
+    if (!musica.paused) {
+        localStorage.setItem("tiempoMusica", musica.currentTime);
+    }
+}, 1000);
+
+</script>
+
+</body>
+</html>
