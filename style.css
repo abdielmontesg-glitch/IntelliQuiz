@@ -12,11 +12,12 @@
    Body
    ===================== */
 body {
-    height: 100vh;
+    min-height: 100vh;
     background: linear-gradient(135deg, #ffb3c6, #a0c4ff, #caffbf);
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 15px;
 }
 
 /* =====================
@@ -207,6 +208,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 15px;
 }
 
 .oculto {
@@ -221,6 +223,8 @@ a {
     text-align: center;
     box-shadow: 8px 8px 0px #000;
     animation: aparecer 0.3s ease;
+    width: 90%;
+    max-width: 420px;
 }
 
 .modal-contenido h2 {
@@ -347,29 +351,25 @@ a {
     z-index: 1000;
 }
 
-/* Hover */
 .btn-music:hover {
     transform: scale(1.1);
 }
 
-/* Click */
 .btn-music:active {
     transform: scale(0.9);
     box-shadow: 2px 2px 0px #000;
 }
 
-/* Estado ACTIVADO */
 .btn-music.on {
-    background: #caffbf; /* verde como tu botón iniciar */
+    background: #caffbf;
 }
 
-/* Estado DESACTIVADO */
 .btn-music.off {
-    background: #ffb3c6; /* rosita como ruleta */
+    background: #ffb3c6;
 }
 
 /* =====================
-   LOADER PRO
+   LOADER
    ===================== */
 #loader {
     position: fixed;
@@ -383,25 +383,21 @@ a {
     transition: opacity 0.6s ease;
 }
 
-/* Caja central */
 .loader-box {
     text-align: center;
 }
 
-/* Logo */
 .loader-logo {
     width: clamp(180px, 25vw, 260px);
     margin-bottom: 25px;
     animation: float 2s ease-in-out infinite;
 }
 
-/* Animación flotante */
 @keyframes float {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-10px); }
 }
 
-/* Barra contenedor */
 .loader-barra-container {
     width: 250px;
     height: 18px;
@@ -413,7 +409,6 @@ a {
     box-shadow: 4px 4px 0px #000;
 }
 
-/* Barra progreso */
 .loader-barra {
     height: 100%;
     width: 0%;
@@ -421,8 +416,118 @@ a {
     transition: width 0.2s;
 }
 
-/* Porcentaje */
 #porcentaje {
     font-weight: bold;
     font-size: 16px;
+}
+
+/* =====================
+   Responsive móvil
+   ===================== */
+@media (max-width: 600px) {
+
+    body {
+        align-items: flex-start;
+        padding: 12px;
+    }
+
+    /* --- Index --- */
+    .inicio-container {
+        width: 100%;
+        padding: 20px 12px;
+    }
+
+    .titulo {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .categorias h2 {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .grid-categorias {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin-bottom: 18px;
+    }
+
+    .categoria-btn {
+        padding: 12px 6px;
+        font-size: 13px;
+    }
+
+    .botones-accion {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .btn-ruleta,
+    .btn-iniciar {
+        width: 100%;
+        padding: 14px;
+        font-size: 16px;
+    }
+
+    /* --- Trivia --- */
+    .container {
+        width: 100%;
+        padding: 15px 12px;
+    }
+
+    .header {
+        font-size: 13px;
+        margin-bottom: 12px;
+    }
+
+    .pregunta {
+        font-size: 17px;
+        margin-bottom: 18px;
+        padding: 12px;
+        line-height: 1.4;
+    }
+
+    .respuestas {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .btn {
+        font-size: 15px;
+        padding: 14px;
+    }
+
+    /* --- Modal --- */
+    .modal-contenido {
+        padding: 20px 15px;
+    }
+
+    .modal-contenido h2 {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+
+    .modal-contenido p {
+        font-size: 14px;
+    }
+
+    .modal-contenido button {
+        font-size: 15px;
+        padding: 12px 18px;
+    }
+
+    /* --- Botón música --- */
+    .btn-music {
+        top: 10px;
+        right: 10px;
+        width: 42px;
+        height: 42px;
+        font-size: 18px;
+    }
+
+    /* --- Loader --- */
+    .loader-barra-container {
+        width: 200px;
+    }
 }
