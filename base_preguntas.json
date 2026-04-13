@@ -8098,5 +8098,2705 @@
     "respuesta_correcta": "Roja",
     "dato_interesante": "La tarjeta roja fue introducida en el Mundial de México 1970 por el árbitro inglés Ken Aston.",
     "pista_estudio": "Investiga el sistema de tarjetas en el fútbol y cuándo se aplica cada una."
+  },
+  {
+    "id": 731,
+    "categoria": "ciencia",
+    "dificultad": "facil",
+    "pregunta": "¿Qué tipo de animal es la ballena?",
+    "opciones": [
+      "Pez",
+      "Reptil",
+      "Mamífero",
+      "Anfibio"
+    ],
+    "respuesta_correcta": "Mamífero",
+    "dato_interesante": "Las ballenas respiran aire, dan a luz crías vivas y las amamantan, características de los mamíferos.",
+    "pista_estudio": "Investiga las características de los mamíferos acuáticos y su evolución desde animales terrestres."
+  },
+  {
+    "id": 732,
+    "categoria": "ciencia",
+    "dificultad": "media",
+    "pregunta": "¿Cuántos litros de sangre tiene un adulto promedio?",
+    "opciones": [
+      "3 litros",
+      "5 litros",
+      "8 litros",
+      "10 litros"
+    ],
+    "respuesta_correcta": "5 litros",
+    "dato_interesante": "El corazón bombea toda esa sangre alrededor del cuerpo unas 1,000 veces al día.",
+    "pista_estudio": "Investiga el sistema circulatorio humano y el volumen sanguíneo total."
+  },
+  {
+    "id": 733,
+    "categoria": "ciencia",
+    "dificultad": "facil",
+    "pregunta": "¿Cómo se llama el proceso por el que una oruga se convierte en mariposa?",
+    "opciones": [
+      "Hibernación",
+      "Metamorfosis",
+      "Muda",
+      "Reproducción"
+    ],
+    "respuesta_correcta": "Metamorfosis",
+    "dato_interesante": "Dentro del capullo, casi todos los tejidos de la oruga se disuelven y se reorganizan completamente.",
+    "pista_estudio": "Investiga el ciclo de vida de los lepidópteros y las fases de la metamorfosis completa."
+  },
+  {
+    "id": 734,
+    "categoria": "ciencia",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es el nombre del fenómeno en que la luz cambia de dirección al pasar de un medio a otro?",
+    "opciones": [
+      "Reflexión",
+      "Difracción",
+      "Refracción",
+      "Dispersión"
+    ],
+    "respuesta_correcta": "Refracción",
+    "dato_interesante": "La refracción explica por qué un lápiz parece doblado cuando se mete en un vaso de agua.",
+    "pista_estudio": "Estudia la ley de Snell y los fenómenos ópticos relacionados con la luz."
+  },
+  {
+    "id": 735,
+    "categoria": "ciencia",
+    "dificultad": "media",
+    "pregunta": "¿Cuántas fases tiene la Luna en su ciclo mensual completo?",
+    "opciones": [
+      "2",
+      "4",
+      "8",
+      "12"
+    ],
+    "respuesta_correcta": "8",
+    "dato_interesante": "Las 8 fases son: Luna nueva, creciente iluminada, cuarto creciente, gibosa creciente, llena, gibosa menguante, cuarto menguante y creciente menguante.",
+    "pista_estudio": "Investiga el ciclo lunar de 29.5 días y las fases de la Luna."
+  },
+  {
+    "id": 736,
+    "categoria": "ciencia",
+    "dificultad": "facil",
+    "pregunta": "¿Qué gas producen los árboles que es esencial para los humanos?",
+    "opciones": [
+      "Dióxido de carbono",
+      "Nitrógeno",
+      "Oxígeno",
+      "Metano"
+    ],
+    "respuesta_correcta": "Oxígeno",
+    "dato_interesante": "Un árbol adulto produce suficiente oxígeno para que 2 personas respiren durante un año.",
+    "pista_estudio": "Investiga la fotosíntesis y el intercambio de gases entre plantas y animales."
+  },
+  {
+    "id": 737,
+    "categoria": "ciencia",
+    "dificultad": "dificil",
+    "pregunta": "¿Cómo se llama la partícula sin masa y sin carga que casi no interactúa con la materia?",
+    "opciones": [
+      "Fotón",
+      "Electrón",
+      "Neutrino",
+      "Protón"
+    ],
+    "respuesta_correcta": "Neutrino",
+    "dato_interesante": "Cada segundo, billones de neutrinos del Sol pasan a través de tu cuerpo sin que lo notes.",
+    "pista_estudio": "Investiga las partículas elementales del modelo estándar y las propiedades del neutrino."
+  },
+  {
+    "id": 738,
+    "categoria": "ciencia",
+    "dificultad": "media",
+    "pregunta": "¿Cuántos pares de cromosomas sexuales tiene el ser humano?",
+    "opciones": [
+      "1 par",
+      "2 pares",
+      "3 pares",
+      "23 pares"
+    ],
+    "respuesta_correcta": "1 par",
+    "dato_interesante": "El par 23 determina el sexo biológico: XX para mujer y XY para hombre.",
+    "pista_estudio": "Investiga los cromosomas sexuales humanos y cómo determinan el sexo biológico."
+  },
+  {
+    "id": 739,
+    "categoria": "ciencia",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es el punto de fusión del hielo a nivel del mar?",
+    "opciones": [
+      "0°C",
+      "4°C",
+      "-10°C",
+      "10°C"
+    ],
+    "respuesta_correcta": "0°C",
+    "dato_interesante": "El punto de fusión del hielo y el de congelación del agua son exactamente el mismo: 0°C.",
+    "pista_estudio": "Investiga los puntos de cambio de estado del agua y cómo varía con la presión."
+  },
+  {
+    "id": 740,
+    "categoria": "ciencia",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuántas capas tiene el Sol desde el centro hacia afuera?",
+    "opciones": [
+      "3",
+      "5",
+      "7",
+      "9"
+    ],
+    "respuesta_correcta": "7",
+    "dato_interesante": "Son: núcleo, zona radiactiva, zona convectiva, fotosfera, cromosfera, región de transición y corona.",
+    "pista_estudio": "Investiga la estructura interna y atmosférica del Sol."
+  },
+  {
+    "id": 741,
+    "categoria": "ciencia",
+    "dificultad": "media",
+    "pregunta": "¿Qué nombre recibe el ángulo formado entre los huesos del codo?",
+    "opciones": [
+      "Ángulo recto",
+      "Ángulo de carga",
+      "Ángulo de flexión",
+      "Ángulo cubital"
+    ],
+    "respuesta_correcta": "Ángulo cubital",
+    "dato_interesante": "El ángulo cubital varía entre hombres y mujeres; en mujeres suele ser más pronunciado.",
+    "pista_estudio": "Investiga la anatomía del codo y los huesos que lo componen: húmero, radio y cúbito."
+  },
+  {
+    "id": 742,
+    "categoria": "ciencia",
+    "dificultad": "facil",
+    "pregunta": "¿Cuántos colores componen la luz blanca al pasar por un prisma?",
+    "opciones": [
+      "3",
+      "5",
+      "7",
+      "9"
+    ],
+    "respuesta_correcta": "7",
+    "dato_interesante": "Al descomponerse, se forman los colores del arcoíris: rojo, naranja, amarillo, verde, azul, índigo y violeta.",
+    "pista_estudio": "Investiga la dispersión de la luz y cómo Newton demostró que la luz blanca es mezcla de colores."
+  },
+  {
+    "id": 743,
+    "categoria": "ciencia",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es la unidad de medida de la presión en el Sistema Internacional?",
+    "opciones": [
+      "Bar",
+      "Atmósfera",
+      "Pascal",
+      "PSI"
+    ],
+    "respuesta_correcta": "Pascal",
+    "dato_interesante": "El Pascal (Pa) recibe su nombre del matemático y físico Blaise Pascal; 1 Pa = 1 N/m².",
+    "pista_estudio": "Investiga las unidades del Sistema Internacional y sus equivalencias en presión."
+  },
+  {
+    "id": 744,
+    "categoria": "ciencia",
+    "dificultad": "media",
+    "pregunta": "¿Cuántos tipos de tejidos básicos tiene el cuerpo humano?",
+    "opciones": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "respuesta_correcta": "4",
+    "dato_interesante": "Son: epitelial, conectivo, muscular y nervioso; todos los órganos están formados por combinaciones de estos.",
+    "pista_estudio": "Estudia la histología básica y las características de los cuatro tipos de tejidos humanos."
+  },
+  {
+    "id": 745,
+    "categoria": "ciencia",
+    "dificultad": "facil",
+    "pregunta": "¿Cuántas alas tiene una abeja?",
+    "opciones": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "respuesta_correcta": "4",
+    "dato_interesante": "Las abejas tienen dos pares de alas que pueden engancharse para volar como si fueran una sola.",
+    "pista_estudio": "Investiga la anatomía de los himenópteros y su sistema de vuelo."
+  },
+  {
+    "id": 746,
+    "categoria": "ciencia",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es el nombre del proceso por el que las células se dividen para reproducción asexual?",
+    "opciones": [
+      "Meiosis",
+      "Mitosis",
+      "Fisión binaria",
+      "Gemación"
+    ],
+    "respuesta_correcta": "Mitosis",
+    "dato_interesante": "En la mitosis, una célula produce dos células hijas genéticamente idénticas a la madre.",
+    "pista_estudio": "Investiga las diferencias entre mitosis (crecimiento) y meiosis (reproducción sexual)."
+  },
+  {
+    "id": 747,
+    "categoria": "ciencia",
+    "dificultad": "media",
+    "pregunta": "¿Cuál es el número atómico del carbono?",
+    "opciones": [
+      "4",
+      "6",
+      "8",
+      "12"
+    ],
+    "respuesta_correcta": "6",
+    "dato_interesante": "El carbono tiene 6 protones y es la base de toda la química orgánica y la vida.",
+    "pista_estudio": "Investiga el carbono en la tabla periódica y su importancia en la química orgánica."
+  },
+  {
+    "id": 748,
+    "categoria": "ciencia",
+    "dificultad": "facil",
+    "pregunta": "¿Cómo se llama la ciencia que estudia los animales?",
+    "opciones": [
+      "Botánica",
+      "Geología",
+      "Zoología",
+      "Ecología"
+    ],
+    "respuesta_correcta": "Zoología",
+    "dato_interesante": "La zoología se divide en subdisciplinas como ornitología (aves), entomología (insectos) y herpetología (reptiles).",
+    "pista_estudio": "Investiga las ramas de la biología y qué estudia cada una."
+  },
+  {
+    "id": 749,
+    "categoria": "ciencia",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuántos neutrones tiene el átomo de carbono-14 usado en datación?",
+    "opciones": [
+      "6",
+      "7",
+      "8",
+      "14"
+    ],
+    "respuesta_correcta": "8",
+    "dato_interesante": "El carbono-14 tiene 6 protones y 8 neutrones; es radiactivo y se usa para fechar restos orgánicos.",
+    "pista_estudio": "Investiga la datación por radiocarbono y cómo se calcula la edad de los materiales."
+  },
+  {
+    "id": 750,
+    "categoria": "ciencia",
+    "dificultad": "media",
+    "pregunta": "¿Qué estructura del ojo es responsable de enfocar la imagen en la retina?",
+    "opciones": [
+      "Córnea",
+      "Cristalino",
+      "Iris",
+      "Pupila"
+    ],
+    "respuesta_correcta": "Cristalino",
+    "dato_interesante": "El cristalino cambia de forma para enfocar objetos cercanos o lejanos, proceso llamado acomodación.",
+    "pista_estudio": "Investiga la anatomía del ojo humano y la función de cada una de sus partes."
+  },
+  {
+    "id": 751,
+    "categoria": "historia",
+    "dificultad": "facil",
+    "pregunta": "¿Quién fue la reina de Inglaterra durante más tiempo en la historia moderna?",
+    "opciones": [
+      "Isabel I",
+      "Victoria",
+      "Isabel II",
+      "María I"
+    ],
+    "respuesta_correcta": "Isabel II",
+    "dato_interesante": "La reina Isabel II reinó durante 70 años, desde 1952 hasta su muerte en 2022.",
+    "pista_estudio": "Investiga el reinado más largo de la historia moderna de la monarquía británica."
+  },
+  {
+    "id": 752,
+    "categoria": "historia",
+    "dificultad": "media",
+    "pregunta": "¿En qué año comenzó la construcción de la Torre Eiffel?",
+    "opciones": [
+      "1884",
+      "1887",
+      "1889",
+      "1891"
+    ],
+    "respuesta_correcta": "1887",
+    "dato_interesante": "Fue construida en solo dos años para la Exposición Universal de 1889, que conmemoró el centenario de la Revolución Francesa.",
+    "pista_estudio": "Investiga la historia de la construcción de la Torre Eiffel y las controversias iniciales."
+  },
+  {
+    "id": 753,
+    "categoria": "historia",
+    "dificultad": "facil",
+    "pregunta": "¿Qué civilización construyó el Machu Picchu?",
+    "opciones": [
+      "Azteca",
+      "Maya",
+      "Inca",
+      "Olmeca"
+    ],
+    "respuesta_correcta": "Inca",
+    "dato_interesante": "Machu Picchu fue construida alrededor de 1450 y abandonada cuando los españoles conquistaron el Imperio Inca.",
+    "pista_estudio": "Investiga la civilización inca y sus construcciones monumentales en los Andes peruanos."
+  },
+  {
+    "id": 754,
+    "categoria": "historia",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál fue el nombre del tratado que creó la Unión Europea en su forma actual?",
+    "opciones": [
+      "Tratado de Roma",
+      "Tratado de Ámsterdam",
+      "Tratado de Maastricht",
+      "Tratado de Lisboa"
+    ],
+    "respuesta_correcta": "Tratado de Maastricht",
+    "dato_interesante": "El Tratado de Maastricht de 1992 transformó la Comunidad Económica Europea en la Unión Europea.",
+    "pista_estudio": "Investiga la historia de la integración europea y los tratados fundacionales."
+  },
+  {
+    "id": 755,
+    "categoria": "historia",
+    "dificultad": "media",
+    "pregunta": "¿Qué batalla naval fue decisiva para el dominio español en América en el siglo XVI?",
+    "opciones": [
+      "Batalla de Lepanto",
+      "Batalla de Trafalgar",
+      "Armada Invencible",
+      "Batalla del Cabo de San Vicente"
+    ],
+    "respuesta_correcta": "Batalla de Lepanto",
+    "dato_interesante": "En Lepanto (1571) la Liga Santa cristiana derrotó a la flota otomana; participó Miguel de Cervantes.",
+    "pista_estudio": "Investiga la batalla de Lepanto y su importancia en el dominio del Mediterráneo."
+  },
+  {
+    "id": 756,
+    "categoria": "historia",
+    "dificultad": "facil",
+    "pregunta": "¿En qué año se realizó el primer vuelo motorizado de los hermanos Wright?",
+    "opciones": [
+      "1896",
+      "1900",
+      "1903",
+      "1908"
+    ],
+    "respuesta_correcta": "1903",
+    "dato_interesante": "El vuelo en Kitty Hawk duró solo 12 segundos y recorrió 36 metros, pero cambió el mundo.",
+    "pista_estudio": "Investiga el primer vuelo controlado y motorizado de la historia en Kitty Hawk, Carolina del Norte."
+  },
+  {
+    "id": 757,
+    "categoria": "historia",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál fue el nombre del primer satélite artificial lanzado al espacio?",
+    "opciones": [
+      "Explorer 1",
+      "Vostok 1",
+      "Sputnik 1",
+      "Luna 1"
+    ],
+    "respuesta_correcta": "Sputnik 1",
+    "dato_interesante": "La URSS lanzó el Sputnik 1 el 4 de octubre de 1957, iniciando oficialmente la era espacial.",
+    "pista_estudio": "Investiga la carrera espacial entre EE.UU. y la URSS durante la Guerra Fría."
+  },
+  {
+    "id": 758,
+    "categoria": "historia",
+    "dificultad": "media",
+    "pregunta": "¿En qué año se abolió la pena de muerte en Francia?",
+    "opciones": [
+      "1971",
+      "1977",
+      "1981",
+      "1985"
+    ],
+    "respuesta_correcta": "1981",
+    "dato_interesante": "El último ejecutado en guillotina en Francia fue Hamida Djandoubi en 1977, cuatro años antes de la abolición.",
+    "pista_estudio": "Investiga el movimiento abolicionista en Europa y el papel de Robert Badinter en Francia."
+  },
+  {
+    "id": 759,
+    "categoria": "historia",
+    "dificultad": "facil",
+    "pregunta": "¿Quién inventó el teléfono?",
+    "opciones": [
+      "Thomas Edison",
+      "Nikola Tesla",
+      "Alexander Graham Bell",
+      "Samuel Morse"
+    ],
+    "respuesta_correcta": "Alexander Graham Bell",
+    "dato_interesante": "Bell patentó el teléfono en 1876, aunque Elisha Gray presentó una patente similar el mismo día.",
+    "pista_estudio": "Investiga la controversia de la invención del teléfono y el papel de Bell y Gray."
+  },
+  {
+    "id": 760,
+    "categoria": "historia",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué civilización inventó el papel hace más de 2,000 años?",
+    "opciones": [
+      "Griegos",
+      "Egipcios",
+      "Chinos",
+      "Romanos"
+    ],
+    "respuesta_correcta": "Chinos",
+    "dato_interesante": "Cai Lun perfeccionó el proceso del papel alrededor del año 105 d.C. en la corte del Emperador He.",
+    "pista_estudio": "Investiga los cuatro grandes inventos de China antigua: papel, imprenta, brújula y pólvora."
+  },
+  {
+    "id": 761,
+    "categoria": "historia",
+    "dificultad": "media",
+    "pregunta": "¿En qué año México organizó la Copa del Mundo de Fútbol por primera vez?",
+    "opciones": [
+      "1966",
+      "1970",
+      "1974",
+      "1978"
+    ],
+    "respuesta_correcta": "1970",
+    "dato_interesante": "Brasil ganó su tercer Mundial en México 1970 con Pelé, considerado el mejor equipo de la historia.",
+    "pista_estudio": "Investiga la historia de los Mundiales de Fútbol organizados en México."
+  },
+  {
+    "id": 762,
+    "categoria": "historia",
+    "dificultad": "facil",
+    "pregunta": "¿Cuándo fue fundada la ciudad de Roma según la tradición?",
+    "opciones": [
+      "753 a.C.",
+      "500 a.C.",
+      "1000 a.C.",
+      "200 a.C."
+    ],
+    "respuesta_correcta": "753 a.C.",
+    "dato_interesante": "Según la leyenda, Roma fue fundada por Rómulo y Remo, hijos de la diosa Rea Silvia y el dios Marte.",
+    "pista_estudio": "Investiga la fundación legendaria e histórica de la ciudad de Roma."
+  },
+  {
+    "id": 763,
+    "categoria": "historia",
+    "dificultad": "dificil",
+    "pregunta": "¿En qué año fue asesinado el presidente John F. Kennedy?",
+    "opciones": [
+      "1961",
+      "1963",
+      "1965",
+      "1967"
+    ],
+    "respuesta_correcta": "1963",
+    "dato_interesante": "Kennedy fue asesinado el 22 de noviembre de 1963 en Dallas, Texas, mientras desfilaba en su limusina.",
+    "pista_estudio": "Investiga el asesinato de JFK y las teorías que rodean este evento histórico."
+  },
+  {
+    "id": 764,
+    "categoria": "historia",
+    "dificultad": "media",
+    "pregunta": "¿Qué país fue el primero en reconocer la independencia de México?",
+    "opciones": [
+      "Estados Unidos",
+      "Gran Bretaña",
+      "España",
+      "Francia"
+    ],
+    "respuesta_correcta": "Gran Bretaña",
+    "dato_interesante": "Gran Bretaña reconoció a México en 1824, interesada en establecer relaciones comerciales.",
+    "pista_estudio": "Investiga el proceso de reconocimiento internacional de la independencia de México."
+  },
+  {
+    "id": 765,
+    "categoria": "historia",
+    "dificultad": "facil",
+    "pregunta": "¿Quién inventó la bombilla eléctrica?",
+    "opciones": [
+      "Nikola Tesla",
+      "Alexander Graham Bell",
+      "Thomas Edison",
+      "Benjamin Franklin"
+    ],
+    "respuesta_correcta": "Thomas Edison",
+    "dato_interesante": "Edison patentó la bombilla incandescente en 1879 tras más de 1,000 intentos fallidos.",
+    "pista_estudio": "Investiga los inventos de Thomas Edison y su famoso laboratorio de Menlo Park."
+  },
+  {
+    "id": 766,
+    "categoria": "historia",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál fue la primera capital de los Estados Unidos?",
+    "opciones": [
+      "Filadelfia",
+      "Nueva York",
+      "Boston",
+      "Baltimore"
+    ],
+    "respuesta_correcta": "Nueva York",
+    "dato_interesante": "George Washington fue inaugurado como primer presidente en Nueva York en 1789; la capital se mudó a Filadelfia y luego a Washington D.C.",
+    "pista_estudio": "Investiga la historia de las capitales de EE.UU. antes de la construcción de Washington D.C."
+  },
+  {
+    "id": 767,
+    "categoria": "historia",
+    "dificultad": "media",
+    "pregunta": "¿Qué evento histórico ocurrió el 11 de septiembre de 2001?",
+    "opciones": [
+      "Invasion de Irak",
+      "Atentados terroristas en Nueva York y Washington",
+      "Guerra de Afganistán",
+      "Caída del gobierno talibán"
+    ],
+    "respuesta_correcta": "Atentados terroristas en Nueva York y Washington",
+    "dato_interesante": "Los ataques del 11-S mataron a casi 3,000 personas y transformaron la política mundial.",
+    "pista_estudio": "Investiga los atentados del 11 de septiembre y su impacto en la geopolítica mundial."
+  },
+  {
+    "id": 768,
+    "categoria": "historia",
+    "dificultad": "facil",
+    "pregunta": "¿Quién fue el conquistador español que venció al Imperio Inca?",
+    "opciones": [
+      "Hernán Cortés",
+      "Ponce de León",
+      "Francisco Pizarro",
+      "Diego de Almagro"
+    ],
+    "respuesta_correcta": "Francisco Pizarro",
+    "dato_interesante": "Pizarro capturó y ejecutó al inca Atahualpa en 1533, derrumbando el Imperio más extenso de América.",
+    "pista_estudio": "Investiga la conquista del Perú y la caída del Imperio Inca."
+  },
+  {
+    "id": 769,
+    "categoria": "historia",
+    "dificultad": "dificil",
+    "pregunta": "¿En qué año se firmó la Carta Magna en Inglaterra?",
+    "opciones": [
+      "1066",
+      "1215",
+      "1350",
+      "1453"
+    ],
+    "respuesta_correcta": "1215",
+    "dato_interesante": "La Carta Magna fue el primer documento que limitaba el poder del rey ante la ley.",
+    "pista_estudio": "Investiga la importancia de la Carta Magna en el origen del constitucionalismo occidental."
+  },
+  {
+    "id": 770,
+    "categoria": "historia",
+    "dificultad": "media",
+    "pregunta": "¿Cuál fue el nombre del plan económico de reconstrucción de Europa tras la Segunda Guerra Mundial?",
+    "opciones": [
+      "Plan Truman",
+      "Plan Marshall",
+      "Plan Dawes",
+      "Plan Young"
+    ],
+    "respuesta_correcta": "Plan Marshall",
+    "dato_interesante": "EE.UU. invirtió más de 12,000 millones de dólares para reconstruir Europa occidental entre 1948 y 1952.",
+    "pista_estudio": "Investiga el Plan Marshall y su rol en la recuperación económica de Europa occidental."
+  },
+  {
+    "id": 771,
+    "categoria": "tecnologia",
+    "dificultad": "facil",
+    "pregunta": "¿Qué significa 'LAN' en redes de computadoras?",
+    "opciones": [
+      "Large Area Network",
+      "Local Area Network",
+      "Light Access Node",
+      "Linked Application Network"
+    ],
+    "respuesta_correcta": "Local Area Network",
+    "dato_interesante": "Una LAN conecta dispositivos en un área geográfica pequeña como una oficina o una casa.",
+    "pista_estudio": "Investiga los tipos de redes: LAN, WAN, MAN y sus diferencias en alcance y uso."
+  },
+  {
+    "id": 772,
+    "categoria": "tecnologia",
+    "dificultad": "media",
+    "pregunta": "¿Cuál es el lenguaje de programación principal para el desarrollo de iOS?",
+    "opciones": [
+      "Java",
+      "Kotlin",
+      "Swift",
+      "Objective-C"
+    ],
+    "respuesta_correcta": "Swift",
+    "dato_interesante": "Swift fue diseñado por Apple para ser más seguro y rápido que Objective-C.",
+    "pista_estudio": "Investiga los lenguajes de programación para desarrollo de apps móviles en iOS y Android."
+  },
+  {
+    "id": 773,
+    "categoria": "tecnologia",
+    "dificultad": "facil",
+    "pregunta": "¿Qué empresa creó el sistema operativo Android?",
+    "opciones": [
+      "Samsung",
+      "Apple",
+      "Microsoft",
+      "Google"
+    ],
+    "respuesta_correcta": "Google",
+    "dato_interesante": "Google adquirió Android Inc. en 2005 y lanzó la primera versión pública en 2008.",
+    "pista_estudio": "Investiga la historia de Android y su relación con el ecosistema de Google."
+  },
+  {
+    "id": 774,
+    "categoria": "tecnologia",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuántos transistores tiene aproximadamente un procesador moderno de alta gama?",
+    "opciones": [
+      "Millones",
+      "Cientos de millones",
+      "Miles de millones",
+      "Billones"
+    ],
+    "respuesta_correcta": "Miles de millones",
+    "dato_interesante": "El Apple M2 Ultra tiene más de 134,000 millones de transistores en un solo chip.",
+    "pista_estudio": "Investiga la Ley de Moore y la evolución de la densidad de transistores en procesadores."
+  },
+  {
+    "id": 775,
+    "categoria": "tecnologia",
+    "dificultad": "media",
+    "pregunta": "¿Qué formato de imagen permite fondo transparente?",
+    "opciones": [
+      "JPG",
+      "BMP",
+      "PNG",
+      "TIFF"
+    ],
+    "respuesta_correcta": "PNG",
+    "dato_interesante": "PNG (Portable Network Graphics) soporta canal alfa para transparencia, lo que JPG no puede hacer.",
+    "pista_estudio": "Investiga los formatos de imagen más comunes y sus características de compresión y transparencia."
+  },
+  {
+    "id": 776,
+    "categoria": "tecnologia",
+    "dificultad": "facil",
+    "pregunta": "¿Qué empresa desarrolló el motor de búsqueda Bing?",
+    "opciones": [
+      "Yahoo",
+      "Google",
+      "Microsoft",
+      "Amazon"
+    ],
+    "respuesta_correcta": "Microsoft",
+    "dato_interesante": "Bing fue lanzado en 2009 como sucesor de Live Search y hoy incorpora IA con GPT-4.",
+    "pista_estudio": "Investiga los principales motores de búsqueda y sus empresas desarrolladoras."
+  },
+  {
+    "id": 777,
+    "categoria": "tecnologia",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué significa 'DevOps' en el desarrollo de software?",
+    "opciones": [
+      "Desarrollo optimizado",
+      "Integración entre desarrollo y operaciones de TI",
+      "Metodología de diseño",
+      "Sistema de control de versiones"
+    ],
+    "respuesta_correcta": "Integración entre desarrollo y operaciones de TI",
+    "dato_interesante": "DevOps busca acortar el ciclo de vida del software mediante automatización y colaboración continua.",
+    "pista_estudio": "Investiga las metodologías ágiles y DevOps en el desarrollo de software moderno."
+  },
+  {
+    "id": 778,
+    "categoria": "tecnologia",
+    "dificultad": "media",
+    "pregunta": "¿Cuántos núcleos tiene un procesador 'octa-core'?",
+    "opciones": [
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "respuesta_correcta": "8",
+    "dato_interesante": "El prefijo 'octa' viene del griego y significa ocho; más núcleos permiten mayor multitarea.",
+    "pista_estudio": "Investiga los tipos de procesadores por número de núcleos: dual, quad, hexa y octa-core."
+  },
+  {
+    "id": 779,
+    "categoria": "tecnologia",
+    "dificultad": "facil",
+    "pregunta": "¿Qué es el 'Wi-Fi 6' o 802.11ax?",
+    "opciones": [
+      "La sexta generación de redes móviles",
+      "El estándar más reciente de redes inalámbricas",
+      "Un tipo de cable Ethernet",
+      "Un protocolo de seguridad"
+    ],
+    "respuesta_correcta": "El estándar más reciente de redes inalámbricas",
+    "dato_interesante": "Wi-Fi 6 puede alcanzar velocidades teóricas de hasta 9.6 Gbps, casi tres veces más que Wi-Fi 5.",
+    "pista_estudio": "Investiga la evolución de los estándares Wi-Fi desde 802.11b hasta Wi-Fi 6E."
+  },
+  {
+    "id": 780,
+    "categoria": "tecnologia",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué es la 'latencia' en redes de comunicación?",
+    "opciones": [
+      "La velocidad máxima de descarga",
+      "El tiempo que tarda un paquete de datos en viajar de origen a destino",
+      "La cantidad de datos transferidos",
+      "El número de dispositivos conectados"
+    ],
+    "respuesta_correcta": "El tiempo que tarda un paquete de datos en viajar de origen a destino",
+    "dato_interesante": "En juegos en línea, una latencia alta ('lag') causa retrasos visibles entre las acciones y sus efectos.",
+    "pista_estudio": "Investiga cómo se mide la latencia (ping) y por qué es crítica en aplicaciones en tiempo real."
+  },
+  {
+    "id": 781,
+    "categoria": "tecnologia",
+    "dificultad": "media",
+    "pregunta": "¿Qué empresa desarrolló la consola de videojuegos PlayStation?",
+    "opciones": [
+      "Microsoft",
+      "Nintendo",
+      "Sony",
+      "Sega"
+    ],
+    "respuesta_correcta": "Sony",
+    "dato_interesante": "La PlayStation original nació de una colaboración fallida con Nintendo para crear un lector CD-ROM.",
+    "pista_estudio": "Investiga la historia de Sony Interactive Entertainment y el origen de PlayStation."
+  },
+  {
+    "id": 782,
+    "categoria": "tecnologia",
+    "dificultad": "facil",
+    "pregunta": "¿Qué significa 'GPS'?",
+    "opciones": [
+      "Global Positioning System",
+      "General Proximity Sensor",
+      "Geographic Patrol System",
+      "Global Phone Service"
+    ],
+    "respuesta_correcta": "Global Positioning System",
+    "dato_interesante": "El GPS fue desarrollado por el ejército de EE.UU. y se abrió para uso civil en los años 80.",
+    "pista_estudio": "Investiga cómo funciona el GPS mediante satélites en órbita y triangulación de señales."
+  },
+  {
+    "id": 783,
+    "categoria": "tecnologia",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es la diferencia principal entre HTTP y HTTPS?",
+    "opciones": [
+      "HTTPS es más rápido",
+      "HTTPS cifra los datos con TLS/SSL",
+      "HTTP funciona solo en móviles",
+      "No hay diferencia real"
+    ],
+    "respuesta_correcta": "HTTPS cifra los datos con TLS/SSL",
+    "dato_interesante": "Google Chrome muestra advertencia de 'No seguro' en sitios que aún usan HTTP sin cifrar.",
+    "pista_estudio": "Investiga los protocolos de comunicación web y la importancia del cifrado en internet."
+  },
+  {
+    "id": 784,
+    "categoria": "tecnologia",
+    "dificultad": "media",
+    "pregunta": "¿Qué es un 'token' en el contexto de la inteligencia artificial de texto?",
+    "opciones": [
+      "Una contraseña de acceso",
+      "Una unidad de texto que procesa el modelo de lenguaje",
+      "Un tipo de criptomoneda",
+      "Un archivo de configuración"
+    ],
+    "respuesta_correcta": "Una unidad de texto que procesa el modelo de lenguaje",
+    "dato_interesante": "Aproximadamente 1 token equivale a 4 caracteres en inglés; los modelos tienen límites de tokens por respuesta.",
+    "pista_estudio": "Investiga cómo los modelos de lenguaje grande (LLMs) procesan y generan texto mediante tokens."
+  },
+  {
+    "id": 785,
+    "categoria": "tecnologia",
+    "dificultad": "facil",
+    "pregunta": "¿Qué extensión de archivo usa típicamente una hoja de cálculo de Microsoft Excel?",
+    "opciones": [
+      ".doc",
+      ".ppt",
+      ".xlsx",
+      ".csv"
+    ],
+    "respuesta_correcta": ".xlsx",
+    "dato_interesante": "La 'x' al final del formato indica que usa XML abierto, formato estándar desde Office 2007.",
+    "pista_estudio": "Investiga los formatos de archivo de Microsoft Office y sus extensiones."
+  },
+  {
+    "id": 786,
+    "categoria": "tecnologia",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuántos bits usa IPv6 para representar una dirección IP?",
+    "opciones": [
+      "32 bits",
+      "64 bits",
+      "128 bits",
+      "256 bits"
+    ],
+    "respuesta_correcta": "128 bits",
+    "dato_interesante": "IPv6 permite 340 undecillones de direcciones únicas, prácticamente ilimitadas.",
+    "pista_estudio": "Contrasta IPv4 (32 bits) con IPv6 (128 bits) y entiende por qué fue necesaria la transición."
+  },
+  {
+    "id": 787,
+    "categoria": "tecnologia",
+    "dificultad": "media",
+    "pregunta": "¿Qué framework de JavaScript es mantenido por Meta (Facebook) para interfaces de usuario?",
+    "opciones": [
+      "Angular",
+      "Vue.js",
+      "React",
+      "Svelte"
+    ],
+    "respuesta_correcta": "React",
+    "dato_interesante": "React fue creado por Jordan Walke en Facebook en 2011 y lanzado como open source en 2013.",
+    "pista_estudio": "Investiga los principales frameworks de JavaScript para desarrollo frontend web."
+  },
+  {
+    "id": 788,
+    "categoria": "tecnologia",
+    "dificultad": "facil",
+    "pregunta": "¿Qué significa 'e-mail'?",
+    "opciones": [
+      "Electronic Mail",
+      "Enhanced Message",
+      "Easy Mail",
+      "Express Mail"
+    ],
+    "respuesta_correcta": "Electronic Mail",
+    "dato_interesante": "El primer correo electrónico fue enviado por Ray Tomlinson en 1971 y usó el símbolo @ para separar usuario y servidor.",
+    "pista_estudio": "Investiga la historia del correo electrónico y cómo transformó la comunicación."
+  },
+  {
+    "id": 789,
+    "categoria": "tecnologia",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué tipo de base de datos usa documentos en lugar de tablas y filas?",
+    "opciones": [
+      "Relacional",
+      "Jerárquica",
+      "NoSQL (orientada a documentos)",
+      "En grafo"
+    ],
+    "respuesta_correcta": "NoSQL (orientada a documentos)",
+    "dato_interesante": "MongoDB es la base de datos NoSQL de documentos más popular; usa formato BSON similar a JSON.",
+    "pista_estudio": "Investiga las diferencias entre bases de datos relacionales (SQL) y no relacionales (NoSQL)."
+  },
+  {
+    "id": 790,
+    "categoria": "tecnologia",
+    "dificultad": "media",
+    "pregunta": "¿Qué empresa fundó Linus Torvalds y sigue siendo su principal creador?",
+    "opciones": [
+      "Ubuntu",
+      "Red Hat",
+      "El kernel de Linux (no es una empresa)",
+      "Debian"
+    ],
+    "respuesta_correcta": "El kernel de Linux (no es una empresa)",
+    "dato_interesante": "Torvalds creó Linux en 1991 como proyecto personal y sigue supervisando su desarrollo como proyecto de código abierto.",
+    "pista_estudio": "Investiga la historia de Linux y el modelo de desarrollo de software de código abierto."
+  },
+  {
+    "id": 791,
+    "categoria": "geografia",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es la capital de Brasil?",
+    "opciones": [
+      "São Paulo",
+      "Río de Janeiro",
+      "Brasilia",
+      "Salvador"
+    ],
+    "respuesta_correcta": "Brasilia",
+    "dato_interesante": "Brasilia fue construida desde cero y se convirtió en capital en 1960, diseñada en forma de avión.",
+    "pista_estudio": "Investiga la historia de Brasilia y su diseño urbanístico por Oscar Niemeyer y Lúcio Costa."
+  },
+  {
+    "id": 792,
+    "categoria": "geografia",
+    "dificultad": "media",
+    "pregunta": "¿Cuál es el país más extenso de Oceanía?",
+    "opciones": [
+      "Nueva Zelanda",
+      "Papúa Nueva Guinea",
+      "Australia",
+      "Fiyi"
+    ],
+    "respuesta_correcta": "Australia",
+    "dato_interesante": "Australia es el sexto país más grande del mundo y es a la vez un país, un continente y una isla.",
+    "pista_estudio": "Investiga la geografía de Oceanía y los países que la conforman."
+  },
+  {
+    "id": 793,
+    "categoria": "geografia",
+    "dificultad": "facil",
+    "pregunta": "¿En qué país está el Monte Fuji?",
+    "opciones": [
+      "China",
+      "Corea del Sur",
+      "Japón",
+      "Vietnam"
+    ],
+    "respuesta_correcta": "Japón",
+    "dato_interesante": "El Monte Fuji es el punto más alto de Japón con 3,776 metros y es un volcán activo.",
+    "pista_estudio": "Investiga los volcanes icónicos del mundo y su importancia cultural para los japoneses."
+  },
+  {
+    "id": 794,
+    "categoria": "geografia",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es el nombre del punto más profundo de todos los océanos?",
+    "opciones": [
+      "Abismo de Challenger",
+      "Fosa de Puerto Rico",
+      "Fosa de Tonga",
+      "Fosa de Kermadec"
+    ],
+    "respuesta_correcta": "Abismo de Challenger",
+    "dato_interesante": "El Abismo de Challenger en la Fosa de las Marianas tiene 10,935 metros de profundidad.",
+    "pista_estudio": "Investiga las fosas oceánicas más profundas y las expediciones que las han explorado."
+  },
+  {
+    "id": 795,
+    "categoria": "geografia",
+    "dificultad": "media",
+    "pregunta": "¿Qué dos países comparten la Isla de la Gran Bretaña?",
+    "opciones": [
+      "Inglaterra e Irlanda",
+      "Inglaterra y Escocia solamente",
+      "Inglaterra, Escocia y Gales",
+      "Reino Unido e Irlanda"
+    ],
+    "respuesta_correcta": "Inglaterra, Escocia y Gales",
+    "dato_interesante": "La Isla de Gran Bretaña alberga tres naciones: Inglaterra, Escocia y Gales, todas parte del Reino Unido.",
+    "pista_estudio": "Investiga la composición del Reino Unido y las islas que lo forman."
+  },
+  {
+    "id": 796,
+    "categoria": "geografia",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es el país con más territorio en el Caribe?",
+    "opciones": [
+      "Puerto Rico",
+      "Jamaica",
+      "Cuba",
+      "Haití"
+    ],
+    "respuesta_correcta": "Cuba",
+    "dato_interesante": "Cuba es la isla más grande del Caribe con 110,860 km² de superficie.",
+    "pista_estudio": "Investiga la geografía del Caribe y las islas principales del archipiélago antillano."
+  },
+  {
+    "id": 797,
+    "categoria": "geografia",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es el río más largo de América del Norte?",
+    "opciones": [
+      "Río Colorado",
+      "Río Misuri",
+      "Río Misisipi",
+      "Río Mackenzie"
+    ],
+    "respuesta_correcta": "Río Misuri",
+    "dato_interesante": "El Misuri mide 3,767 km, ligeramente más largo que el Misisipi aunque este último drena más agua.",
+    "pista_estudio": "Investiga el sistema fluvial del Misisipi-Misuri y su importancia para EE.UU."
+  },
+  {
+    "id": 798,
+    "categoria": "geografia",
+    "dificultad": "media",
+    "pregunta": "¿En qué continente está el lago Victoria?",
+    "opciones": [
+      "América del Sur",
+      "Asia",
+      "África",
+      "Australia"
+    ],
+    "respuesta_correcta": "África",
+    "dato_interesante": "El lago Victoria es el lago tropical más grande del mundo y el segundo por área dulce.",
+    "pista_estudio": "Investiga los grandes lagos africanos y su importancia para los países que los rodean."
+  },
+  {
+    "id": 799,
+    "categoria": "geografia",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es la capital de Colombia?",
+    "opciones": [
+      "Medellín",
+      "Cali",
+      "Barranquilla",
+      "Bogotá"
+    ],
+    "respuesta_correcta": "Bogotá",
+    "dato_interesante": "Bogotá está ubicada a 2,600 metros sobre el nivel del mar, siendo una de las capitales más altas del mundo.",
+    "pista_estudio": "Investiga la capital colombiana y su importancia como centro cultural y económico de América del Sur."
+  },
+  {
+    "id": 800,
+    "categoria": "geografia",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué estrecho separa Rusia de Alaska?",
+    "opciones": [
+      "Estrecho de Bering",
+      "Estrecho de Davis",
+      "Paso del Noroeste",
+      "Estrecho de Hecate"
+    ],
+    "respuesta_correcta": "Estrecho de Bering",
+    "dato_interesante": "El estrecho de Bering tiene apenas 88 km de ancho; en la última era glacial era tierra firme.",
+    "pista_estudio": "Investiga el puente de Bering y cómo los primeros humanos llegaron a América."
+  },
+  {
+    "id": 801,
+    "categoria": "geografia",
+    "dificultad": "media",
+    "pregunta": "¿Cuál es la isla más grande del mundo?",
+    "opciones": [
+      "Australia",
+      "Groenlandia",
+      "Nueva Guinea",
+      "Borneo"
+    ],
+    "respuesta_correcta": "Groenlandia",
+    "dato_interesante": "Groenlandia pertenece a Dinamarca y es 3 veces más grande que Argentina; el 80% está cubierta de hielo.",
+    "pista_estudio": "Distingue entre isla y continente para clasificar correctamente a Groenlandia."
+  },
+  {
+    "id": 802,
+    "categoria": "geografia",
+    "dificultad": "facil",
+    "pregunta": "¿En qué país se encuentra el Amazonas, el río de mayor caudal del mundo?",
+    "opciones": [
+      "Perú",
+      "Colombia",
+      "Venezuela",
+      "Brasil"
+    ],
+    "respuesta_correcta": "Brasil",
+    "dato_interesante": "El Amazonas desemboca en el Atlántico en Brasil, aportando el 20% del agua dulce que los ríos llevan al mar.",
+    "pista_estudio": "Investiga la cuenca amazónica y los países que abarca este inmenso ecosistema."
+  },
+  {
+    "id": 803,
+    "categoria": "geografia",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es el nombre del mar entre Arabia y África oriental?",
+    "opciones": [
+      "Mar Rojo",
+      "Mar de Arabia",
+      "Golfo de Adén",
+      "Mar de Omán"
+    ],
+    "respuesta_correcta": "Mar Rojo",
+    "dato_interesante": "El Mar Rojo es uno de los más salados del mundo y conecta el Mediterráneo con el Índico vía el Canal de Suez.",
+    "pista_estudio": "Investiga la importancia del Mar Rojo como ruta comercial y su geología única."
+  },
+  {
+    "id": 804,
+    "categoria": "geografia",
+    "dificultad": "media",
+    "pregunta": "¿Cuál es el desierto más grande de América del Sur?",
+    "opciones": [
+      "Desierto de Sonora",
+      "Desierto de la Patagonia",
+      "Desierto de Atacama",
+      "Desierto del Sechura"
+    ],
+    "respuesta_correcta": "Desierto de la Patagonia",
+    "dato_interesante": "El desierto de la Patagonia en Argentina tiene 673,000 km², mayor que el famoso Atacama.",
+    "pista_estudio": "Investiga los desiertos de América del Sur y sus diferencias geográficas y climáticas."
+  },
+  {
+    "id": 805,
+    "categoria": "geografia",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es la capital de Venezuela?",
+    "opciones": [
+      "Maracaibo",
+      "Valencia",
+      "Barquisimeto",
+      "Caracas"
+    ],
+    "respuesta_correcta": "Caracas",
+    "dato_interesante": "Caracas fue fundada en 1567 y es el lugar de nacimiento del Libertador Simón Bolívar.",
+    "pista_estudio": "Investiga la capital venezolana y su importancia histórica en la independencia latinoamericana."
+  },
+  {
+    "id": 806,
+    "categoria": "geografia",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es el país que tiene el mayor número de islas del mundo?",
+    "opciones": [
+      "Filipinas",
+      "Noruega",
+      "Indonesia",
+      "Suecia"
+    ],
+    "respuesta_correcta": "Suecia",
+    "dato_interesante": "Suecia tiene más de 221,800 islas, aunque la mayoría son pequeños islotes deshabitados.",
+    "pista_estudio": "Investiga el archipiélago escandinavo y los países con mayor cantidad de islas."
+  },
+  {
+    "id": 807,
+    "categoria": "geografia",
+    "dificultad": "media",
+    "pregunta": "¿Cuál es la capital de Perú?",
+    "opciones": [
+      "Cusco",
+      "Arequipa",
+      "Lima",
+      "Trujillo"
+    ],
+    "respuesta_correcta": "Lima",
+    "dato_interesante": "Lima fue fundada por Francisco Pizarro en 1535 y es conocida como 'La Ciudad de los Reyes'.",
+    "pista_estudio": "Investiga la historia de Lima como capital del Virreinato del Perú."
+  },
+  {
+    "id": 808,
+    "categoria": "geografia",
+    "dificultad": "facil",
+    "pregunta": "¿En qué país se encuentra el río Nilo en su mayor parte?",
+    "opciones": [
+      "Sudán",
+      "Etiopía",
+      "Egipto",
+      "Uganda"
+    ],
+    "respuesta_correcta": "Egipto",
+    "dato_interesante": "El Nilo recorre 11 países pero su imagen icónica con pirámides es en Egipto, donde desemboca.",
+    "pista_estudio": "Investiga el recorrido completo del Nilo desde sus nacientes en Uganda hasta el Mediterráneo."
+  },
+  {
+    "id": 809,
+    "categoria": "geografia",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuántos países comparten el lago Titicaca?",
+    "opciones": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "respuesta_correcta": "2",
+    "dato_interesante": "El lago Titicaca está compartido entre Perú y Bolivia; es el lago navegable más alto del mundo.",
+    "pista_estudio": "Investiga la geografía del lago Titicaca y las culturas indígenas que viven en sus orillas."
+  },
+  {
+    "id": 810,
+    "categoria": "geografia",
+    "dificultad": "media",
+    "pregunta": "¿Cuál es el punto más alto de México?",
+    "opciones": [
+      "Popocatépetl",
+      "Iztaccíhuatl",
+      "Pico de Orizaba",
+      "Nevado de Toluca"
+    ],
+    "respuesta_correcta": "Pico de Orizaba",
+    "dato_interesante": "El Pico de Orizaba o Citlaltépetl tiene 5,636 metros y es el tercer volcán más alto de América.",
+    "pista_estudio": "Investiga las principales cimas volcánicas de México y su importancia geológica."
+  },
+  {
+    "id": 811,
+    "categoria": "cultura",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es el instrumento nacional de Chile?",
+    "opciones": [
+      "Guitarra",
+      "Charango",
+      "Quena",
+      "Guitarrón chileno"
+    ],
+    "respuesta_correcta": "Guitarrón chileno",
+    "dato_interesante": "El guitarrón chileno tiene 25 cuerdas y es único en el mundo; se usa en la música del canto a lo poeta.",
+    "pista_estudio": "Investiga los instrumentos folklóricos de los países latinoamericanos."
+  },
+  {
+    "id": 812,
+    "categoria": "cultura",
+    "dificultad": "media",
+    "pregunta": "¿Qué escritora sueca escribió la saga 'Millennium' que incluye 'Los hombres que no amaban a las mujeres'?",
+    "opciones": [
+      "Astrid Lindgren",
+      "Camilla Läckberg",
+      "Stieg Larsson",
+      "Henning Mankell"
+    ],
+    "respuesta_correcta": "Stieg Larsson",
+    "dato_interesante": "Stieg Larsson era hombre; murió antes de que sus novelas fueran publicadas y fueron un éxito póstumo mundial.",
+    "pista_estudio": "Investiga la saga Millennium y su protagonista Lisbeth Salander."
+  },
+  {
+    "id": 813,
+    "categoria": "cultura",
+    "dificultad": "facil",
+    "pregunta": "¿De qué país es originario el baile del merengue?",
+    "opciones": [
+      "Cuba",
+      "Puerto Rico",
+      "República Dominicana",
+      "Colombia"
+    ],
+    "respuesta_correcta": "República Dominicana",
+    "dato_interesante": "El merengue es el baile y música nacional de República Dominicana, declarado Patrimonio de la Humanidad.",
+    "pista_estudio": "Investiga los géneros musicales del Caribe y sus países de origen."
+  },
+  {
+    "id": 814,
+    "categoria": "cultura",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es el nombre del famoso poema épico griego que narra la Guerra de Troya?",
+    "opciones": [
+      "La Odisea",
+      "La Ilíada",
+      "La Eneida",
+      "Las Metamorfosis"
+    ],
+    "respuesta_correcta": "La Ilíada",
+    "dato_interesante": "La Ilíada fue compuesta por Homero alrededor del siglo VIII a.C. y narra solo los últimos 51 días de la guerra.",
+    "pista_estudio": "Distingue entre La Ilíada (guerra de Troya) y La Odisea (regreso de Ulises)."
+  },
+  {
+    "id": 815,
+    "categoria": "cultura",
+    "dificultad": "media",
+    "pregunta": "¿Qué pintor holandés del siglo XVII es famoso por cuadros como 'La joven de la perla'?",
+    "opciones": [
+      "Rembrandt van Rijn",
+      "Jan van Eyck",
+      "Johannes Vermeer",
+      "Peter Paul Rubens"
+    ],
+    "respuesta_correcta": "Johannes Vermeer",
+    "dato_interesante": "Vermeer pintó solo unos 34 cuadros conocidos en toda su vida, pero son de una calidad extraordinaria.",
+    "pista_estudio": "Investiga la pintura flamenca del Siglo de Oro holandés del siglo XVII."
+  },
+  {
+    "id": 816,
+    "categoria": "cultura",
+    "dificultad": "facil",
+    "pregunta": "¿Qué animal es símbolo de la paz en muchas culturas occidentales?",
+    "opciones": [
+      "El águila",
+      "La paloma",
+      "El cordero",
+      "El cisne"
+    ],
+    "respuesta_correcta": "La paloma",
+    "dato_interesante": "El símbolo de la paloma de la paz fue popularizado mundialmente por Pablo Picasso en 1949.",
+    "pista_estudio": "Investiga el origen del símbolo de la paloma y el olivo en la tradición bíblica y moderna."
+  },
+  {
+    "id": 817,
+    "categoria": "cultura",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es el nombre del palacio más grande del mundo en uso?",
+    "opciones": [
+      "Palacio de Buckingham",
+      "Versalles",
+      "Palacio de Istana Nurul Iman",
+      "Kremlin"
+    ],
+    "respuesta_correcta": "Palacio de Istana Nurul Iman",
+    "dato_interesante": "El palacio del sultán de Brunéi tiene 1,788 habitaciones y 257 cuartos de baño.",
+    "pista_estudio": "Investiga los palacios más grandes e impresionantes del mundo moderno."
+  },
+  {
+    "id": 818,
+    "categoria": "cultura",
+    "dificultad": "media",
+    "pregunta": "¿Qué poeta nicaragüense fue el fundador del modernismo literario en América Latina?",
+    "opciones": [
+      "Pablo Neruda",
+      "Rubén Darío",
+      "César Vallejo",
+      "José Martí"
+    ],
+    "respuesta_correcta": "Rubén Darío",
+    "dato_interesante": "Rubén Darío publicó 'Azul...' en 1888, obra que marcó el inicio del modernismo hispanoamericano.",
+    "pista_estudio": "Investiga el movimiento modernista latinoamericano y la influencia de Rubén Darío."
+  },
+  {
+    "id": 819,
+    "categoria": "cultura",
+    "dificultad": "facil",
+    "pregunta": "¿En qué país se celebra el Año Nuevo el 1 de enero con fuegos artificiales en el puente de la bahía?",
+    "opciones": [
+      "Brasil",
+      "Nueva Zelanda",
+      "Australia",
+      "Japón"
+    ],
+    "respuesta_correcta": "Australia",
+    "dato_interesante": "Sídney es una de las primeras ciudades del mundo en celebrar el Año Nuevo por su huso horario.",
+    "pista_estudio": "Investiga las celebraciones de Año Nuevo más famosas del mundo por su espectacularidad."
+  },
+  {
+    "id": 820,
+    "categoria": "cultura",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es el nombre del sistema de escritura silábica japonesa que se usa para palabras extranjeras?",
+    "opciones": [
+      "Hiragana",
+      "Katakana",
+      "Kanji",
+      "Romaji"
+    ],
+    "respuesta_correcta": "Katakana",
+    "dato_interesante": "El japonés usa tres sistemas de escritura simultáneamente: hiragana, katakana y kanji.",
+    "pista_estudio": "Investiga los tres sistemas de escritura del idioma japonés y sus usos específicos."
+  },
+  {
+    "id": 821,
+    "categoria": "cultura",
+    "dificultad": "media",
+    "pregunta": "¿Cuál es el nombre del festival hindú de los colores?",
+    "opciones": [
+      "Diwali",
+      "Navratri",
+      "Holi",
+      "Durga Puja"
+    ],
+    "respuesta_correcta": "Holi",
+    "dato_interesante": "El Holi celebra la llegada de la primavera y el triunfo del bien sobre el mal, con polvos de colores.",
+    "pista_estudio": "Investiga los festivales más importantes de la India y su significado religioso y cultural."
+  },
+  {
+    "id": 822,
+    "categoria": "cultura",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es la ciudad más visitada turísticamente en el mundo?",
+    "opciones": [
+      "Nueva York",
+      "París",
+      "Bangkok",
+      "Dubái"
+    ],
+    "respuesta_correcta": "Bangkok",
+    "dato_interesante": "Bangkok recibe más de 22 millones de turistas internacionales al año, superando a París y Londres.",
+    "pista_estudio": "Investiga los destinos turísticos más populares del mundo según los rankings internacionales."
+  },
+  {
+    "id": 823,
+    "categoria": "cultura",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué es el 'Kabuki'?",
+    "opciones": [
+      "Un tipo de lucha japonesa",
+      "Una forma de teatro tradicional japonés",
+      "Una ceremonia del té",
+      "Un instrumento musical japonés"
+    ],
+    "respuesta_correcta": "Una forma de teatro tradicional japonés",
+    "dato_interesante": "El Kabuki es Patrimonio Inmaterial de la Humanidad y se caracteriza por el maquillaje exagerado y los trajes elaborados.",
+    "pista_estudio": "Investiga las formas de teatro tradicional japonés: Kabuki, Noh y Bunraku."
+  },
+  {
+    "id": 824,
+    "categoria": "cultura",
+    "dificultad": "media",
+    "pregunta": "¿Qué arquitecto diseñó el Guggenheim de Bilbao, uno de los edificios más innovadores del siglo XX?",
+    "opciones": [
+      "Renzo Piano",
+      "Norman Foster",
+      "Frank Gehry",
+      "Zaha Hadid"
+    ],
+    "respuesta_correcta": "Frank Gehry",
+    "dato_interesante": "El Guggenheim de Bilbao (1997) fue tan impactante que generó el 'efecto Guggenheim', revitalizando la ciudad.",
+    "pista_estudio": "Investiga la arquitectura deconstructivista y el impacto del Guggenheim en la regeneración urbana."
+  },
+  {
+    "id": 825,
+    "categoria": "cultura",
+    "dificultad": "facil",
+    "pregunta": "¿Cuántos anillos olímpicos tiene la bandera de los Juegos Olímpicos?",
+    "opciones": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "respuesta_correcta": "5",
+    "dato_interesante": "Los cinco anillos representan los cinco continentes unidos por el olimpismo.",
+    "pista_estudio": "Investiga el origen del símbolo olímpico y el significado de los colores de los anillos."
+  },
+  {
+    "id": 826,
+    "categoria": "cultura",
+    "dificultad": "dificil",
+    "pregunta": "¿Cómo se llama la pintura mural más famosa del mundo, obra de Leonardo da Vinci?",
+    "opciones": [
+      "La Gioconda",
+      "La Última Cena",
+      "El Nacimiento de Venus",
+      "La Creación de Adán"
+    ],
+    "respuesta_correcta": "La Última Cena",
+    "dato_interesante": "La Última Cena está pintada al fresco en la pared de una iglesia en Milán y mide 4.6 x 8.8 metros.",
+    "pista_estudio": "Investiga las obras más importantes de Leonardo da Vinci y dónde se encuentran actualmente."
+  },
+  {
+    "id": 827,
+    "categoria": "cultura",
+    "dificultad": "media",
+    "pregunta": "¿En qué país se come el plato tradicional llamado 'feijoada'?",
+    "opciones": [
+      "Argentina",
+      "Portugal",
+      "Brasil",
+      "Angola"
+    ],
+    "respuesta_correcta": "Brasil",
+    "dato_interesante": "La feijoada es un guiso de frijoles negros con carnes de cerdo y se considera el plato nacional de Brasil.",
+    "pista_estudio": "Investiga la gastronomía brasileña y la influencia africana y portuguesa en su cocina."
+  },
+  {
+    "id": 828,
+    "categoria": "cultura",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es la danza típica de Perú más conocida internacionalmente?",
+    "opciones": [
+      "Cueca",
+      "Zamacueca",
+      "Marinera",
+      "Huayno"
+    ],
+    "respuesta_correcta": "Marinera",
+    "dato_interesante": "La marinera norteña es declarada danza nacional del Perú y es reconocida por su elegancia y coquetería.",
+    "pista_estudio": "Investiga las danzas folclóricas de los países andinos y sus estilos regionales."
+  },
+  {
+    "id": 829,
+    "categoria": "cultura",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué escritor ruso escribió 'Crimen y castigo' y 'El idiota'?",
+    "opciones": [
+      "León Tolstói",
+      "Antón Chéjov",
+      "Fiódor Dostoyevski",
+      "Iván Turguénev"
+    ],
+    "respuesta_correcta": "Fiódor Dostoyevski",
+    "dato_interesante": "Dostoyevski fue condenado a muerte, pero fue indultado en el último momento y deportado a Siberia.",
+    "pista_estudio": "Investiga la literatura rusa del siglo XIX y los escritores del realismo psicológico."
+  },
+  {
+    "id": 830,
+    "categoria": "cultura",
+    "dificultad": "media",
+    "pregunta": "¿Cuántos premios Oscar ha ganado la película 'Titanic' (1997)?",
+    "opciones": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "respuesta_correcta": "11",
+    "dato_interesante": "Titanic igualó el récord de Ben-Hur (1959) con 11 premios Oscar, incluyendo Mejor Película y Mejor Director.",
+    "pista_estudio": "Investiga la historia de los premios Oscar y las películas con más estatuillas."
+  },
+  {
+    "id": 831,
+    "categoria": "musica",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es el instrumento de viento de madera más agudo de la orquesta?",
+    "opciones": [
+      "Flauta traversa",
+      "Oboe",
+      "Piccolo",
+      "Clarinete"
+    ],
+    "respuesta_correcta": "Piccolo",
+    "dato_interesante": "El piccolo produce notas una octava más altas que la flauta y es el instrumento más agudo de la orquesta.",
+    "pista_estudio": "Investiga los instrumentos de viento de madera y sus rangos de altura en la orquesta sinfónica."
+  },
+  {
+    "id": 832,
+    "categoria": "musica",
+    "dificultad": "media",
+    "pregunta": "¿Qué artista venezolana es conocida internacionalmente como la 'Jefa' del vallenato?",
+    "opciones": [
+      "Soledad Bravo",
+      "Carlos Vives",
+      "Carlos Baute",
+      "No hay artista venezolana reconocida en vallenato"
+    ],
+    "respuesta_correcta": "No hay artista venezolana reconocida en vallenato",
+    "dato_interesante": "El vallenato es esencialmente colombiano; sus figuras principales son Carlos Vives, Carlos Viadero y los Zuleta.",
+    "pista_estudio": "Investiga el origen y representantes del vallenato como género musical colombiano."
+  },
+  {
+    "id": 833,
+    "categoria": "musica",
+    "dificultad": "facil",
+    "pregunta": "¿Cuántas cuerdas tiene un violín?",
+    "opciones": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "respuesta_correcta": "4",
+    "dato_interesante": "Las cuerdas del violín están afinadas en Sol, Re, La y Mi de grave a agudo.",
+    "pista_estudio": "Investiga la familia de instrumentos de cuerda frotada: violín, viola, cello y contrabajo."
+  },
+  {
+    "id": 834,
+    "categoria": "musica",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es el nombre del compás más usado en la música pop y rock moderna?",
+    "opciones": [
+      "2/4",
+      "3/4",
+      "4/4",
+      "6/8"
+    ],
+    "respuesta_correcta": "4/4",
+    "dato_interesante": "El compás de 4/4 es tan común que se llama 'compás común' y se representa con la letra C.",
+    "pista_estudio": "Investiga los compases musicales más utilizados en distintos géneros."
+  },
+  {
+    "id": 835,
+    "categoria": "musica",
+    "dificultad": "media",
+    "pregunta": "¿Qué banda de rock británica fue liderada por el legendario Robert Plant y Jimmy Page?",
+    "opciones": [
+      "The Who",
+      "Led Zeppelin",
+      "Deep Purple",
+      "Black Sabbath"
+    ],
+    "respuesta_correcta": "Led Zeppelin",
+    "dato_interesante": "Led Zeppelin vendió más de 300 millones de álbumes y nunca lanzó un sencillo oficial en EE.UU.",
+    "pista_estudio": "Investiga el hard rock de los años 70 y el legado de Led Zeppelin en la música moderna."
+  },
+  {
+    "id": 836,
+    "categoria": "musica",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es el nombre del ritmo urbano colombiano que fusiona rap con melodías latinas?",
+    "opciones": [
+      "Champeta",
+      "Vallenato",
+      "Cumbia",
+      "Guaracha"
+    ],
+    "respuesta_correcta": "Champeta",
+    "dato_interesante": "La champeta tiene raíces africanas y es parte fundamental de la cultura costeña de Colombia.",
+    "pista_estudio": "Investiga los géneros musicales urbanos de Colombia y el Caribe."
+  },
+  {
+    "id": 837,
+    "categoria": "musica",
+    "dificultad": "dificil",
+    "pregunta": "¿En qué año se fundó la Academia de la Música (Grammy Awards)?",
+    "opciones": [
+      "1947",
+      "1957",
+      "1959",
+      "1965"
+    ],
+    "respuesta_correcta": "1959",
+    "dato_interesante": "Los primeros Grammy se entregaron el 4 de mayo de 1959; Domenico Modugno ganó el primer Grammy con 'Volare'.",
+    "pista_estudio": "Investiga la historia de los premios Grammy y su importancia en la industria musical."
+  },
+  {
+    "id": 838,
+    "categoria": "musica",
+    "dificultad": "media",
+    "pregunta": "¿Qué instrumento de percusión con teclado tiene barras de madera?",
+    "opciones": [
+      "Vibráfono",
+      "Marimba",
+      "Xilófono",
+      "Marimba o xilófono"
+    ],
+    "respuesta_correcta": "Marimba o xilófono",
+    "dato_interesante": "La marimba tiene resonadores debajo de las barras de madera; es el instrumento nacional de Guatemala.",
+    "pista_estudio": "Investiga la diferencia entre xilófono, marimba y vibráfono en timbre y registro."
+  },
+  {
+    "id": 839,
+    "categoria": "musica",
+    "dificultad": "facil",
+    "pregunta": "¿Qué cantante argentino es conocido como el 'Toro Salvaje' del rock nacional?",
+    "opciones": [
+      "Charly García",
+      "Luis Alberto Spinetta",
+      "Pappo",
+      "Fito Páez"
+    ],
+    "respuesta_correcta": "Pappo",
+    "dato_interesante": "Norberto Napolitano 'Pappo' fue el guitarrista de blues y rock más influyente de Argentina.",
+    "pista_estudio": "Investiga el rock argentino de los años 70 y 80 y sus figuras más representativas."
+  },
+  {
+    "id": 840,
+    "categoria": "musica",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es el nombre del intervalo musical más disonante, también llamado 'tritono'?",
+    "opciones": [
+      "Cuarta aumentada / quinta disminuida",
+      "Séptima mayor",
+      "Segunda menor",
+      "Novena menor"
+    ],
+    "respuesta_correcta": "Cuarta aumentada / quinta disminuida",
+    "dato_interesante": "En la Edad Media era llamado 'diabolus in musica' (el diablo en la música) por su tensión.",
+    "pista_estudio": "Investiga los intervalos musicales y por qué el tritono es considerado el más tenso."
+  },
+  {
+    "id": 841,
+    "categoria": "musica",
+    "dificultad": "media",
+    "pregunta": "¿Qué artista es conocida como la 'Reina del Soul'?",
+    "opciones": [
+      "Whitney Houston",
+      "Tina Turner",
+      "Aretha Franklin",
+      "Nina Simone"
+    ],
+    "respuesta_correcta": "Aretha Franklin",
+    "dato_interesante": "Aretha Franklin ganó 18 Grammy y fue la primera mujer en ser incluida en el Rock and Roll Hall of Fame.",
+    "pista_estudio": "Investiga el soul y el R&B y la contribución de Aretha Franklin a estos géneros."
+  },
+  {
+    "id": 842,
+    "categoria": "musica",
+    "dificultad": "facil",
+    "pregunta": "¿Cómo se llama el instrumento de teclado más antiguo, predecesor del piano?",
+    "opciones": [
+      "Clavicordio",
+      "Clavecín",
+      "Órgano",
+      "Espineta"
+    ],
+    "respuesta_correcta": "Clavecín",
+    "dato_interesante": "El clavecín pulsaba las cuerdas con plumas o púas de cuero, a diferencia del piano que las golpea.",
+    "pista_estudio": "Investiga la evolución de los instrumentos de teclado desde el clavecín hasta el piano moderno."
+  },
+  {
+    "id": 843,
+    "categoria": "musica",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuántos movimientos tiene la suite de orquesta 'Los planetas' de Gustav Holst?",
+    "opciones": [
+      "5",
+      "7",
+      "8",
+      "9"
+    ],
+    "respuesta_correcta": "7",
+    "dato_interesante": "Holst compuso un movimiento por planeta (excluyendo la Tierra) en 1914-1917; Plutón se añadió después.",
+    "pista_estudio": "Investiga la obra orquestal de Holst y cómo representó musicalmente los planetas del sistema solar."
+  },
+  {
+    "id": 844,
+    "categoria": "musica",
+    "dificultad": "media",
+    "pregunta": "¿Qué instrumento es considerado el corazón rítmico de la música caribeña tropical?",
+    "opciones": [
+      "Guitarra",
+      "Piano",
+      "Congas y timbales",
+      "Trompeta"
+    ],
+    "respuesta_correcta": "Congas y timbales",
+    "dato_interesante": "Las congas tienen origen africano y los timbales son de origen cubano; juntos dan el pulso a la salsa.",
+    "pista_estudio": "Investiga los instrumentos de percusión en la música tropical latinoamericana."
+  },
+  {
+    "id": 845,
+    "categoria": "musica",
+    "dificultad": "facil",
+    "pregunta": "¿En qué país nació la música norteña mexicana?",
+    "opciones": [
+      "En Jalisco",
+      "En el norte de México y sur de EE.UU.",
+      "En Veracruz",
+      "En la Ciudad de México"
+    ],
+    "respuesta_correcta": "En el norte de México y sur de EE.UU.",
+    "dato_interesante": "La música norteña surgió en la frontera con influencia de los inmigrantes alemanes que trajeron el acordeón.",
+    "pista_estudio": "Investiga el origen del acordeón en la música norteña y su influencia en el corrido mexicano."
+  },
+  {
+    "id": 846,
+    "categoria": "musica",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué cantante de ópera es considerada la mayor soprano del siglo XX?",
+    "opciones": [
+      "Renée Fleming",
+      "Cecilia Bartoli",
+      "Maria Callas",
+      "Joan Sutherland"
+    ],
+    "respuesta_correcta": "Maria Callas",
+    "dato_interesante": "Maria Callas (1923-1977) revolucionó el canto operístico con su intensidad dramática y expresividad.",
+    "pista_estudio": "Investiga la carrera de Maria Callas y su impacto en el bel canto del siglo XX."
+  },
+  {
+    "id": 847,
+    "categoria": "musica",
+    "dificultad": "media",
+    "pregunta": "¿Cuál es el nombre del famoso festival de música de Woodstock que se celebró en 1969?",
+    "opciones": [
+      "Festival de paz y amor",
+      "Woodstock Music & Art Fair",
+      "Summer of Love Festival",
+      "Festival de la generación"
+    ],
+    "respuesta_correcta": "Woodstock Music & Art Fair",
+    "dato_interesante": "Woodstock reunió a 400,000 personas durante tres días y marcó el apogeo de la contracultura de los 60.",
+    "pista_estudio": "Investiga la importancia cultural de Woodstock y los artistas que actuaron."
+  },
+  {
+    "id": 848,
+    "categoria": "musica",
+    "dificultad": "facil",
+    "pregunta": "¿Quién es la cantante colombiana conocida por el éxito 'Tusa'?",
+    "opciones": [
+      "Shakira",
+      "Maluma",
+      "Karol G",
+      "J Balvin"
+    ],
+    "respuesta_correcta": "Karol G",
+    "dato_interesante": "Karol G (Carolina Giraldo) es una de las artistas femeninas latinas más exitosas de la actualidad.",
+    "pista_estudio": "Investiga la carrera de Karol G y su impacto en el reggaetón y la música urbana latina."
+  },
+  {
+    "id": 849,
+    "categoria": "musica",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es el nombre de la técnica de canto que produce dos tonos simultáneos con la voz?",
+    "opciones": [
+      "Vibrato",
+      "Melisma",
+      "Canto de armónicos (Throat singing)",
+      "Falsete"
+    ],
+    "respuesta_correcta": "Canto de armónicos (Throat singing)",
+    "dato_interesante": "Esta técnica es practicada en Mongolia, Tuvá y los Alpes; el cantante produce melodía y bordón simultáneamente.",
+    "pista_estudio": "Investiga el canto de armónicos o 'khoomei' de las culturas de Asia Central."
+  },
+  {
+    "id": 850,
+    "categoria": "musica",
+    "dificultad": "media",
+    "pregunta": "¿Qué instrumento de viento es el símbolo del jazz de Nueva Orleans?",
+    "opciones": [
+      "Saxofón",
+      "Trompeta",
+      "Trombón",
+      "Clarinete"
+    ],
+    "respuesta_correcta": "Trompeta",
+    "dato_interesante": "Louis Armstrong es el músico de trompeta más influyente en la historia del jazz de Nueva Orleans.",
+    "pista_estudio": "Investiga el jazz de Nueva Orleans y el papel de la trompeta en su sonido característico."
+  },
+  {
+    "id": 851,
+    "categoria": "videojuegos",
+    "dificultad": "facil",
+    "pregunta": "¿Cómo se llama la empresa japonesa que creó los videojuegos de Pokémon?",
+    "opciones": [
+      "Nintendo",
+      "The Pokémon Company / Game Freak",
+      "Capcom",
+      "Square Enix"
+    ],
+    "respuesta_correcta": "The Pokémon Company / Game Freak",
+    "dato_interesante": "Game Freak desarrolla los juegos, Nintendo los publica y The Pokémon Company gestiona la franquicia.",
+    "pista_estudio": "Investiga la estructura empresarial detrás de la franquicia Pokémon."
+  },
+  {
+    "id": 852,
+    "categoria": "videojuegos",
+    "dificultad": "media",
+    "pregunta": "¿Cuál es el nombre del protagonista de la saga 'Persona 5'?",
+    "opciones": [
+      "Yu Narukami",
+      "Makoto Yuki",
+      "Ren Amamiya / Joker",
+      "Ryuji Sakamoto"
+    ],
+    "respuesta_correcta": "Ren Amamiya / Joker",
+    "dato_interesante": "Persona 5 Royal (2019) es considerado uno de los mejores JRPGs de la historia moderna.",
+    "pista_estudio": "Investiga la saga Persona de Atlus y su mezcla de RPG con elementos de vida cotidiana."
+  },
+  {
+    "id": 853,
+    "categoria": "videojuegos",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es el videojuego de simulación de vida social más famoso de EA?",
+    "opciones": [
+      "SimCity",
+      "The Sims",
+      "Spore",
+      "Theme Hospital"
+    ],
+    "respuesta_correcta": "The Sims",
+    "dato_interesante": "The Sims fue lanzado en 2000 y es la franquicia de PC más vendida de la historia.",
+    "pista_estudio": "Investiga la historia de The Sims y el concepto de simulación de vida cotidiana."
+  },
+  {
+    "id": 854,
+    "categoria": "videojuegos",
+    "dificultad": "dificil",
+    "pregunta": "¿En qué año fue lanzado el primer juego de la saga 'Metroid'?",
+    "opciones": [
+      "1984",
+      "1986",
+      "1988",
+      "1990"
+    ],
+    "respuesta_correcta": "1986",
+    "dato_interesante": "Metroid fue uno de los primeros juegos en tener una protagonista femenina, aunque no se reveló hasta el final.",
+    "pista_estudio": "Investiga la historia de Samus Aran y el origen del género metroidvania."
+  },
+  {
+    "id": 855,
+    "categoria": "videojuegos",
+    "dificultad": "media",
+    "pregunta": "¿Qué juego de rol japonés tiene como protagonista a Cloud Strife luchando contra la corporación Shinra?",
+    "opciones": [
+      "Dragon Quest",
+      "Chrono Trigger",
+      "Final Fantasy VII",
+      "Kingdom Hearts"
+    ],
+    "respuesta_correcta": "Final Fantasy VII",
+    "dato_interesante": "Final Fantasy VII (1997) es considerado el JRPG más influyente de la historia por su narrativa.",
+    "pista_estudio": "Investiga el impacto de Final Fantasy VII en la popularización de los RPGs en Occidente."
+  },
+  {
+    "id": 856,
+    "categoria": "videojuegos",
+    "dificultad": "facil",
+    "pregunta": "¿Qué tipo de juego es 'Clash of Clans'?",
+    "opciones": [
+      "Battle Royale",
+      "Estrategia de construcción de base",
+      "RPG de acción",
+      "Juego de plataformas"
+    ],
+    "respuesta_correcta": "Estrategia de construcción de base",
+    "dato_interesante": "Clash of Clans fue lanzado en 2012 por Supercell y sigue siendo uno de los juegos móviles más rentables.",
+    "pista_estudio": "Investiga los juegos de estrategia para móviles y el modelo de negocio freemium."
+  },
+  {
+    "id": 857,
+    "categoria": "videojuegos",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es el nombre del sistema de creación de contenido en 'Dreams' de Media Molecule?",
+    "opciones": [
+      "Fortnite Creative",
+      "Dreams Studio",
+      "Mod Editor",
+      "No tiene nombre específico"
+    ],
+    "respuesta_correcta": "Dreams Studio",
+    "dato_interesante": "Dreams permite crear juegos completos, animaciones y música desde cero usando el control de PS4/PS5.",
+    "pista_estudio": "Investiga los juegos que permiten a los usuarios crear y compartir su propio contenido."
+  },
+  {
+    "id": 858,
+    "categoria": "videojuegos",
+    "dificultad": "media",
+    "pregunta": "¿Cuántos jugadores puede tener un servidor estándar en Minecraft multijugador?",
+    "opciones": [
+      "Hasta 10",
+      "Hasta 20",
+      "Depende del servidor",
+      "Máximo 100"
+    ],
+    "respuesta_correcta": "Depende del servidor",
+    "dato_interesante": "Los servidores populares de Minecraft pueden tener miles de jugadores conectados simultáneamente.",
+    "pista_estudio": "Investiga la infraestructura de servidores de Minecraft y sus diferentes modos de juego."
+  },
+  {
+    "id": 859,
+    "categoria": "videojuegos",
+    "dificultad": "facil",
+    "pregunta": "¿En qué plataforma nació el juego 'Candy Crush Saga'?",
+    "opciones": [
+      "PlayStation",
+      "Xbox",
+      "Facebook y móviles",
+      "Nintendo Switch"
+    ],
+    "respuesta_correcta": "Facebook y móviles",
+    "dato_interesante": "Candy Crush fue lanzado en Facebook en 2012 y luego en iOS y Android; generó miles de millones en ingresos.",
+    "pista_estudio": "Investiga el origen de los juegos casuales y el modelo de negocio de King (Activision)."
+  },
+  {
+    "id": 860,
+    "categoria": "videojuegos",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál fue el primer videojuego en ser preservado por la Biblioteca del Congreso de EE.UU.?",
+    "opciones": [
+      "Pong",
+      "Super Mario Bros.",
+      "World of Warcraft",
+      "Spacewar!"
+    ],
+    "respuesta_correcta": "Spacewar!",
+    "dato_interesante": "La Biblioteca del Congreso preservó Spacewar! (1962) en 2007 como parte del patrimonio cultural.",
+    "pista_estudio": "Investiga el primer videojuego influyente de la historia y cómo se preservan los videojuegos."
+  },
+  {
+    "id": 861,
+    "categoria": "videojuegos",
+    "dificultad": "media",
+    "pregunta": "¿Qué juego de aventura gráfica de LucasArts es famoso por su protagonista Guybrush Threepwood?",
+    "opciones": [
+      "Day of the Tentacle",
+      "Sam & Max",
+      "Monkey Island",
+      "Full Throttle"
+    ],
+    "respuesta_correcta": "Monkey Island",
+    "dato_interesante": "The Secret of Monkey Island (1990) es considerado uno de los mejores juegos de aventura de todos los tiempos.",
+    "pista_estudio": "Investiga los juegos de aventura gráfica de LucasArts y su legado en el género point-and-click."
+  },
+  {
+    "id": 862,
+    "categoria": "videojuegos",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es el juego de estrategia en tiempo real más famoso de Blizzard?",
+    "opciones": [
+      "StarCraft",
+      "Warcraft",
+      "Diablo",
+      "Hearthstone"
+    ],
+    "respuesta_correcta": "StarCraft",
+    "dato_interesante": "StarCraft: Brood War fue tan popular en Corea del Sur que se transmitía en televisión nacional.",
+    "pista_estudio": "Investiga la historia de StarCraft y su papel en el nacimiento del esports competitivo."
+  },
+  {
+    "id": 863,
+    "categoria": "videojuegos",
+    "dificultad": "dificil",
+    "pregunta": "¿En qué año salió el primer juego de la saga 'Halo'?",
+    "opciones": [
+      "1999",
+      "2000",
+      "2001",
+      "2002"
+    ],
+    "respuesta_correcta": "2001",
+    "dato_interesante": "Halo: Combat Evolved fue lanzado el mismo día que la Xbox original y fue su juego estrella.",
+    "pista_estudio": "Investiga el lanzamiento de Halo y su impacto en los shooters en consola."
+  },
+  {
+    "id": 864,
+    "categoria": "videojuegos",
+    "dificultad": "media",
+    "pregunta": "¿Qué juego de terror psicológico de Konami es famoso por sus calles con niebla?",
+    "opciones": [
+      "Resident Evil",
+      "Amnesia",
+      "Silent Hill",
+      "Outlast"
+    ],
+    "respuesta_correcta": "Silent Hill",
+    "dato_interesante": "La niebla en Silent Hill fue originalmente un truco técnico para ocultar la distancia de renderizado.",
+    "pista_estudio": "Investiga la saga Silent Hill y cómo definió el género del terror psicológico en videojuegos."
+  },
+  {
+    "id": 865,
+    "categoria": "videojuegos",
+    "dificultad": "facil",
+    "pregunta": "¿Cuántas rayas tiene el logo de Adidas, empresa patrocinadora de muchos videojuegos deportivos?",
+    "opciones": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "respuesta_correcta": "3",
+    "dato_interesante": "Las tres rayas de Adidas representan una montaña, que simboliza los retos a superar.",
+    "pista_estudio": "Investiga el origen del logo de Adidas y su relación con el deporte y la cultura pop."
+  },
+  {
+    "id": 866,
+    "categoria": "videojuegos",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué término describe el fenómeno en que los jugadores completan un juego al 100%?",
+    "opciones": [
+      "No-clip",
+      "Speedrun",
+      "Completionist run",
+      "Platinum Trophy"
+    ],
+    "respuesta_correcta": "Completionist run",
+    "dato_interesante": "Completar todos los trofeos/logros de un juego en PlayStation se llama 'Platinear' y es un símbolo de dedicación.",
+    "pista_estudio": "Investiga la cultura gamer en torno a los logros, trofeos y el completismo en videojuegos."
+  },
+  {
+    "id": 867,
+    "categoria": "videojuegos",
+    "dificultad": "media",
+    "pregunta": "¿Cuál es el nombre del protagonista de 'Hollow Knight'?",
+    "opciones": [
+      "El Caballero",
+      "El Bugkling",
+      "No tiene nombre oficial",
+      "Hornet"
+    ],
+    "respuesta_correcta": "No tiene nombre oficial",
+    "dato_interesante": "El protagonista de Hollow Knight es simplemente llamado 'El Caballero' o 'El Escarabajo' por los fans.",
+    "pista_estudio": "Investiga el juego indie de Team Cherry y su narrativa minimalista de metroidvania."
+  },
+  {
+    "id": 868,
+    "categoria": "videojuegos",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es el juego de carreras más icónico de Sony para PlayStation?",
+    "opciones": [
+      "Need for Speed",
+      "Forza Motorsport",
+      "Gran Turismo",
+      "Burnout"
+    ],
+    "respuesta_correcta": "Gran Turismo",
+    "dato_interesante": "Gran Turismo fue lanzado en 1997 y es considerado el simulador de conducción más realista de consola.",
+    "pista_estudio": "Investiga la historia de la saga Gran Turismo y su enfoque en el realismo automovilístico."
+  },
+  {
+    "id": 869,
+    "categoria": "videojuegos",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuántas regiones tiene el mapa de juego en 'The Elder Scrolls V: Skyrim'?",
+    "opciones": [
+      "5",
+      "7",
+      "9",
+      "12"
+    ],
+    "respuesta_correcta": "9",
+    "dato_interesante": "Las nueve provincias se llaman: Falkreath, La Alcanzada, Haafingar, Eastmarch, El Valle del Rift, Blancanieve, Hjaalmarch, Palacio y Winterhold.",
+    "pista_estudio": "Investiga el mapa de Skyrim y las diferentes áreas geográficas y culturales del juego."
+  },
+  {
+    "id": 870,
+    "categoria": "videojuegos",
+    "dificultad": "media",
+    "pregunta": "¿Qué juego de rompecabezas usa portales para resolver sus acertijos?",
+    "opciones": [
+      "Antichamber",
+      "The Talos Principle",
+      "Portal",
+      "Q.U.B.E."
+    ],
+    "respuesta_correcta": "Portal",
+    "dato_interesante": "Portal (2007) de Valve es famoso por su personaje GLaDOS y la frase 'The cake is a lie'.",
+    "pista_estudio": "Investiga la saga Portal y cómo revolucionó el género de los juegos de rompecabezas en primera persona."
+  },
+  {
+    "id": 871,
+    "categoria": "deportes",
+    "dificultad": "facil",
+    "pregunta": "¿Cuántos puntos vale un triple en baloncesto?",
+    "opciones": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "respuesta_correcta": "3",
+    "dato_interesante": "El lanzamiento de tres puntos fue introducido en la NBA en 1979 y revolucionó la táctica del juego.",
+    "pista_estudio": "Investiga la evolución del baloncesto moderno y el impacto del triple en la estrategia del juego."
+  },
+  {
+    "id": 872,
+    "categoria": "deportes",
+    "dificultad": "media",
+    "pregunta": "¿Cuántos jugadores hay en el campo en un partido de rugby union por equipo?",
+    "opciones": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "respuesta_correcta": "15",
+    "dato_interesante": "Los 15 jugadores se dividen en 8 delanteros y 7 tres cuartos, cada uno con funciones específicas.",
+    "pista_estudio": "Investiga las posiciones del rugby union y sus roles dentro del equipo."
+  },
+  {
+    "id": 873,
+    "categoria": "deportes",
+    "dificultad": "facil",
+    "pregunta": "¿En qué ciudad se celebra el famoso maratón de Boston?",
+    "opciones": [
+      "Nueva York",
+      "Chicago",
+      "Boston",
+      "Los Ángeles"
+    ],
+    "respuesta_correcta": "Boston",
+    "dato_interesante": "El Maratón de Boston es el más antiguo del mundo, celebrado ininterrumpidamente desde 1897.",
+    "pista_estudio": "Investiga los seis Majors del maratón mundial y sus características."
+  },
+  {
+    "id": 874,
+    "categoria": "deportes",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es el récord mundial de los 400 metros planos masculino?",
+    "opciones": [
+      "42.20 segundos",
+      "43.03 segundos",
+      "44.10 segundos",
+      "41.50 segundos"
+    ],
+    "respuesta_correcta": "43.03 segundos",
+    "dato_interesante": "El récord fue establecido por Wayde van Niekerk de Sudáfrica en los Juegos Olímpicos de Río 2016.",
+    "pista_estudio": "Investiga los récords mundiales en las pruebas de velocidad del atletismo."
+  },
+  {
+    "id": 875,
+    "categoria": "deportes",
+    "dificultad": "media",
+    "pregunta": "¿En qué deporte se usa el término 'judo'?",
+    "opciones": [
+      "Karate",
+      "Taekwondo",
+      "Judo",
+      "Hapkido"
+    ],
+    "respuesta_correcta": "Judo",
+    "dato_interesante": "Judo significa 'camino suave' en japonés y fue creado por Jigorō Kanō en 1882.",
+    "pista_estudio": "Investiga las artes marciales japonesas y las diferencias entre judo, karate y aikido."
+  },
+  {
+    "id": 876,
+    "categoria": "deportes",
+    "dificultad": "facil",
+    "pregunta": "¿Cuántos metros mide una piscina olímpica de natación?",
+    "opciones": [
+      "25 metros",
+      "40 metros",
+      "50 metros",
+      "100 metros"
+    ],
+    "respuesta_correcta": "50 metros",
+    "dato_interesante": "Las competencias en piscinas de 25 metros se llaman 'piscina corta' y tienen récords separados.",
+    "pista_estudio": "Investiga las categorías de competición en natación y las diferencias entre piscina larga y corta."
+  },
+  {
+    "id": 877,
+    "categoria": "deportes",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuántos metros tiene la pista de velocidad del ciclismo en pista (velódromo)?",
+    "opciones": [
+      "200 metros",
+      "250 metros",
+      "333 metros",
+      "400 metros"
+    ],
+    "respuesta_correcta": "250 metros",
+    "dato_interesante": "Los veloódromos olímpicos modernos tienen 250 metros de longitud con curvas muy pronunciadas.",
+    "pista_estudio": "Investiga el ciclismo en pista y sus diferentes modalidades olímpicas."
+  },
+  {
+    "id": 878,
+    "categoria": "deportes",
+    "dificultad": "media",
+    "pregunta": "¿Cuántas veces ha ganado Argentina la Copa América de Fútbol?",
+    "opciones": [
+      "10",
+      "12",
+      "15",
+      "16"
+    ],
+    "respuesta_correcta": "15",
+    "dato_interesante": "Argentina es el país con más títulos de Copa América, siendo el más reciente en 2021.",
+    "pista_estudio": "Investiga la historia de la Copa América y los países con más campeonatos."
+  },
+  {
+    "id": 879,
+    "categoria": "deportes",
+    "dificultad": "facil",
+    "pregunta": "¿Cuántos jugadores forman un quinteto titular en baloncesto?",
+    "opciones": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "respuesta_correcta": "5",
+    "dato_interesante": "Las cinco posiciones clásicas son: base, escolta, alero, ala-pívot y pívot.",
+    "pista_estudio": "Investiga las posiciones del baloncesto y sus roles defensivos y ofensivos."
+  },
+  {
+    "id": 880,
+    "categoria": "deportes",
+    "dificultad": "dificil",
+    "pregunta": "¿En qué año se disputó el primer Campeonato Mundial de Fútbol?",
+    "opciones": [
+      "1926",
+      "1930",
+      "1934",
+      "1938"
+    ],
+    "respuesta_correcta": "1930",
+    "dato_interesante": "El primer Mundial fue en Uruguay, que también ganó el torneo ante Argentina en la final.",
+    "pista_estudio": "Investiga la historia de la Copa del Mundo FIFA desde su primera edición en 1930."
+  },
+  {
+    "id": 881,
+    "categoria": "deportes",
+    "dificultad": "media",
+    "pregunta": "¿Cuántos Games componen un set en el tenis?",
+    "opciones": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "respuesta_correcta": "6",
+    "dato_interesante": "Para ganar un set hay que llegar a 6 games; si hay empate en 6-6, generalmente se juega un tie-break.",
+    "pista_estudio": "Investiga el sistema de puntuación del tenis: puntos, games, sets y tie-breaks."
+  },
+  {
+    "id": 882,
+    "categoria": "deportes",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es la duración de cada tiempo en el fútbol americano universitario?",
+    "opciones": [
+      "10 minutos",
+      "12 minutos",
+      "15 minutos",
+      "20 minutos"
+    ],
+    "respuesta_correcta": "15 minutos",
+    "dato_interesante": "El fútbol americano universitario (NCAA) usa cuartos de 15 minutos, igual que la NFL.",
+    "pista_estudio": "Investiga las reglas y formato de tiempo del fútbol americano profesional y universitario."
+  },
+  {
+    "id": 883,
+    "categoria": "deportes",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuántos escalones tiene el podio de los Juegos Olímpicos?",
+    "opciones": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "respuesta_correcta": "3",
+    "dato_interesante": "El podio de 3 escalones representa el oro (más alto), plata y bronce.",
+    "pista_estudio": "Investiga la historia del podio olímpico y cuándo se introdujo este formato en los Juegos."
+  },
+  {
+    "id": 884,
+    "categoria": "deportes",
+    "dificultad": "media",
+    "pregunta": "¿Cuánto pesa un balón oficial de fútbol soccer (FIFA)?",
+    "opciones": [
+      "350-390 gramos",
+      "410-450 gramos",
+      "500-550 gramos",
+      "600 gramos"
+    ],
+    "respuesta_correcta": "410-450 gramos",
+    "dato_interesante": "El reglamento FIFA especifica que el balón debe pesar entre 410 y 450 gramos al inicio del partido.",
+    "pista_estudio": "Investiga las especificaciones técnicas del balón de fútbol según el reglamento FIFA."
+  },
+  {
+    "id": 885,
+    "categoria": "deportes",
+    "dificultad": "facil",
+    "pregunta": "¿En qué deporte participa el equipo conocido como los 'All Blacks' de Nueva Zelanda?",
+    "opciones": [
+      "Fútbol",
+      "Cricket",
+      "Rugby",
+      "Hockey"
+    ],
+    "respuesta_correcta": "Rugby",
+    "dato_interesante": "Los All Blacks son el equipo de rugby más exitoso del mundo, con más del 77% de victorias históricas.",
+    "pista_estudio": "Investiga la historia y dominio de los All Blacks en el rugby mundial."
+  },
+  {
+    "id": 886,
+    "categoria": "deportes",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es el nombre del torneo de golf que se juega en el Augusta National Golf Club?",
+    "opciones": [
+      "US Open",
+      "The Open Championship",
+      "The Masters",
+      "PGA Championship"
+    ],
+    "respuesta_correcta": "The Masters",
+    "dato_interesante": "El ganador recibe una chaqueta verde que solo puede usar dentro del club de Augusta.",
+    "pista_estudio": "Investiga los cuatro majors del golf y las tradiciones únicas de cada torneo."
+  },
+  {
+    "id": 887,
+    "categoria": "deportes",
+    "dificultad": "media",
+    "pregunta": "¿En qué deporte olímpico se usa el florete como arma?",
+    "opciones": [
+      "Esgrima",
+      "Kendo",
+      "Arquería",
+      "Tiro deportivo"
+    ],
+    "respuesta_correcta": "Esgrima",
+    "dato_interesante": "La esgrima olímpica tiene tres armas: florete (toque al tronco), espada (toque en todo el cuerpo) y sable.",
+    "pista_estudio": "Investiga las tres armas de la esgrima olímpica y sus reglas de puntuación."
+  },
+  {
+    "id": 888,
+    "categoria": "deportes",
+    "dificultad": "facil",
+    "pregunta": "¿Cuántos goles marcó Pelé en toda su carrera profesional?",
+    "opciones": [
+      "Cerca de 500",
+      "Cerca de 700",
+      "Más de 1,000",
+      "Alrededor de 800"
+    ],
+    "respuesta_correcta": "Más de 1,000",
+    "dato_interesante": "Pelé marcó 1,283 goles en 1,363 partidos, aunque las cifras exactas son debatidas por historiadores.",
+    "pista_estudio": "Investiga la carrera de Pelé y sus registros goleadores en el Santos y la selección de Brasil."
+  },
+  {
+    "id": 889,
+    "categoria": "deportes",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuántos metros tiene el recorrido de kayak slalom en los Juegos Olímpicos?",
+    "opciones": [
+      "100-150 metros",
+      "200-300 metros",
+      "400-500 metros",
+      "Más de 600 metros"
+    ],
+    "respuesta_correcta": "200-300 metros",
+    "dato_interesante": "El recorrido tiene entre 18 y 25 puertas que los palistas deben cruzar en un orden específico.",
+    "pista_estudio": "Investiga el kayak slalom olímpico y sus diferencias con el kayak de aguas tranquilas."
+  },
+  {
+    "id": 890,
+    "categoria": "deportes",
+    "dificultad": "media",
+    "pregunta": "¿Cuántos jugadores hay en el campo durante un partido de béisbol?",
+    "opciones": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "respuesta_correcta": "9",
+    "dato_interesante": "Los 9 jugadores defensivos ocupan posiciones específicas: lanzador, receptor, cuatro infielders y tres jardineros.",
+    "pista_estudio": "Investiga las posiciones defensivas del béisbol y las responsabilidades de cada jugador."
+  },
+  {
+    "id": 891,
+    "categoria": "biblia",
+    "dificultad": "facil",
+    "pregunta": "¿Cómo se llamaba el esposo de María, madre de Jesús?",
+    "opciones": [
+      "Juan",
+      "Santiago",
+      "José",
+      "Zacarías"
+    ],
+    "respuesta_correcta": "José",
+    "dato_interesante": "José era carpintero y descendiente del rey David, lo que cumplió las profecías sobre el Mesías.",
+    "pista_estudio": "Lee la genealogía de Jesús a través de José en Mateo 1."
+  },
+  {
+    "id": 892,
+    "categoria": "biblia",
+    "dificultad": "media",
+    "pregunta": "¿Qué profeta fue el maestro espiritual de Eliseo?",
+    "opciones": [
+      "Isaías",
+      "Jeremías",
+      "Elías",
+      "Ezequiel"
+    ],
+    "respuesta_correcta": "Elías",
+    "dato_interesante": "Eliseo pidió una doble porción del espíritu de Elías y realizó el doble de milagros que su maestro.",
+    "pista_estudio": "Lee sobre la relación entre Elías y Eliseo en 1 Reyes 19 y 2 Reyes 2."
+  },
+  {
+    "id": 893,
+    "categoria": "biblia",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es el río en el que fue bautizado Jesús según los Evangelios?",
+    "opciones": [
+      "Río Nilo",
+      "Río Jordán",
+      "Mar de Galilea",
+      "Río Éufrates"
+    ],
+    "respuesta_correcta": "Río Jordán",
+    "dato_interesante": "El Jordán sigue siendo un lugar de peregrinación donde muchos turistas y fieles se bautizan hoy.",
+    "pista_estudio": "Lee el bautismo de Jesús por Juan el Bautista en los cuatro evangelios."
+  },
+  {
+    "id": 894,
+    "categoria": "biblia",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuántos años duró el exilio del pueblo de Israel en Babilonia?",
+    "opciones": [
+      "40 años",
+      "50 años",
+      "70 años",
+      "100 años"
+    ],
+    "respuesta_correcta": "70 años",
+    "dato_interesante": "El profeta Jeremías predijo el exilio de 70 años y Esdras narra el cumplimiento de esa profecía.",
+    "pista_estudio": "Investiga la cautividad babilónica y las profecías relacionadas en Jeremías 25 y 29."
+  },
+  {
+    "id": 895,
+    "categoria": "biblia",
+    "dificultad": "media",
+    "pregunta": "¿Qué hizo Jesús en el templo de Jerusalén que causó escándalo?",
+    "opciones": [
+      "Predicó toda la noche",
+      "Echó a los mercaderes y cambistas",
+      "Sanó a un sacerdote",
+      "Ayunó por 40 días"
+    ],
+    "respuesta_correcta": "Echó a los mercaderes y cambistas",
+    "dato_interesante": "Jesús volcó las mesas de los cambistas diciendo 'Mi casa será llamada casa de oración, pero vosotros la habéis hecho cueva de ladrones'.",
+    "pista_estudio": "Lee la purificación del templo en Mateo 21."
+  },
+  {
+    "id": 896,
+    "categoria": "biblia",
+    "dificultad": "facil",
+    "pregunta": "¿Cómo se llama la ciudad donde Jesús realizó su primer milagro?",
+    "opciones": [
+      "Belén",
+      "Nazaret",
+      "Caná",
+      "Capernaum"
+    ],
+    "respuesta_correcta": "Caná",
+    "dato_interesante": "En las bodas de Caná, Jesús convirtió el agua en vino a petición de su madre María.",
+    "pista_estudio": "Lee el primer milagro de Jesús en Juan 2:1-11."
+  },
+  {
+    "id": 897,
+    "categoria": "biblia",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuántos libros de la Ley (Pentateuco) contiene el Antiguo Testamento?",
+    "opciones": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "respuesta_correcta": "5",
+    "dato_interesante": "El Pentateuco (Génesis, Éxodo, Levítico, Números y Deuteronomio) también se llama la Torá en el judaísmo.",
+    "pista_estudio": "Investiga el Pentateuco y la autoría tradicional atribuida a Moisés."
+  },
+  {
+    "id": 898,
+    "categoria": "biblia",
+    "dificultad": "media",
+    "pregunta": "¿Cuál era la ocupación de Mateo (Leví) antes de ser llamado por Jesús?",
+    "opciones": [
+      "Pescador",
+      "Carpintero",
+      "Cobrador de impuestos",
+      "Sacerdote"
+    ],
+    "respuesta_correcta": "Cobrador de impuestos",
+    "dato_interesante": "Los cobradores de impuestos eran despreciados por los judíos por trabajar para Roma y por su corrupción.",
+    "pista_estudio": "Lee el llamado de Mateo en Mateo 9:9 y su invitación a Jesús a cenar."
+  },
+  {
+    "id": 899,
+    "categoria": "biblia",
+    "dificultad": "facil",
+    "pregunta": "¿Qué animal usó Dios para hablarle a Moisés en el desierto?",
+    "opciones": [
+      "Un aguila",
+      "Una serpiente",
+      "Una zarza ardiente",
+      "Una paloma"
+    ],
+    "respuesta_correcta": "Una zarza ardiente",
+    "dato_interesante": "La zarza ardía pero no se consumía, señal del poder sobrenatural de Dios.",
+    "pista_estudio": "Lee el llamamiento de Moisés por Dios en la zarza ardiente en Éxodo 3."
+  },
+  {
+    "id": 900,
+    "categoria": "biblia",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué rey de Babilonia fue humillado por Dios y vivió como animal durante siete años?",
+    "opciones": [
+      "Ciro",
+      "Darío",
+      "Nabucodonosor",
+      "Belsasar"
+    ],
+    "respuesta_correcta": "Nabucodonosor",
+    "dato_interesante": "El rey se volvió loco, comió hierba como el ganado hasta que reconoció la soberanía de Dios.",
+    "pista_estudio": "Lee la humillación del rey Nabucodonosor en Daniel 4."
+  },
+  {
+    "id": 901,
+    "categoria": "biblia",
+    "dificultad": "media",
+    "pregunta": "¿Qué apóstol era hermano de Pedro (Simón)?",
+    "opciones": [
+      "Juan",
+      "Santiago",
+      "Andrés",
+      "Felipe"
+    ],
+    "respuesta_correcta": "Andrés",
+    "dato_interesante": "Andrés fue el primero en seguir a Jesús y llevó a su hermano Pedro ante el Señor.",
+    "pista_estudio": "Lee el llamamiento de los primeros discípulos en Juan 1:35-42."
+  },
+  {
+    "id": 902,
+    "categoria": "biblia",
+    "dificultad": "facil",
+    "pregunta": "¿Cuántas veces negó Pedro a Jesús antes del canto del gallo?",
+    "opciones": [
+      "1",
+      "2",
+      "3",
+      "7"
+    ],
+    "respuesta_correcta": "3",
+    "dato_interesante": "Jesús había predicho exactamente estas tres negaciones antes del canto del gallo.",
+    "pista_estudio": "Lee la negación de Pedro y su posterior restauración en Juan 18 y Juan 21."
+  },
+  {
+    "id": 903,
+    "categoria": "biblia",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es el nombre de la ciudad donde Pablo fue apedreado y dado por muerto?",
+    "opciones": [
+      "Antioquía",
+      "Listra",
+      "Iconio",
+      "Derbe"
+    ],
+    "respuesta_correcta": "Listra",
+    "dato_interesante": "Después de ser apedreado, Pablo se levantó y volvió a entrar en la ciudad al día siguiente.",
+    "pista_estudio": "Lee el segundo viaje misionero de Pablo y el incidente en Listra en Hechos 14."
+  },
+  {
+    "id": 904,
+    "categoria": "biblia",
+    "dificultad": "media",
+    "pregunta": "¿Qué animal se sacrificaba en el Templo de Jerusalén en la Pascua judía?",
+    "opciones": [
+      "Un buey",
+      "Un cordero",
+      "Una paloma",
+      "Un cabrito"
+    ],
+    "respuesta_correcta": "Un cordero",
+    "dato_interesante": "El cordero pascual sin defecto era símbolo del Mesías venidero; Jesús es llamado 'el Cordero de Dios'.",
+    "pista_estudio": "Investiga la institución de la Pascua en Éxodo 12 y su cumplimiento en el Nuevo Testamento."
+  },
+  {
+    "id": 905,
+    "categoria": "biblia",
+    "dificultad": "facil",
+    "pregunta": "¿En cuántos días resucitó Jesús después de su muerte?",
+    "opciones": [
+      "1",
+      "2",
+      "3",
+      "7"
+    ],
+    "respuesta_correcta": "3",
+    "dato_interesante": "El tercer día se refiere al viernes (día 1), sábado (día 2) y domingo (día 3) en el cómputo hebreo.",
+    "pista_estudio": "Lee el relato de la resurrección de Jesús en los cuatro Evangelios: Mateo 28, Marcos 16, Lucas 24 y Juan 20."
+  },
+  {
+    "id": 906,
+    "categoria": "biblia",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuántos sellos tiene el libro que abre el Cordero en el Apocalipsis?",
+    "opciones": [
+      "5",
+      "6",
+      "7",
+      "12"
+    ],
+    "respuesta_correcta": "7",
+    "dato_interesante": "Los siete sellos revelan una serie de juicios; el séptimo da lugar a las siete trompetas.",
+    "pista_estudio": "Lee la apertura de los sellos en Apocalipsis 6-8."
+  },
+  {
+    "id": 907,
+    "categoria": "biblia",
+    "dificultad": "media",
+    "pregunta": "¿Quién guió al pueblo de Israel durante los 40 años en el desierto?",
+    "opciones": [
+      "Aarón",
+      "Josué",
+      "Moisés",
+      "Caleb"
+    ],
+    "respuesta_correcta": "Moisés",
+    "dato_interesante": "Moisés guió a Israel pero no pudo entrar a la Tierra Prometida por desobedecer a Dios una vez.",
+    "pista_estudio": "Investiga los 40 años de peregrinación de Israel en el desierto narrados en Éxodo, Levítico, Números y Deuteronomio."
+  },
+  {
+    "id": 908,
+    "categoria": "biblia",
+    "dificultad": "facil",
+    "pregunta": "¿Cómo se llama la primera mujer de la Biblia?",
+    "opciones": [
+      "Sara",
+      "Rebeca",
+      "Eva",
+      "Raquel"
+    ],
+    "respuesta_correcta": "Eva",
+    "dato_interesante": "El nombre Eva significa 'madre de todos los vivientes' y fue formada de la costilla de Adán.",
+    "pista_estudio": "Lee la creación de la mujer y la historia de Adán y Eva en Génesis 2-3."
+  },
+  {
+    "id": 909,
+    "categoria": "biblia",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es el nombre hebreo del paraíso o jardín donde vivieron Adán y Eva?",
+    "opciones": [
+      "Canaán",
+      "Edén",
+      "Gosén",
+      "Sión"
+    ],
+    "respuesta_correcta": "Edén",
+    "dato_interesante": "El Jardín del Edén tenía cuatro ríos, entre ellos el Tigris y el Éufrates, situados en la actual Mesopotamia.",
+    "pista_estudio": "Lee la descripción del Jardín del Edén en Génesis 2:8-14."
+  },
+  {
+    "id": 910,
+    "categoria": "biblia",
+    "dificultad": "media",
+    "pregunta": "¿Qué profeta del Antiguo Testamento fue llamado a profetizar entre los cautivos en Babilonia?",
+    "opciones": [
+      "Isaías",
+      "Jeremías",
+      "Ezequiel",
+      "Daniel"
+    ],
+    "respuesta_correcta": "Ezequiel",
+    "dato_interesante": "Ezequiel tuvo visiones extraordinarias como la de las criaturas vivientes y la rueda dentro de la rueda.",
+    "pista_estudio": "Lee las visiones de Ezequiel comenzando en Ezequiel 1."
   }
 ]
