@@ -20,6 +20,7 @@
     <div class="header">
         <span class="categoria" id="categoria"></span>
         <span class="temporizador" id="temporizador"></span>
+        <button class="btn btn-salir" onclick="salirTrivia()">Salir</button>
     </div>
 
     <!-- Pregunta -->
@@ -58,12 +59,15 @@
     // Variables globales
     // =====================
     const modal = document.getElementById("modal");
+    const btnContinuar = document.getElementById("btn-continuar");
 
     let categoria = localStorage.getItem("categoria");
     let intervalo;          // temporizador
     let numeroPreguntas = 0; // cuántas preguntas han pasado
     let puntuacion = 0;  // puntaje acumulado
     let intentos = 0;  // intentos por pregunta
+    let pregunta = null;
+    let tiempoRestante = 20;
 
     // =====================
     // Cargar preguntas
@@ -77,18 +81,93 @@
     // =====================
     // Inicio
     // =====================
-    temporizador();
-    randomQuestion();
+    function getStorageKey() {
+        return categoria ? `triviaProgress_${categoria}` : null;
+    }
+
+    function saveProgress() {
+        const key = getStorageKey();
+        if (!key || !pregunta) return;
+
+        const progreso = {
+            categoria,
+            numeroPreguntas,
+            puntuacion,
+            intentos,
+            tiempoRestante,
+            preguntasFiltradas,
+            preguntaActual: pregunta
+        };
+
+        localStorage.setItem(key, JSON.stringify(progreso));
+    }
+
+    function loadProgress() {
+        const key = getStorageKey();
+        if (!key) return null;
+
+        const saved = localStorage.getItem(key);
+        if (!saved) return null;
+
+        try {
+            return JSON.parse(saved);
+        } catch (error) {
+            return null;
+        }
+    }
+
+    function resetProgress() {
+        const key = getStorageKey();
+        if (!key) return;
+        localStorage.removeItem(key);
+    }
+
+    function renderPregunta() {
+        if (!pregunta) return;
+
+        select_id("categoria").innerHTML  = pregunta.categoria;
+        select_id("pregunta").innerHTML   = pregunta.pregunta;
+        select_id("btn1").innerHTML       = pregunta.opciones[0];
+        select_id("btn2").innerHTML       = pregunta.opciones[1];
+        select_id("btn3").innerHTML       = pregunta.opciones[2];
+        select_id("btn4").innerHTML       = pregunta.opciones[3];
+    }
+
+    function iniciarJuegoGuardado() {
+        if (!categoria) {
+            location.href = 'index.html';
+            return;
+        }
+
+        const progresoGuardado = loadProgress();
+
+        if (progresoGuardado && progresoGuardado.categoria === categoria && progresoGuardado.preguntaActual) {
+            preguntasFiltradas = progresoGuardado.preguntasFiltradas || preguntasFiltradas;
+            pregunta = progresoGuardado.preguntaActual;
+            numeroPreguntas = progresoGuardado.numeroPreguntas || 0;
+            puntuacion = progresoGuardado.puntuacion || 0;
+            intentos = progresoGuardado.intentos || 0;
+            tiempoRestante = typeof progresoGuardado.tiempoRestante === 'number' ? progresoGuardado.tiempoRestante : 20;
+
+            document.querySelectorAll(".btn").forEach(btn => {
+                btn.classList.remove("correcto", "incorrecto");
+                btn.disabled = false;
+            });
+
+            renderPregunta();
+        } else {
+            resetProgress();
+            randomQuestion();
+        }
+
+        temporizador();
+    }
 
     // =====================
     // Funciones utilitarias
     // =====================
     function select_id(id) {
         return document.getElementById(id);
-    }
-
-    function style(id) {
-        return select_id(id).style;
     }
 
     function readText(ruta_local) {
@@ -106,20 +185,17 @@
     // Lógica de preguntas
     // =====================
     function randomQuestion() {
+        if (preguntasFiltradas.length === 0) {
+            mostrarModalFinal();
+            return;
+        }
+
         let aleatorio = Math.floor(Math.random() * preguntasFiltradas.length);
-        escogerPregunta(aleatorio);
+        pregunta = preguntasFiltradas[aleatorio];
         preguntasFiltradas.splice(aleatorio, 1);
-    }
-
-    function escogerPregunta(n) {
-        pregunta = preguntasFiltradas[n];
-
-        select_id("categoria").innerHTML  = pregunta.categoria;
-        select_id("pregunta").innerHTML   = pregunta.pregunta;
-        select_id("btn1").innerHTML       = pregunta.opciones[0];
-        select_id("btn2").innerHTML       = pregunta.opciones[1];
-        select_id("btn3").innerHTML       = pregunta.opciones[2];
-        select_id("btn4").innerHTML       = pregunta.opciones[3];
+        tiempoRestante = 20;
+        renderPregunta();
+        saveProgress();
     }
 
     // =====================
@@ -127,31 +203,34 @@
     // =====================
     function oprimir_btn(botonSeleccionado) {
         let texto = botonSeleccionado.innerText;
-        
 
         if (texto == pregunta.respuesta_correcta) {
             botonSeleccionado.classList.add("correcto");
             select_id("modal-texto").innerHTML = "¡Correcto! 🎉";
             select_id("modal-mensaje").innerHTML = `Dato interesante: ${pregunta.dato_interesante}`;
-             clearInterval(intervalo);
+            clearInterval(intervalo);
+
             if (intentos == 0) puntuacion += 10;
             else if (intentos == 1) puntuacion += 5;
 
             intentos = 0; // reinicia intentos para la siguiente pregunta
             console.log("Puntaje actual:", puntuacion);
+            saveProgress();
             mostrarModal();
 
         } else {
             intentos++;
             botonSeleccionado.classList.add("incorrecto");
             botonSeleccionado.disabled = true;
+            saveProgress();
 
-            if(intentos >=2){
+            if (intentos >= 2) {
                 intentos = 0; // reinicia intentos para la siguiente pregunta
                 clearInterval(intervalo);
-                mostrarModal();
                 select_id("modal-texto").innerHTML = "¡Respuesta incorrecta! 😢";
                 select_id("modal-mensaje").innerHTML = `Pista: ${pregunta.pista_estudio}`;
+                saveProgress();
+                mostrarModal();
             }
         }
     }
@@ -160,21 +239,23 @@
     // Temporizador
     // =====================
     function temporizador() {
-        let tiempo = 20;
         clearInterval(intervalo);
 
         intervalo = setInterval(() => {
-            select_id("temporizador").innerHTML = `⏱ ${tiempo}s`;
+            select_id("temporizador").innerHTML = `⏱ ${tiempoRestante}s`;
 
-            if (tiempo == 0) {
+            if (tiempoRestante <= 0) {
                 clearInterval(intervalo);
                 select_id("modal-texto").innerHTML = "¡Se acabó el tiempo! 😢";
                 select_id("modal-mensaje").innerHTML = `Pista: ${pregunta.pista_estudio}`;
                 document.querySelectorAll(".btn").forEach(btn => btn.disabled = true);
+                saveProgress();
                 mostrarModal();
+                return;
             }
 
-            tiempo--;
+            tiempoRestante--;
+            saveProgress();
         }, 1000);
     }
 
@@ -184,7 +265,7 @@
     function mostrarModal() {
         select_id("modal").classList.remove("oculto");
 
-        select_id("btn-continuar").onclick = () => {
+        btnContinuar.onclick = () => {
             numeroPreguntas++;
 
             const todosLosBotones = document.querySelectorAll(".btn");
@@ -193,53 +274,62 @@
                 btn.disabled = false;
             });
 
+            select_id("modal").classList.add("oculto");
+
             if (numeroPreguntas >= 10) {
                 mostrarModalFinal();
                 return;
             }
 
-            select_id("modal").classList.add("oculto");
             randomQuestion();
             temporizador();
         };
     }
 
     function mostrarModalFinal() {
+        clearInterval(intervalo);
+        resetProgress();
         select_id("modal").classList.add("oculto");
         select_id("modal-final").classList.remove("oculto");
         select_id("texto-puntaje").innerHTML = `Tu puntaje: ${puntuacion}/100`;
     }
 
+    function salirTrivia() {
+        clearInterval(intervalo);
+        resetProgress();
+        location.href = 'index.html';
+    }
+
     // =====================
     // Música de fondo
     // =====================
-const musica = document.getElementById("bgMusic");
+    const musica = document.getElementById("bgMusic");
 
-window.addEventListener("load", () => {
-    const activa = localStorage.getItem("musicaActiva") === "true";
+    window.addEventListener("load", () => {
+        iniciarJuegoGuardado();
 
-    if (activa) {
-        musica.volume = 0.3;
+        const activa = localStorage.getItem("musicaActiva") === "true";
 
-        // recuperar tiempo
-        const tiempo = localStorage.getItem("tiempoMusica");
-        if (tiempo) {
-            musica.currentTime = tiempo;
+        if (activa) {
+            musica.volume = 0.3;
+
+            const tiempo = localStorage.getItem("tiempoMusica");
+            if (tiempo) {
+                musica.currentTime = tiempo;
+            }
+
+            musica.play().catch(() => {
+                console.log("Esperando interacción...");
+            });
         }
+    });
 
-        musica.play().catch(() => {
-            console.log("Esperando interacción...");
-        });
-    }
-});
-
-// Guardar tiempo de la musica
-setInterval(() => {
-    if (!musica.paused) {
-        localStorage.setItem("tiempoMusica", musica.currentTime);
-    }
-}, 1000);
-
+    // Guardar tiempo de la musica
+    setInterval(() => {
+        if (!musica.paused) {
+            localStorage.setItem("tiempoMusica", musica.currentTime);
+        }
+    }, 1000);
 </script>
 
 </body>
