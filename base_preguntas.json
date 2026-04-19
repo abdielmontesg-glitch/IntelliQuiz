@@ -10798,5 +10798,2255 @@
     "respuesta_correcta": "Ezequiel",
     "dato_interesante": "Ezequiel tuvo visiones extraordinarias como la de las criaturas vivientes y la rueda dentro de la rueda.",
     "pista_estudio": "Lee las visiones de Ezequiel comenzando en Ezequiel 1."
+  },
+  {
+    "id": 1001,
+    "categoria": "peliculas_series",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es la película más taquillera de la historia?",
+    "opciones": [
+      "Titanic",
+      "Avengers: Endgame",
+      "Avatar",
+      "Star Wars: El Despertar de la Fuerza"
+    ],
+    "respuesta_correcta": "Avatar",
+    "dato_interesante": "Avatar (2009) de James Cameron recaudó más de 2,900 millones de dólares en su estreno y fue superada brevemente por Endgame antes de recuperar el trono con su re-estreno.",
+    "pista_estudio": "Investiga la taquilla histórica del cine y el impacto de Avatar en la tecnología 3D."
+  },
+  {
+    "id": 1002,
+    "categoria": "peliculas_series",
+    "dificultad": "facil",
+    "pregunta": "¿Quién protagonizó la saga de 'Iron Man' en el Universo Cinematográfico Marvel?",
+    "opciones": [
+      "Chris Evans",
+      "Chris Hemsworth",
+      "Robert Downey Jr.",
+      "Mark Ruffalo"
+    ],
+    "respuesta_correcta": "Robert Downey Jr.",
+    "dato_interesante": "RDJ interpretó a Tony Stark durante 11 años y 10 películas, convirtiéndose en el pilar del MCU.",
+    "pista_estudio": "Investiga el Universo Cinematográfico Marvel y el papel de Iron Man como personaje fundacional."
+  },
+  {
+    "id": 1003,
+    "categoria": "peliculas_series",
+    "dificultad": "media",
+    "pregunta": "¿En qué año se estrenó la primera película de 'Star Wars'?",
+    "opciones": [
+      "1975",
+      "1977",
+      "1980",
+      "1983"
+    ],
+    "respuesta_correcta": "1977",
+    "dato_interesante": "Star Wars: Una Nueva Esperanza revolucionó los efectos especiales y el cine de ciencia ficción.",
+    "pista_estudio": "Investiga la historia de la saga Star Wars creada por George Lucas."
+  },
+  {
+    "id": 1004,
+    "categoria": "peliculas_series",
+    "dificultad": "facil",
+    "pregunta": "¿De qué plataforma de streaming es la serie 'Stranger Things'?",
+    "opciones": [
+      "HBO",
+      "Disney+",
+      "Amazon Prime",
+      "Netflix"
+    ],
+    "respuesta_correcta": "Netflix",
+    "dato_interesante": "Stranger Things fue uno de los primeros grandes éxitos originales de Netflix, estrenada en 2016.",
+    "pista_estudio": "Investiga el modelo de producción original de Netflix y sus series más exitosas."
+  },
+  {
+    "id": 1005,
+    "categoria": "peliculas_series",
+    "dificultad": "media",
+    "pregunta": "¿Quién dirigió la trilogía 'El Señor de los Anillos'?",
+    "opciones": [
+      "Steven Spielberg",
+      "Peter Jackson",
+      "James Cameron",
+      "Ridley Scott"
+    ],
+    "respuesta_correcta": "Peter Jackson",
+    "dato_interesante": "La trilogía ganó 17 premios Oscar en total; El Retorno del Rey ganó los 11 a los que fue nominada.",
+    "pista_estudio": "Investiga la producción de la trilogía de El Señor de los Anillos filmada en Nueva Zelanda."
+  },
+  {
+    "id": 1006,
+    "categoria": "peliculas_series",
+    "dificultad": "facil",
+    "pregunta": "¿En qué ciudad está ambientada la serie 'Friends'?",
+    "opciones": [
+      "Los Ángeles",
+      "Chicago",
+      "Nueva York",
+      "Boston"
+    ],
+    "respuesta_correcta": "Nueva York",
+    "dato_interesante": "Friends se desarrolla principalmente en el barrio de Greenwich Village en Manhattan.",
+    "pista_estudio": "Investiga la sitcom estadounidense más icónica de los años 90 y sus locaciones."
+  },
+  {
+    "id": 1007,
+    "categoria": "peliculas_series",
+    "dificultad": "dificil",
+    "pregunta": "¿Quién dirigió la película 'El padrino' (1972)?",
+    "opciones": [
+      "Martin Scorsese",
+      "Francis Ford Coppola",
+      "Brian De Palma",
+      "Sidney Lumet"
+    ],
+    "respuesta_correcta": "Francis Ford Coppola",
+    "dato_interesante": "El padrino ganó el Oscar a Mejor Película y es considerada una de las mejores películas jamás hechas.",
+    "pista_estudio": "Investiga el Nuevo Hollywood de los años 70 y el legado de Francis Ford Coppola."
+  },
+  {
+    "id": 1008,
+    "categoria": "peliculas_series",
+    "dificultad": "media",
+    "pregunta": "¿Cuántas temporadas tiene la serie 'Breaking Bad'?",
+    "opciones": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "respuesta_correcta": "5",
+    "dato_interesante": "Breaking Bad es considerada por muchos críticos la mejor serie de televisión de todos los tiempos.",
+    "pista_estudio": "Investiga la narrativa de Breaking Bad y el arco del personaje de Walter White."
+  },
+  {
+    "id": 1009,
+    "categoria": "peliculas_series",
+    "dificultad": "facil",
+    "pregunta": "¿Quién hace la voz de Woody en 'Toy Story'?",
+    "opciones": [
+      "Tom Hanks",
+      "Tim Allen",
+      "Billy Crystal",
+      "Jim Carrey"
+    ],
+    "respuesta_correcta": "Tom Hanks",
+    "dato_interesante": "Tom Hanks ha prestado su voz a Woody en las cuatro películas de Toy Story desde 1995.",
+    "pista_estudio": "Investiga la saga Toy Story de Pixar y sus innovaciones en animación computarizada."
+  },
+  {
+    "id": 1010,
+    "categoria": "peliculas_series",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué película de Christopher Nolan explora el mundo de los sueños dentro de sueños?",
+    "opciones": [
+      "Interstellar",
+      "The Dark Knight",
+      "Inception",
+      "Memento"
+    ],
+    "respuesta_correcta": "Inception",
+    "dato_interesante": "Inception (2010) tardó casi 10 años en desarrollarse y ganó 4 premios Oscar técnicos.",
+    "pista_estudio": "Investiga la filmografía de Christopher Nolan y su estilo narrativo no lineal."
+  },
+  {
+    "id": 1011,
+    "categoria": "peliculas_series",
+    "dificultad": "media",
+    "pregunta": "¿Cuál es el nombre del famoso ogro verde de la saga de animación de DreamWorks?",
+    "opciones": [
+      "Donkey",
+      "Farquaad",
+      "Shrek",
+      "Puss in Boots"
+    ],
+    "respuesta_correcta": "Shrek",
+    "dato_interesante": "Shrek (2001) ganó el primer Oscar a Mejor Película Animada y se convirtió en un fenómeno cultural.",
+    "pista_estudio": "Investiga la saga Shrek y su impacto en la animación y la cultura popular."
+  },
+  {
+    "id": 1012,
+    "categoria": "peliculas_series",
+    "dificultad": "facil",
+    "pregunta": "¿En qué país fue producida la serie 'La Casa de Papel'?",
+    "opciones": [
+      "México",
+      "Argentina",
+      "España",
+      "Colombia"
+    ],
+    "respuesta_correcta": "España",
+    "dato_interesante": "La Casa de Papel fue la primera serie no anglófona en ganar un Emmy Internacional a Mejor Drama.",
+    "pista_estudio": "Investiga el éxito de la serie española en Netflix y su impacto global."
+  },
+  {
+    "id": 1013,
+    "categoria": "peliculas_series",
+    "dificultad": "dificil",
+    "pregunta": "¿Quién interpretó a Hannibal Lecter en 'El silencio de los inocentes' (1991)?",
+    "opciones": [
+      "Gary Oldman",
+      "Anthony Hopkins",
+      "Brian Cox",
+      "Mads Mikkelsen"
+    ],
+    "respuesta_correcta": "Anthony Hopkins",
+    "dato_interesante": "Hopkins ganó el Oscar a Mejor Actor pese a que Hannibal aparece menos de 25 minutos en pantalla.",
+    "pista_estudio": "Investiga la película de Jonathan Demme y su impacto en el género de thriller psicológico."
+  },
+  {
+    "id": 1014,
+    "categoria": "peliculas_series",
+    "dificultad": "media",
+    "pregunta": "¿Cuántas películas componen la saga original de 'Jurassic Park'?",
+    "opciones": [
+      "2",
+      "3",
+      "5",
+      "6"
+    ],
+    "respuesta_correcta": "6",
+    "dato_interesante": "La saga incluye Jurassic Park (1993), El Mundo Perdido (1997), Jurassic Park III (2001) y la trilogía Jurassic World.",
+    "pista_estudio": "Investiga la franquicia de dinosaurios creada por Steven Spielberg basada en la novela de Michael Crichton."
+  },
+  {
+    "id": 1015,
+    "categoria": "peliculas_series",
+    "dificultad": "facil",
+    "pregunta": "¿Qué película animada de Disney trata sobre una princesa que quiere explorar el mundo y tiene cabello rojo?",
+    "opciones": [
+      "La Sirenita",
+      "Enredados",
+      "Valiente",
+      "Frozen"
+    ],
+    "respuesta_correcta": "Valiente",
+    "dato_interesante": "Valiente (2012) fue la primera película de Pixar con protagonista femenina.",
+    "pista_estudio": "Investiga las películas de Pixar con protagonistas femeninas y sus mensajes."
+  },
+  {
+    "id": 1016,
+    "categoria": "peliculas_series",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuántas películas tiene la saga 'El Padrino'?",
+    "opciones": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "respuesta_correcta": "3",
+    "dato_interesante": "Las tres partes fueron dirigidas por Coppola; la tercera es la menos valorada pero aún considerada gran cine.",
+    "pista_estudio": "Investiga la trilogía de El Padrino y su representación de la mafia italoamericana."
+  },
+  {
+    "id": 1017,
+    "categoria": "peliculas_series",
+    "dificultad": "media",
+    "pregunta": "¿Cómo se llama el famoso robot de la película 'Wall-E'?",
+    "opciones": [
+      "EVE",
+      "R2-D2",
+      "WALL-E",
+      "HAL 9000"
+    ],
+    "respuesta_correcta": "WALL-E",
+    "dato_interesante": "WALL-E (Waste Allocation Load Lifter Earth-class) es considerada una de las mejores películas de Pixar.",
+    "pista_estudio": "Investiga el mensaje ambiental de la película WALL-E y su innovación narrativa sin diálogos."
+  },
+  {
+    "id": 1018,
+    "categoria": "peliculas_series",
+    "dificultad": "facil",
+    "pregunta": "¿En qué plataforma se estrenó la serie coreana 'El juego del calamar'?",
+    "opciones": [
+      "Disney+",
+      "HBO Max",
+      "Netflix",
+      "Amazon Prime"
+    ],
+    "respuesta_correcta": "Netflix",
+    "dato_interesante": "El juego del calamar se convirtió en la serie más vista en la historia de Netflix en 2021.",
+    "pista_estudio": "Investiga el fenómeno del k-drama y la expansión del contenido asiático en plataformas globales."
+  },
+  {
+    "id": 1019,
+    "categoria": "peliculas_series",
+    "dificultad": "dificil",
+    "pregunta": "¿Quién dirigió 'Pulp Fiction' (1994)?",
+    "opciones": [
+      "Joel Coen",
+      "Spike Lee",
+      "Quentin Tarantino",
+      "Steven Soderbergh"
+    ],
+    "respuesta_correcta": "Quentin Tarantino",
+    "dato_interesante": "Pulp Fiction ganó la Palma de Oro en Cannes y reinventó el cine independiente estadounidense.",
+    "pista_estudio": "Investiga el estilo narrativo no lineal de Tarantino y su influencia en el cine moderno."
+  },
+  {
+    "id": 1020,
+    "categoria": "peliculas_series",
+    "dificultad": "media",
+    "pregunta": "¿Cuál es el nombre de la serie de HBO ambientada en Westeros con dragones y reyes?",
+    "opciones": [
+      "The Witcher",
+      "Rings of Power",
+      "Game of Thrones",
+      "Vikings"
+    ],
+    "respuesta_correcta": "Game of Thrones",
+    "dato_interesante": "Game of Thrones fue la serie más vista en la historia de HBO con más de 19 millones de espectadores en su final.",
+    "pista_estudio": "Investiga la serie basada en los libros de George R.R. Martin y su impacto cultural."
+  },
+  {
+    "id": 1021,
+    "categoria": "peliculas_series",
+    "dificultad": "facil",
+    "pregunta": "¿Cuántas películas tiene la saga principal de 'Avengers' en el MCU?",
+    "opciones": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "respuesta_correcta": "4",
+    "dato_interesante": "Son: The Avengers (2012), Age of Ultron (2015), Infinity War (2018) y Endgame (2019).",
+    "pista_estudio": "Investiga la estructura narrativa del Universo Cinematográfico Marvel y sus fases."
+  },
+  {
+    "id": 1022,
+    "categoria": "peliculas_series",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué actriz ganó el Oscar a Mejor Actriz por 'Monster's Ball' (2001)?",
+    "opciones": [
+      "Angela Bassett",
+      "Viola Davis",
+      "Halle Berry",
+      "Whoopi Goldberg"
+    ],
+    "respuesta_correcta": "Halle Berry",
+    "dato_interesante": "Halle Berry fue la primera mujer afroamericana en ganar el Oscar a Mejor Actriz.",
+    "pista_estudio": "Investiga la historia de la diversidad en los premios Oscar a lo largo de los años."
+  },
+  {
+    "id": 1023,
+    "categoria": "peliculas_series",
+    "dificultad": "media",
+    "pregunta": "¿En qué ciudad está ambientada la serie 'Narcos' de Netflix?",
+    "opciones": [
+      "Ciudad de México",
+      "Bogotá y Medellín",
+      "Cali",
+      "Caracas"
+    ],
+    "respuesta_correcta": "Bogotá y Medellín",
+    "dato_interesante": "Narcos narra la historia real del narcotraficante Pablo Escobar y el Cartel de Medellín.",
+    "pista_estudio": "Investiga la historia del narcotráfico en Colombia y la figura de Pablo Escobar."
+  },
+  {
+    "id": 1024,
+    "categoria": "peliculas_series",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es la frase más famosa de la película 'Forrest Gump'?",
+    "opciones": [
+      "You had me at hello",
+      "La vida es como una caja de chocolates",
+      "I'll be back",
+      "Here's looking at you, kid"
+    ],
+    "respuesta_correcta": "La vida es como una caja de chocolates",
+    "dato_interesante": "La frase completa es: 'La vida es como una caja de chocolates, nunca sabes lo que te va a tocar'.",
+    "pista_estudio": "Investiga la película de Robert Zemeckis protagonizada por Tom Hanks y su impacto cultural."
+  },
+  {
+    "id": 1025,
+    "categoria": "peliculas_series",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué película ganó el primer Oscar a Mejor Película Animada en la historia?",
+    "opciones": [
+      "Shrek",
+      "Monsters, Inc.",
+      "La bella y la bestia",
+      "Shrek"
+    ],
+    "respuesta_correcta": "Shrek",
+    "dato_interesante": "El Oscar a Mejor Película Animada fue creado en 2002 y Shrek fue el primer ganador.",
+    "pista_estudio": "Investiga la historia de la categoría de Mejor Película Animada en los premios Oscar."
+  },
+  {
+    "id": 1026,
+    "categoria": "peliculas_series",
+    "dificultad": "media",
+    "pregunta": "¿Quién interpreta a Jack Sparrow en 'Piratas del Caribe'?",
+    "opciones": [
+      "Orlando Bloom",
+      "Geoffrey Rush",
+      "Johnny Depp",
+      "Keira Knightley"
+    ],
+    "respuesta_correcta": "Johnny Depp",
+    "dato_interesante": "Johnny Depp basó el personaje de Sparrow en Keith Richards de los Rolling Stones.",
+    "pista_estudio": "Investiga la franquicia de Piratas del Caribe y la creación del personaje de Jack Sparrow."
+  },
+  {
+    "id": 1027,
+    "categoria": "peliculas_series",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es la serie animada más longeva de la televisión estadounidense?",
+    "opciones": [
+      "Family Guy",
+      "South Park",
+      "Los Simpson",
+      "Futurama"
+    ],
+    "respuesta_correcta": "Los Simpson",
+    "dato_interesante": "Los Simpson se estrenaron en 1989 y siguen en emisión, con más de 35 temporadas.",
+    "pista_estudio": "Investiga la creación de Los Simpson por Matt Groening y su impacto en la cultura pop."
+  },
+  {
+    "id": 1028,
+    "categoria": "peliculas_series",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué película de Stanley Kubrick está ambientada en la Guerra de Vietnam?",
+    "opciones": [
+      "Barry Lyndon",
+      "La naranja mecánica",
+      "Full Metal Jacket",
+      "El resplandor"
+    ],
+    "respuesta_correcta": "Full Metal Jacket",
+    "dato_interesante": "Full Metal Jacket (1987) es considerada uno de los mejores análisis cinematográficos de la deshumanización militar.",
+    "pista_estudio": "Investiga la filmografía de Stanley Kubrick y su enfoque en la psicología humana extrema."
+  },
+  {
+    "id": 1029,
+    "categoria": "peliculas_series",
+    "dificultad": "media",
+    "pregunta": "¿De qué país es la serie 'Dark', famosa por sus viajes en el tiempo?",
+    "opciones": [
+      "Austria",
+      "Suiza",
+      "Alemania",
+      "Países Bajos"
+    ],
+    "respuesta_correcta": "Alemania",
+    "dato_interesante": "Dark fue la primera serie alemana producida por Netflix y fue aclamada como una de las mejores de la plataforma.",
+    "pista_estudio": "Investiga las series europeas de Netflix y el auge del contenido internacional."
+  },
+  {
+    "id": 1030,
+    "categoria": "peliculas_series",
+    "dificultad": "facil",
+    "pregunta": "¿Cómo se llama el personaje principal de la serie 'The Mandalorian'?",
+    "opciones": [
+      "Boba Fett",
+      "Din Djarin",
+      "Moff Gideon",
+      "Grogu"
+    ],
+    "respuesta_correcta": "Din Djarin",
+    "dato_interesante": "The Mandalorian fue la primera serie live-action del universo Star Wars en Disney+.",
+    "pista_estudio": "Investiga la expansión del universo Star Wars en Disney+ y las nuevas series derivadas."
+  },
+  {
+    "id": 1031,
+    "categoria": "peliculas_series",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuántas temporadas tiene la serie 'The Wire'?",
+    "opciones": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "respuesta_correcta": "5",
+    "dato_interesante": "The Wire es considerada por muchos críticos la mejor serie de televisión jamás producida.",
+    "pista_estudio": "Investiga la serie de David Simon sobre la ciudad de Baltimore y sus instituciones."
+  },
+  {
+    "id": 1032,
+    "categoria": "peliculas_series",
+    "dificultad": "media",
+    "pregunta": "¿Qué actor ha interpretado a James Bond en más películas oficiales?",
+    "opciones": [
+      "Sean Connery",
+      "Roger Moore",
+      "Daniel Craig",
+      "Pierce Brosnan"
+    ],
+    "respuesta_correcta": "Roger Moore",
+    "dato_interesante": "Roger Moore interpretó a Bond en 7 películas entre 1973 y 1985.",
+    "pista_estudio": "Investiga la historia de la franquicia de James Bond y los actores que han interpretado al espía."
+  },
+  {
+    "id": 1033,
+    "categoria": "peliculas_series",
+    "dificultad": "facil",
+    "pregunta": "¿En qué película aparece la frase 'Hasta la vista, baby'?",
+    "opciones": [
+      "Terminator",
+      "Terminator 2: El juicio final",
+      "Predator",
+      "RoboCop"
+    ],
+    "respuesta_correcta": "Terminator 2: El juicio final",
+    "dato_interesante": "Arnold Schwarzenegger pronunció la frase en T2 (1991) y se convirtió en una de las más icónicas del cine.",
+    "pista_estudio": "Investiga la saga Terminator y el impacto de Arnold Schwarzenegger en el cine de acción."
+  },
+  {
+    "id": 1034,
+    "categoria": "peliculas_series",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué director japonés hizo películas como 'Rashomon', 'Los siete samuráis' y 'Ran'?",
+    "opciones": [
+      "Yasujiro Ozu",
+      "Kenji Mizoguchi",
+      "Akira Kurosawa",
+      "Kon Ichikawa"
+    ],
+    "respuesta_correcta": "Akira Kurosawa",
+    "dato_interesante": "Kurosawa influyó profundamente en directores como Spielberg, Lucas y Coppola.",
+    "pista_estudio": "Investiga la filmografía de Akira Kurosawa y su legado en el cine mundial."
+  },
+  {
+    "id": 1035,
+    "categoria": "peliculas_series",
+    "dificultad": "media",
+    "pregunta": "¿Cuántas temporadas tiene 'Game of Thrones'?",
+    "opciones": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "respuesta_correcta": "8",
+    "dato_interesante": "Las primeras temporadas son consideradas excelentes; las últimas recibieron críticas por su ritmo acelerado.",
+    "pista_estudio": "Investiga la producción de Game of Thrones y la controversia alrededor de su última temporada."
+  },
+  {
+    "id": 1036,
+    "categoria": "peliculas_series",
+    "dificultad": "facil",
+    "pregunta": "¿Quién interpreta a Superman en el DCEU (DC Extended Universe)?",
+    "opciones": [
+      "Ben Affleck",
+      "Henry Cavill",
+      "Gal Gadot",
+      "Jason Momoa"
+    ],
+    "respuesta_correcta": "Henry Cavill",
+    "dato_interesante": "Henry Cavill debutó como Superman en 'El hombre de acero' (2013).",
+    "pista_estudio": "Investiga el Universo Extendido de DC y sus diferencias con el Universo Marvel."
+  },
+  {
+    "id": 1037,
+    "categoria": "peliculas_series",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál fue la primera película en ganar el Oscar a Mejor Película con efectos especiales digitales prominentes?",
+    "opciones": [
+      "Terminator 2",
+      "Jurassic Park",
+      "Titanic",
+      "The Matrix"
+    ],
+    "respuesta_correcta": "Titanic",
+    "dato_interesante": "Titanic (1997) ganó 11 Oscar y fue pionera en la integración de CGI masivo con actuaciones reales.",
+    "pista_estudio": "Investiga la evolución de los efectos visuales en el cine desde los años 90."
+  },
+  {
+    "id": 1038,
+    "categoria": "peliculas_series",
+    "dificultad": "media",
+    "pregunta": "¿Quién compone la música de la mayoría de las películas de Star Wars?",
+    "opciones": [
+      "Hans Zimmer",
+      "Ennio Morricone",
+      "John Williams",
+      "Howard Shore"
+    ],
+    "respuesta_correcta": "John Williams",
+    "dato_interesante": "John Williams también compuso las bandas sonoras de Jurassic Park, Indiana Jones, Schindler's List y Harry Potter.",
+    "pista_estudio": "Investiga el trabajo de John Williams y su impacto en la música cinematográfica moderna."
+  },
+  {
+    "id": 1039,
+    "categoria": "peliculas_series",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es el nombre del genio malvado de la saga animada 'Despicable Me'?",
+    "opciones": [
+      "Vector",
+      "El Dr. Nefario",
+      "Gru",
+      "Balthazar Bratt"
+    ],
+    "respuesta_correcta": "Gru",
+    "dato_interesante": "Gru es interpretado por Steve Carell y su transformación de villano a padre adoptivo es el corazón de la saga.",
+    "pista_estudio": "Investiga la saga Despicable Me de Illumination y el fenómeno cultural de los Minions."
+  },
+  {
+    "id": 1040,
+    "categoria": "peliculas_series",
+    "dificultad": "dificil",
+    "pregunta": "¿En qué película de Ridley Scott aparece el famoso monólogo de Roy Batty 'Lágrimas en la lluvia'?",
+    "opciones": [
+      "Alien",
+      "Gladiator",
+      "Blade Runner",
+      "The Martian"
+    ],
+    "respuesta_correcta": "Blade Runner",
+    "dato_interesante": "El monólogo fue improvisado por el actor Rutger Hauer en el set de filmación.",
+    "pista_estudio": "Investiga Blade Runner (1982) y su influencia en el género cyberpunk."
+  },
+  {
+    "id": 1041,
+    "categoria": "peliculas_series",
+    "dificultad": "media",
+    "pregunta": "¿Cuál es la serie mexicana de Netflix que narra la historia del narcotráfico en México?",
+    "opciones": [
+      "El Señor de los Cielos",
+      "Narcos: México",
+      "Club de Cuervos",
+      "Ingobernable"
+    ],
+    "respuesta_correcta": "Narcos: México",
+    "dato_interesante": "Narcos: México cuenta la historia de Miguel Ángel Félix Gallardo y el Cártel de Guadalajara.",
+    "pista_estudio": "Investiga la historia del narcotráfico en México y sus figuras más relevantes."
+  },
+  {
+    "id": 1042,
+    "categoria": "peliculas_series",
+    "dificultad": "facil",
+    "pregunta": "¿En qué país fue producida la serie 'Squid Game' (El juego del calamar)?",
+    "opciones": [
+      "Japón",
+      "China",
+      "Corea del Sur",
+      "Tailandia"
+    ],
+    "respuesta_correcta": "Corea del Sur",
+    "dato_interesante": "Squid Game fue la primera serie no anglófona en liderar el top 10 de Netflix en más de 90 países.",
+    "pista_estudio": "Investiga la industria del entretenimiento coreano (Hallyu) y su expansión global."
+  },
+  {
+    "id": 1043,
+    "categoria": "peliculas_series",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué actriz protagonizó 'Moulin Rouge!' y 'Brokeback Mountain'?",
+    "opciones": [
+      "Cate Blanchett",
+      "Nicole Kidman",
+      "Naomi Watts",
+      "Kate Blanchett"
+    ],
+    "respuesta_correcta": "Nicole Kidman",
+    "dato_interesante": "Nicole Kidman ganó el Oscar a Mejor Actriz por 'Las horas' (2002), no por Moulin Rouge.",
+    "pista_estudio": "Investiga la carrera de Nicole Kidman y su versatilidad en distintos géneros cinematográficos."
+  },
+  {
+    "id": 1044,
+    "categoria": "peliculas_series",
+    "dificultad": "media",
+    "pregunta": "¿Cuántas películas tiene la saga 'Fast & Furious' (Rápido y Furioso)?",
+    "opciones": [
+      "7",
+      "8",
+      "10",
+      "12"
+    ],
+    "respuesta_correcta": "10",
+    "dato_interesante": "La décima entrega 'Fast X' (2023) fue estrenada como inicio del final de la saga.",
+    "pista_estudio": "Investiga la evolución de la franquicia Fast & Furious desde su inicio en 2001."
+  },
+  {
+    "id": 1045,
+    "categoria": "peliculas_series",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es el nombre del mayordomo robótico que asiste a Iron Man?",
+    "opciones": [
+      "FRIDAY",
+      "JARVIS",
+      "EDITH",
+      "VISION"
+    ],
+    "respuesta_correcta": "JARVIS",
+    "dato_interesante": "JARVIS significa 'Just A Rather Very Intelligent System' y fue la base para crear la IA Vision.",
+    "pista_estudio": "Investiga la tecnología ficticia del Universo Marvel y cómo refleja tendencias reales en IA."
+  },
+  {
+    "id": 1046,
+    "categoria": "peliculas_series",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué película de animación de Studio Ghibli ganó el Oscar en 2003?",
+    "opciones": [
+      "Princess Mononoke",
+      "Porco Rosso",
+      "El viaje de Chihiro",
+      "Mi vecino Totoro"
+    ],
+    "respuesta_correcta": "El viaje de Chihiro",
+    "dato_interesante": "El viaje de Chihiro es la única película no anglófona en ganar el Oscar a Mejor Película Animada.",
+    "pista_estudio": "Investiga el Studio Ghibli y la obra del director Hayao Miyazaki."
+  },
+  {
+    "id": 1047,
+    "categoria": "peliculas_series",
+    "dificultad": "media",
+    "pregunta": "¿Qué serie de HBO ambientada en el salvaje oeste tiene androides como protagonistas?",
+    "opciones": [
+      "Deadwood",
+      "Westworld",
+      "Ozark",
+      "True Blood"
+    ],
+    "respuesta_correcta": "Westworld",
+    "dato_interesante": "Westworld está basada en la película de 1973 de Michael Crichton y explora temas de conciencia artificial.",
+    "pista_estudio": "Investiga la serie Westworld y su exploración filosófica sobre la inteligencia artificial y el libre albedrío."
+  },
+  {
+    "id": 1048,
+    "categoria": "peliculas_series",
+    "dificultad": "facil",
+    "pregunta": "¿Quién interpreta a Batman en la trilogía de Christopher Nolan?",
+    "opciones": [
+      "Michael Keaton",
+      "Ben Affleck",
+      "Christian Bale",
+      "Val Kilmer"
+    ],
+    "respuesta_correcta": "Christian Bale",
+    "dato_interesante": "La trilogía del Caballero Oscuro de Nolan es considerada la mejor adaptación cinematográfica de Batman.",
+    "pista_estudio": "Investiga la trilogía de Batman de Nolan y su enfoque realista del superhéroe."
+  },
+  {
+    "id": 1049,
+    "categoria": "peliculas_series",
+    "dificultad": "dificil",
+    "pregunta": "¿En qué año se estrenó 'El ciudadano Kane', considerada por muchos la mejor película de la historia?",
+    "opciones": [
+      "1938",
+      "1941",
+      "1945",
+      "1950"
+    ],
+    "respuesta_correcta": "1941",
+    "dato_interesante": "Orson Welles tenía solo 25 años cuando dirigió y protagonizó El ciudadano Kane.",
+    "pista_estudio": "Investiga la importancia de El ciudadano Kane en la historia del cine y las técnicas narrativas que introdujo."
+  },
+  {
+    "id": 1050,
+    "categoria": "peliculas_series",
+    "dificultad": "media",
+    "pregunta": "¿Qué plataforma de streaming produce la serie 'The Boys'?",
+    "opciones": [
+      "Netflix",
+      "HBO Max",
+      "Amazon Prime Video",
+      "Disney+"
+    ],
+    "respuesta_correcta": "Amazon Prime Video",
+    "dato_interesante": "The Boys es una sátira sobre los superhéroes corporativos basada en el cómic de Garth Ennis.",
+    "pista_estudio": "Investiga las series de superhéroes de Amazon Prime Video y su enfoque crítico al género."
+  },
+  {
+    "id": 1051,
+    "categoria": "autos",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es la marca de automóviles más vendida en el mundo?",
+    "opciones": [
+      "Ford",
+      "Toyota",
+      "Volkswagen",
+      "General Motors"
+    ],
+    "respuesta_correcta": "Toyota",
+    "dato_interesante": "Toyota lleva varios años consecutivos siendo la marca de autos más vendida globalmente.",
+    "pista_estudio": "Investiga el ranking mundial de ventas de automóviles y los factores que determinan el éxito de Toyota."
+  },
+  {
+    "id": 1052,
+    "categoria": "autos",
+    "dificultad": "facil",
+    "pregunta": "¿En qué país fue inventado el automóvil moderno?",
+    "opciones": [
+      "Francia",
+      "Reino Unido",
+      "Estados Unidos",
+      "Alemania"
+    ],
+    "respuesta_correcta": "Alemania",
+    "dato_interesante": "Karl Benz patentó el Benz Patent-Motorwagen en 1886, considerado el primer automóvil verdadero.",
+    "pista_estudio": "Investiga la historia del automóvil y el papel de Karl Benz y Gottlieb Daimler en su invención."
+  },
+  {
+    "id": 1053,
+    "categoria": "autos",
+    "dificultad": "media",
+    "pregunta": "¿Cuál es el auto de producción más rápido del mundo en 2024?",
+    "opciones": [
+      "Bugatti Chiron",
+      "Koenigsegg Jesko Absolut",
+      "SSC Tuatara",
+      "Rimac Nevera"
+    ],
+    "respuesta_correcta": "Koenigsegg Jesko Absolut",
+    "dato_interesante": "El Koenigsegg Jesko Absolut tiene una velocidad teórica de 330 mph (531 km/h).",
+    "pista_estudio": "Investiga los hipercars más rápidos del mundo y cómo se mide la velocidad máxima."
+  },
+  {
+    "id": 1054,
+    "categoria": "autos",
+    "dificultad": "facil",
+    "pregunta": "¿Cuántas ruedas tiene un automóvil estándar?",
+    "opciones": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "respuesta_correcta": "4",
+    "dato_interesante": "El sistema de 4 ruedas fue estandarizado porque ofrece el mejor equilibrio entre estabilidad y maniobrabilidad.",
+    "pista_estudio": "Investiga los principios básicos de la dinámica vehicular y la importancia del número de ruedas."
+  },
+  {
+    "id": 1055,
+    "categoria": "autos",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué significa 'cc' en la cilindrada de un motor?",
+    "opciones": [
+      "Cubic Centimeters (centímetros cúbicos)",
+      "Car Capacity",
+      "Cylinder Count",
+      "Core Combustion"
+    ],
+    "respuesta_correcta": "Cubic Centimeters (centímetros cúbicos)",
+    "dato_interesante": "La cilindrada en cc mide el volumen total de los cilindros y afecta directamente la potencia del motor.",
+    "pista_estudio": "Investiga cómo funciona un motor de combustión interna y qué significa la cilindrada."
+  },
+  {
+    "id": 1056,
+    "categoria": "autos",
+    "dificultad": "media",
+    "pregunta": "¿Qué marca de automóviles tiene como logo un caballo encabritado?",
+    "opciones": [
+      "Lamborghini",
+      "Ferrari",
+      "Porsche",
+      "Maserati"
+    ],
+    "respuesta_correcta": "Ferrari",
+    "dato_interesante": "El cavallino rampante (caballito encabritado) lo usó el as de la aviación italiana Francesco Baracca en su avión.",
+    "pista_estudio": "Investiga la historia del logo de Ferrari y su origen en la Primera Guerra Mundial."
+  },
+  {
+    "id": 1057,
+    "categoria": "autos",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es el automóvil eléctrico más vendido en el mundo?",
+    "opciones": [
+      "Tesla Model S",
+      "Tesla Model 3",
+      "Nissan Leaf",
+      "Chevrolet Bolt"
+    ],
+    "respuesta_correcta": "Tesla Model 3",
+    "dato_interesante": "El Tesla Model 3 fue el primer vehículo eléctrico en superar el millón de unidades vendidas.",
+    "pista_estudio": "Investiga el mercado de vehículos eléctricos y el papel de Tesla en su masificación."
+  },
+  {
+    "id": 1058,
+    "categoria": "autos",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué significa 'AWD' en los sistemas de tracción de un automóvil?",
+    "opciones": [
+      "Automatic Wheel Drive",
+      "All Wheel Drive",
+      "Advanced Weight Distribution",
+      "Axle Width Differential"
+    ],
+    "respuesta_correcta": "All Wheel Drive",
+    "dato_interesante": "AWD distribuye la potencia a las cuatro ruedas automáticamente según las condiciones del terreno.",
+    "pista_estudio": "Compara los sistemas AWD, 4WD, FWD y RWD y sus aplicaciones en distintos tipos de vehículos."
+  },
+  {
+    "id": 1059,
+    "categoria": "autos",
+    "dificultad": "media",
+    "pregunta": "¿En qué país se produce el Volkswagen Beetle (Escarabajo)?",
+    "opciones": [
+      "México",
+      "Alemania",
+      "Brasil",
+      "Argentina"
+    ],
+    "respuesta_correcta": "México",
+    "dato_interesante": "La última fábrica del VW Beetle estuvo en Puebla, México; los últimos modelos salieron en 2003.",
+    "pista_estudio": "Investiga la historia del Volkswagen Beetle y su importancia en la industria automotriz mexicana."
+  },
+  {
+    "id": 1060,
+    "categoria": "autos",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es el símbolo de la marca Porsche en su logo?",
+    "opciones": [
+      "Un toro",
+      "Un caballo encabritado y las armas de Stuttgart",
+      "Un tridente",
+      "Un escudo con el Sol"
+    ],
+    "respuesta_correcta": "Un caballo encabritado y las armas de Stuttgart",
+    "dato_interesante": "El logo de Porsche combina el caballo del escudo de Württemberg con las barras rojas y negras de Baden.",
+    "pista_estudio": "Investiga el origen del logo de Porsche y la historia de la empresa fundada por Ferdinand Porsche."
+  },
+  {
+    "id": 1061,
+    "categoria": "autos",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál fue el primer automóvil con airbag de serie en el mercado?",
+    "opciones": [
+      "Ford Mustang 1968",
+      "Mercedes-Benz W116 1973",
+      "Oldsmobile Toronado 1973",
+      "Volvo 240 1975"
+    ],
+    "respuesta_correcta": "Oldsmobile Toronado 1973",
+    "dato_interesante": "General Motors ofreció el airbag como opción en el Oldsmobile Toronado; Mercedes lo masificó después.",
+    "pista_estudio": "Investiga la historia de los sistemas de seguridad pasiva en los automóviles."
+  },
+  {
+    "id": 1062,
+    "categoria": "autos",
+    "dificultad": "media",
+    "pregunta": "¿Qué marca italiana es conocida por el modelo Diablo y el Aventador?",
+    "opciones": [
+      "Ferrari",
+      "Alfa Romeo",
+      "Maserati",
+      "Lamborghini"
+    ],
+    "respuesta_correcta": "Lamborghini",
+    "dato_interesante": "Lamborghini fue fundada por Ferruccio Lamborghini, que originalmente fabricaba tractores.",
+    "pista_estudio": "Investiga la rivalidad histórica entre Ferrari y Lamborghini y cómo surgió la marca del toro."
+  },
+  {
+    "id": 1063,
+    "categoria": "autos",
+    "dificultad": "facil",
+    "pregunta": "¿Cuántos cilindros tiene típicamente un motor V8?",
+    "opciones": [
+      "6",
+      "7",
+      "8",
+      "10"
+    ],
+    "respuesta_correcta": "8",
+    "dato_interesante": "Los cilindros están dispuestos en dos filas de 4 formando una 'V', de ahí el nombre V8.",
+    "pista_estudio": "Investiga las configuraciones de motores de cilindros: en línea, V, boxer y W."
+  },
+  {
+    "id": 1064,
+    "categoria": "autos",
+    "dificultad": "dificil",
+    "pregunta": "¿En qué país fue fundada la marca de automóviles Volvo?",
+    "opciones": [
+      "Dinamarca",
+      "Noruega",
+      "Finlandia",
+      "Suecia"
+    ],
+    "respuesta_correcta": "Suecia",
+    "dato_interesante": "Volvo fue fundada en Gotemburgo, Suecia, en 1927 y es famosa mundialmente por su enfoque en la seguridad.",
+    "pista_estudio": "Investiga la historia de Volvo y su legado en innovaciones de seguridad vehicular."
+  },
+  {
+    "id": 1065,
+    "categoria": "autos",
+    "dificultad": "media",
+    "pregunta": "¿Qué significa 'HP' en los motores de automóvil?",
+    "opciones": [
+      "High Performance",
+      "Horsepower (caballos de fuerza)",
+      "Hydraulic Pressure",
+      "Heat Power"
+    ],
+    "respuesta_correcta": "Horsepower (caballos de fuerza)",
+    "dato_interesante": "James Watt definió el caballo de fuerza comparando la potencia de sus máquinas de vapor con la de los caballos.",
+    "pista_estudio": "Investiga la unidad de medida de potencia en motores y la diferencia entre HP y kW."
+  },
+  {
+    "id": 1066,
+    "categoria": "autos",
+    "dificultad": "facil",
+    "pregunta": "¿Qué marca de automóviles es conocida por el modelo 'Mustang'?",
+    "opciones": [
+      "Chevrolet",
+      "Dodge",
+      "Ford",
+      "Chrysler"
+    ],
+    "respuesta_correcta": "Ford",
+    "dato_interesante": "El Ford Mustang fue lanzado en 1964 y creó el segmento de los 'pony cars' en Estados Unidos.",
+    "pista_estudio": "Investiga la historia del Ford Mustang y su impacto en la cultura del automóvil americano."
+  },
+  {
+    "id": 1067,
+    "categoria": "autos",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es el nombre del sistema de control de tracción que previene el deslizamiento de las ruedas?",
+    "opciones": [
+      "ABS",
+      "ESP",
+      "TCS (Traction Control System)",
+      "EBD"
+    ],
+    "respuesta_correcta": "TCS (Traction Control System)",
+    "dato_interesante": "El TCS trabaja junto con el ABS para evitar que las ruedas giren en vacío en superficies resbaladizas.",
+    "pista_estudio": "Investiga los sistemas electrónicos de seguridad activa en los vehículos modernos."
+  },
+  {
+    "id": 1068,
+    "categoria": "autos",
+    "dificultad": "media",
+    "pregunta": "¿Cuál es la marca de automóviles de lujo perteneciente al grupo Volkswagen?",
+    "opciones": [
+      "Mercedes-Benz",
+      "BMW",
+      "Audi",
+      "Lexus"
+    ],
+    "respuesta_correcta": "Audi",
+    "dato_interesante": "El Grupo Volkswagen posee además a Lamborghini, Porsche, Bentley, Bugatti y otras marcas premium.",
+    "pista_estudio": "Investiga los grandes grupos automotrices y las marcas que pertenecen a cada uno."
+  },
+  {
+    "id": 1069,
+    "categoria": "autos",
+    "dificultad": "facil",
+    "pregunta": "¿Qué automóvil fue el más vendido en la historia hasta que fue superado por el Toyota Corolla?",
+    "opciones": [
+      "Ford F-150",
+      "Volkswagen Golf",
+      "Volkswagen Beetle",
+      "Ford Model T"
+    ],
+    "respuesta_correcta": "Volkswagen Beetle",
+    "dato_interesante": "El VW Beetle tuvo más de 21 millones de unidades producidas antes de que el Corolla lo superara.",
+    "pista_estudio": "Investiga la historia del Volkswagen Beetle y su diseño encargado originalmente por Adolf Hitler."
+  },
+  {
+    "id": 1070,
+    "categoria": "autos",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué es el 'torque' en un motor de automóvil?",
+    "opciones": [
+      "La velocidad máxima del motor",
+      "La fuerza de rotación que genera el motor",
+      "El consumo de combustible",
+      "La presión de las llantas"
+    ],
+    "respuesta_correcta": "La fuerza de rotación que genera el motor",
+    "dato_interesante": "El torque determina la capacidad de aceleración y remolque; se mide en Newton-metro (Nm).",
+    "pista_estudio": "Investiga la diferencia entre potencia (HP) y torque (Nm) en los motores de combustión."
+  },
+  {
+    "id": 1071,
+    "categoria": "autos",
+    "dificultad": "media",
+    "pregunta": "¿Cuál fue el primer automóvil de producción masiva de la historia?",
+    "opciones": [
+      "Ford Model N",
+      "Ford Model T",
+      "Benz Victoria",
+      "Oldsmobile Curved Dash"
+    ],
+    "respuesta_correcta": "Ford Model T",
+    "dato_interesante": "El Ford Model T (1908) se fabricó en cadena de ensamblaje, democratizando el automóvil.",
+    "pista_estudio": "Investiga la revolución industrial que representó la línea de ensamblaje de Henry Ford."
+  },
+  {
+    "id": 1072,
+    "categoria": "autos",
+    "dificultad": "facil",
+    "pregunta": "¿Qué marca de autos tiene las iniciales 'BMW'?",
+    "opciones": [
+      "Bayerische Motoren Werke",
+      "British Motor Works",
+      "Belgian Mechanical Wheels",
+      "Berlin Motor Workshop"
+    ],
+    "respuesta_correcta": "Bayerische Motoren Werke",
+    "dato_interesante": "BMW fue fundada en 1916 en Múnich, Baviera (Bayern en alemán), originalmente como fabricante de motores de avión.",
+    "pista_estudio": "Investiga la historia de BMW y su evolución desde motores de aviación hasta automóviles de lujo."
+  },
+  {
+    "id": 1073,
+    "categoria": "autos",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es el nombre del circuito de Fórmula 1 más antiguo del calendario?",
+    "opciones": [
+      "Circuito de Mónaco",
+      "Circuito de Silverstone",
+      "Autodromo di Monza",
+      "Circuit de la Sarthe"
+    ],
+    "respuesta_correcta": "Autodromo di Monza",
+    "dato_interesante": "Monza fue construido en 1922 y es conocido como 'El templo de la velocidad' por sus largas rectas.",
+    "pista_estudio": "Investiga la historia del Autodromo Nazionale Monza y su importancia en la Fórmula 1."
+  },
+  {
+    "id": 1074,
+    "categoria": "autos",
+    "dificultad": "media",
+    "pregunta": "¿Qué marca japonesa produce el modelo Civic?",
+    "opciones": [
+      "Toyota",
+      "Nissan",
+      "Honda",
+      "Mazda"
+    ],
+    "respuesta_correcta": "Honda",
+    "dato_interesante": "El Honda Civic fue lanzado en 1972 y es uno de los autos compactos más exitosos de la historia.",
+    "pista_estudio": "Investiga la historia de Honda y su modelo más emblemático."
+  },
+  {
+    "id": 1075,
+    "categoria": "autos",
+    "dificultad": "facil",
+    "pregunta": "¿Cuántas marcas de automóviles forman el grupo Stellantis?",
+    "opciones": [
+      "8",
+      "10",
+      "14",
+      "16"
+    ],
+    "respuesta_correcta": "14",
+    "dato_interesante": "Stellantis nació en 2021 de la fusión de PSA (Peugeot-Citroën) y FCA (Fiat-Chrysler), con 14 marcas.",
+    "pista_estudio": "Investiga los grandes grupos automovilísticos mundiales y las marcas que los componen."
+  },
+  {
+    "id": 1076,
+    "categoria": "autos",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué sistema de frenos evita que las ruedas se bloqueen en una frenada brusca?",
+    "opciones": [
+      "ESP",
+      "TCS",
+      "ABS",
+      "EBD"
+    ],
+    "respuesta_correcta": "ABS",
+    "dato_interesante": "ABS (Anti-lock Braking System) fue desarrollado por Bosch y Mercedes-Benz en 1978.",
+    "pista_estudio": "Investiga el funcionamiento del sistema ABS y cómo mejora la seguridad de frenado."
+  },
+  {
+    "id": 1077,
+    "categoria": "autos",
+    "dificultad": "media",
+    "pregunta": "¿En qué país fue fundada la marca de autos Hyundai?",
+    "opciones": [
+      "Japón",
+      "China",
+      "Corea del Sur",
+      "Vietnam"
+    ],
+    "respuesta_correcta": "Corea del Sur",
+    "dato_interesante": "Hyundai fue fundada en 1967 y hoy es la tercera marca más vendida del mundo.",
+    "pista_estudio": "Investiga el ascenso de la industria automotriz coreana y el grupo Hyundai-Kia."
+  },
+  {
+    "id": 1078,
+    "categoria": "autos",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es el auto deportivo más icónico de Chevrolet?",
+    "opciones": [
+      "Camaro",
+      "Silverado",
+      "Corvette",
+      "Impala"
+    ],
+    "respuesta_correcta": "Corvette",
+    "dato_interesante": "El Chevrolet Corvette es el auto deportivo americano más longevo, producido desde 1953.",
+    "pista_estudio": "Investiga la historia del Corvette y su evolución desde los años 50 hasta el modelo C8."
+  },
+  {
+    "id": 1079,
+    "categoria": "autos",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es la unidad de medida de la eficiencia de combustible en México?",
+    "opciones": [
+      "MPG",
+      "L/100km",
+      "km/L",
+      "Ambas b y c"
+    ],
+    "respuesta_correcta": "Ambas b y c",
+    "dato_interesante": "En México se usan tanto km/L como L/100km; el gobierno usa km/L en la norma oficial de etiquetado.",
+    "pista_estudio": "Investiga las normas de eficiencia de combustible en México y cómo compararlas con estándares internacionales."
+  },
+  {
+    "id": 1080,
+    "categoria": "autos",
+    "dificultad": "media",
+    "pregunta": "¿Qué marca britànica produce el Rolls-Royce Phantom?",
+    "opciones": [
+      "Bentley",
+      "Rolls-Royce",
+      "Jaguar",
+      "Aston Martin"
+    ],
+    "respuesta_correcta": "Rolls-Royce",
+    "dato_interesante": "El Rolls-Royce Phantom es considerado el automóvil de lujo más exclusivo del mundo.",
+    "pista_estudio": "Investiga la historia de Rolls-Royce y su reputación como el pináculo del lujo automotriz."
+  },
+  {
+    "id": 1081,
+    "categoria": "autos",
+    "dificultad": "facil",
+    "pregunta": "¿Qué tipo de combustible usan los autos de Fórmula 1?",
+    "opciones": [
+      "Gasolina común",
+      "Gasolina de alta octanaje modificada",
+      "Diesel",
+      "Hidrógeno"
+    ],
+    "respuesta_correcta": "Gasolina de alta octanaje modificada",
+    "dato_interesante": "La F1 usa combustible con 98 octanos con componentes biosintetizados según las nuevas regulaciones 2022.",
+    "pista_estudio": "Investiga las regulaciones técnicas de la Fórmula 1 y la tecnología de sus combustibles."
+  },
+  {
+    "id": 1082,
+    "categoria": "autos",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál fue el primer país en implementar obligatoriamente el uso del cinturón de seguridad?",
+    "opciones": [
+      "Suecia",
+      "Australia",
+      "Alemania",
+      "Estados Unidos"
+    ],
+    "respuesta_correcta": "Australia",
+    "dato_interesante": "Victoria, Australia, fue la primera región del mundo en hacer obligatorio el cinturón en 1970.",
+    "pista_estudio": "Investiga la historia del cinturón de seguridad y las políticas de tráfico que lo universalizaron."
+  },
+  {
+    "id": 1083,
+    "categoria": "autos",
+    "dificultad": "media",
+    "pregunta": "¿Qué significa 'SUV' en el mundo automotriz?",
+    "opciones": [
+      "Super Urban Vehicle",
+      "Sport Utility Vehicle",
+      "Standard Universal Vehicle",
+      "Special Urban Van"
+    ],
+    "respuesta_correcta": "Sport Utility Vehicle",
+    "dato_interesante": "Los SUV son actualmente el segmento más vendido del mundo, superando a sedanes y compactos.",
+    "pista_estudio": "Investiga el origen del segmento SUV y cómo dominó el mercado automotriz global."
+  },
+  {
+    "id": 1084,
+    "categoria": "autos",
+    "dificultad": "facil",
+    "pregunta": "¿Cuántos pedales tiene un auto con transmisión manual?",
+    "opciones": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "respuesta_correcta": "3",
+    "dato_interesante": "Los tres pedales son: clutch (embrague), freno y acelerador.",
+    "pista_estudio": "Investiga la diferencia entre transmisión manual y automática y sus ventajas respectivas."
+  },
+  {
+    "id": 1085,
+    "categoria": "autos",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es el nombre de la carrera de resistencia más famosa del mundo que dura 24 horas?",
+    "opciones": [
+      "Dakar",
+      "Mille Miglia",
+      "24 Horas de Le Mans",
+      "Carrera Panamericana"
+    ],
+    "respuesta_correcta": "24 Horas de Le Mans",
+    "dato_interesante": "Las 24 Horas de Le Mans se celebran desde 1923 en el Circuito de la Sarthe, en Francia.",
+    "pista_estudio": "Investiga la historia de las 24 Horas de Le Mans y las marcas más exitosas en esta carrera."
+  },
+  {
+    "id": 1086,
+    "categoria": "autos",
+    "dificultad": "media",
+    "pregunta": "¿Qué marca produce el modelo 'Wrangler', famoso por su capacidad todo terreno?",
+    "opciones": [
+      "Land Rover",
+      "Toyota",
+      "Jeep",
+      "Ford"
+    ],
+    "respuesta_correcta": "Jeep",
+    "dato_interesante": "El Jeep Wrangler desciende directamente del Jeep militar usado en la Segunda Guerra Mundial.",
+    "pista_estudio": "Investiga la historia de Jeep y su legado en los vehículos todo terreno."
+  },
+  {
+    "id": 1087,
+    "categoria": "autos",
+    "dificultad": "facil",
+    "pregunta": "¿Qué tipo de motor usa el Toyota Prius que lo hace más eficiente?",
+    "opciones": [
+      "Motor diésel",
+      "Motor eléctrico puro",
+      "Motor híbrido",
+      "Motor de hidrógeno"
+    ],
+    "respuesta_correcta": "Motor híbrido",
+    "dato_interesante": "El Toyota Prius fue el primer automóvil híbrido de producción masiva, lanzado en Japón en 1997.",
+    "pista_estudio": "Investiga cómo funcionan los sistemas de propulsión híbrida y sus ventajas ambientales."
+  },
+  {
+    "id": 1088,
+    "categoria": "autos",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es el nombre del famoso rally que recorre el desierto del Sahara?",
+    "opciones": [
+      "Rally Monte Carlo",
+      "Rally de Portugal",
+      "Dakar",
+      "Safari Rally"
+    ],
+    "respuesta_correcta": "Dakar",
+    "dato_interesante": "El Rally Dakar empezó en París y terminaba en Dakar, Senegal; desde 2009 se corre en América del Sur.",
+    "pista_estudio": "Investiga la historia del Rally Dakar y su traslado a Sudamérica y luego a Arabia Saudita."
+  },
+  {
+    "id": 1089,
+    "categoria": "autos",
+    "dificultad": "media",
+    "pregunta": "¿Qué fabricante produce el automóvil eléctrico 'Model S'?",
+    "opciones": [
+      "Rivian",
+      "Lucid Motors",
+      "Tesla",
+      "NIO"
+    ],
+    "respuesta_correcta": "Tesla",
+    "dato_interesante": "El Tesla Model S fue lanzado en 2012 y revolucionó la percepción de los autos eléctricos de lujo.",
+    "pista_estudio": "Investiga la historia de Tesla y cómo cambió la industria automotriz hacia la electrificación."
+  },
+  {
+    "id": 1090,
+    "categoria": "autos",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es el país que produce más automóviles en el mundo actualmente?",
+    "opciones": [
+      "Alemania",
+      "Estados Unidos",
+      "Japón",
+      "China"
+    ],
+    "respuesta_correcta": "China",
+    "dato_interesante": "China produce más de 26 millones de vehículos al año, casi el 30% de la producción mundial.",
+    "pista_estudio": "Investiga el crecimiento de la industria automotriz china y sus marcas emergentes."
+  },
+  {
+    "id": 1091,
+    "categoria": "autos",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es el nombre del famoso motor de Fórmula 1 que Ferrari usó con gran éxito en los años 2000?",
+    "opciones": [
+      "Motor Tipo 044",
+      "Motor Tipo 050",
+      "Motor 049",
+      "Motor 046"
+    ],
+    "respuesta_correcta": "Motor Tipo 049",
+    "dato_interesante": "Michael Schumacher ganó 5 títulos consecutivos (2000-2004) con Ferrari usando motores V10.",
+    "pista_estudio": "Investiga la era dorada de Ferrari y Michael Schumacher en la Fórmula 1 de los años 2000."
+  },
+  {
+    "id": 1092,
+    "categoria": "autos",
+    "dificultad": "media",
+    "pregunta": "¿Qué marca de automóviles tiene el lema 'Das Auto' (El Automóvil)?",
+    "opciones": [
+      "Audi",
+      "BMW",
+      "Volkswagen",
+      "Mercedes-Benz"
+    ],
+    "respuesta_correcta": "Volkswagen",
+    "dato_interesante": "Volkswagen significa 'auto del pueblo' en alemán; fue concebido para ser accesible a todos los alemanes.",
+    "pista_estudio": "Investiga la historia de Volkswagen y su origen durante la Alemania de los años 30."
+  },
+  {
+    "id": 1093,
+    "categoria": "autos",
+    "dificultad": "facil",
+    "pregunta": "¿Qué es el 'OBD' en un automóvil moderno?",
+    "opciones": [
+      "Optional Backup Drive",
+      "On-Board Diagnostics",
+      "Overhead Brake Device",
+      "Output Battery Display"
+    ],
+    "respuesta_correcta": "On-Board Diagnostics",
+    "dato_interesante": "El puerto OBD-II (estándar desde 1996) permite leer los códigos de error del auto con un escáner.",
+    "pista_estudio": "Investiga el sistema OBD y cómo los mecánicos diagnostican fallas en los vehículos modernos."
+  },
+  {
+    "id": 1094,
+    "categoria": "autos",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es el automóvil de producción más caro vendido en una subasta?",
+    "opciones": [
+      "Ferrari 250 GTO",
+      "Bugatti La Voiture Noire",
+      "Mercedes-Benz 300 SLR",
+      "Rolls-Royce Sweptail"
+    ],
+    "respuesta_correcta": "Mercedes-Benz 300 SLR",
+    "dato_interesante": "Un Mercedes-Benz 300 SLR Uhlenhaut Coupé de 1955 fue vendido en 2022 por 135 millones de euros.",
+    "pista_estudio": "Investiga las subastas de automóviles clásicos y por qué algunos alcanzan precios astronómicos."
+  },
+  {
+    "id": 1095,
+    "categoria": "autos",
+    "dificultad": "media",
+    "pregunta": "¿Qué tipo de suspensión es la más común en los automóviles de pasajeros modernos?",
+    "opciones": [
+      "Eje rígido",
+      "Suspensión de doble horquilla",
+      "Suspensión MacPherson",
+      "Suspensión neumática"
+    ],
+    "respuesta_correcta": "Suspensión MacPherson",
+    "dato_interesante": "Earle S. MacPherson diseñó este sistema en 1945; es simple, ligero y muy eficiente para uso cotidiano.",
+    "pista_estudio": "Investiga los tipos de suspensión en vehículos y sus ventajas e inconvenientes."
+  },
+  {
+    "id": 1096,
+    "categoria": "autos",
+    "dificultad": "facil",
+    "pregunta": "¿Qué piloto de F1 tiene más campeonatos mundiales empatado con Michael Schumacher?",
+    "opciones": [
+      "Sebastian Vettel",
+      "Ayrton Senna",
+      "Lewis Hamilton",
+      "Fernando Alonso"
+    ],
+    "respuesta_correcta": "Lewis Hamilton",
+    "dato_interesante": "Lewis Hamilton igualó los 7 títulos de Schumacher en 2020 y busca su octavo campeonato.",
+    "pista_estudio": "Investiga los récords de Lewis Hamilton en la Fórmula 1 y su legado en el automovilismo."
+  },
+  {
+    "id": 1097,
+    "categoria": "autos",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál fue el primer automóvil en superar los 1,000 km/h de velocidad?",
+    "opciones": [
+      "Thrust SSC",
+      "Thrust2",
+      "Blue Flame",
+      "ThrustSSC"
+    ],
+    "respuesta_correcta": "Thrust SSC",
+    "dato_interesante": "El Thrust SSC alcanzó 1,228 km/h en 1997, siendo el primer vehículo terrestre en romper la barrera del sonido.",
+    "pista_estudio": "Investiga los récords de velocidad terrestre y los vehículos propulsados por reactores."
+  },
+  {
+    "id": 1098,
+    "categoria": "autos",
+    "dificultad": "media",
+    "pregunta": "¿Qué marca de pickup es la más vendida en Estados Unidos durante décadas?",
+    "opciones": [
+      "Chevrolet Silverado",
+      "Ram 1500",
+      "Ford F-150",
+      "Toyota Tundra"
+    ],
+    "respuesta_correcta": "Ford F-150",
+    "dato_interesante": "La Ford F-Series lleva más de 40 años consecutivos siendo el vehículo más vendido en EE.UU.",
+    "pista_estudio": "Investiga la importancia cultural de las pickups en EE.UU. y la dominancia de Ford en ese segmento."
+  },
+  {
+    "id": 1099,
+    "categoria": "autos",
+    "dificultad": "facil",
+    "pregunta": "¿Qué significa la letra 'N' en el modelo 'Hyundai Elantra N'?",
+    "opciones": [
+      "New",
+      "Namyang (centro de I+D de Hyundai)",
+      "North",
+      "Neutral"
+    ],
+    "respuesta_correcta": "Namyang (centro de I+D de Hyundai)",
+    "dato_interesante": "La división 'N' de Hyundai también se inspira en Nürburgring, el circuito donde prueban sus autos.",
+    "pista_estudio": "Investiga las divisiones de alto rendimiento de las marcas automotrices: AMG, M, N, RS, S."
+  },
+  {
+    "id": 1100,
+    "categoria": "autos",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál fue el primer vehículo eléctrico en la historia?",
+    "opciones": [
+      "Ford Model E 1900",
+      "Riker Electric Tricycle 1884",
+      "Jamais Contente 1899",
+      "La Jamais Contente"
+    ],
+    "respuesta_correcta": "La Jamais Contente",
+    "dato_interesante": "En 1899, el belga Camille Jenatzy superó los 100 km/h en su auto eléctrico 'La Jamais Contente'.",
+    "pista_estudio": "Investiga la historia de los vehículos eléctricos del siglo XIX y su renacimiento actual."
+  },
+  {
+    "id": 1101,
+    "categoria": "gastronomia",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es el plato nacional de México reconocido por la UNESCO como Patrimonio Cultural?",
+    "opciones": [
+      "Tacos",
+      "Mole",
+      "La gastronomía mexicana en general",
+      "Pozole"
+    ],
+    "respuesta_correcta": "La gastronomía mexicana en general",
+    "dato_interesante": "En 2010, la UNESCO declaró la cocina tradicional mexicana como Patrimonio Cultural Inmaterial.",
+    "pista_estudio": "Investiga las gastronomías declaradas Patrimonio de la Humanidad y qué las hace únicas."
+  },
+  {
+    "id": 1102,
+    "categoria": "gastronomia",
+    "dificultad": "facil",
+    "pregunta": "¿De qué país es originaria la pizza?",
+    "opciones": [
+      "Grecia",
+      "Francia",
+      "España",
+      "Italia"
+    ],
+    "respuesta_correcta": "Italia",
+    "dato_interesante": "La pizza Margherita nació en Nápoles en 1889; sus colores (rojo, blanco y verde) representan la bandera italiana.",
+    "pista_estudio": "Investiga la historia de la pizza napolitana y su expansión mundial."
+  },
+  {
+    "id": 1103,
+    "categoria": "gastronomia",
+    "dificultad": "media",
+    "pregunta": "¿Cuál es la especia más cara del mundo?",
+    "opciones": [
+      "Vainilla",
+      "Cardamomo",
+      "Azafrán",
+      "Trufa negra"
+    ],
+    "respuesta_correcta": "Azafrán",
+    "dato_interesante": "El azafrán puede costar más de $10,000 por kilo porque se extrae manualmente de la flor Crocus sativus.",
+    "pista_estudio": "Investiga la producción del azafrán y por qué su cosecha es tan laboriosa."
+  },
+  {
+    "id": 1104,
+    "categoria": "gastronomia",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es el ingrediente principal del guacamole?",
+    "opciones": [
+      "Tomate",
+      "Chile",
+      "Aguacate",
+      "Cebolla"
+    ],
+    "respuesta_correcta": "Aguacate",
+    "dato_interesante": "El guacamole tiene más de 500 años de historia y fue creado por los aztecas, llamándolo 'ahuacamolli'.",
+    "pista_estudio": "Investiga el origen prehispánico del guacamole y su importancia en la cocina mexicana."
+  },
+  {
+    "id": 1105,
+    "categoria": "gastronomia",
+    "dificultad": "dificil",
+    "pregunta": "¿En qué país se originó la técnica culinaria 'sous vide'?",
+    "opciones": [
+      "Japón",
+      "España",
+      "Francia",
+      "Dinamarca"
+    ],
+    "respuesta_correcta": "Francia",
+    "dato_interesante": "El sous vide (al vacío) fue desarrollado en los años 70 por el chef George Pralus y el científico Bruno Goussault.",
+    "pista_estudio": "Investiga la técnica de cocción sous vide y su uso en la alta cocina moderna."
+  },
+  {
+    "id": 1106,
+    "categoria": "gastronomia",
+    "dificultad": "media",
+    "pregunta": "¿Cuál es el queso más consumido en el mundo?",
+    "opciones": [
+      "Cheddar",
+      "Gouda",
+      "Mozzarella",
+      "Parmesano"
+    ],
+    "respuesta_correcta": "Mozzarella",
+    "dato_interesante": "La mozzarella es el queso más producido mundialmente por su uso en pizzas.",
+    "pista_estudio": "Investiga los tipos de queso más populares del mundo y sus países de origen."
+  },
+  {
+    "id": 1107,
+    "categoria": "gastronomia",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es la bebida alcohólica más consumida en el mundo?",
+    "opciones": [
+      "Vino",
+      "Vodka",
+      "Cerveza",
+      "Whisky"
+    ],
+    "respuesta_correcta": "Cerveza",
+    "dato_interesante": "La cerveza es la bebida alcohólica más antigua y más consumida del mundo, con más de 7,000 años de historia.",
+    "pista_estudio": "Investiga el origen de la cerveza en la Mesopotamia antigua y su evolución hasta hoy."
+  },
+  {
+    "id": 1108,
+    "categoria": "gastronomia",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es el nombre del famoso cocinero español considerado padre de la gastronomía molecular?",
+    "opciones": [
+      "Joël Robuchon",
+      "Ferran Adrià",
+      "René Redzepi",
+      "Heston Blumenthal"
+    ],
+    "respuesta_correcta": "Ferran Adrià",
+    "dato_interesante": "Ferran Adrià y su restaurante elBulli en Cataluña revolucionaron la cocina moderna con técnicas como la esferificación.",
+    "pista_estudio": "Investiga la cocina molecular y sus principales técnicas: esferificación, gelificación y emulsificación."
+  },
+  {
+    "id": 1109,
+    "categoria": "gastronomia",
+    "dificultad": "media",
+    "pregunta": "¿Cuál es el ingrediente principal del kimchi, el plato fermentado coreano?",
+    "opciones": [
+      "Soja",
+      "Repollo (col china)",
+      "Rábano",
+      "Pepino"
+    ],
+    "respuesta_correcta": "Repollo (col china)",
+    "dato_interesante": "El kimchi es Patrimonio Cultural Inmaterial de Corea del Norte y del Sur, con más de 2,000 años de historia.",
+    "pista_estudio": "Investiga los alimentos fermentados del mundo y sus beneficios para la salud."
+  },
+  {
+    "id": 1110,
+    "categoria": "gastronomia",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es la pasta más conocida de Italia con forma de lazo o mariposa?",
+    "opciones": [
+      "Penne",
+      "Rigatoni",
+      "Farfalle",
+      "Fusilli"
+    ],
+    "respuesta_correcta": "Farfalle",
+    "dato_interesante": "Farfalle significa 'mariposas' en italiano; también se llaman 'moños' en algunos países latinoamericanos.",
+    "pista_estudio": "Investiga los más de 350 tipos de pasta italiana y sus formas características."
+  },
+  {
+    "id": 1111,
+    "categoria": "gastronomia",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué es el 'umami'?",
+    "opciones": [
+      "Un condimento japonés",
+      "El quinto sabor básico, descubierto por Kikunae Ikeda",
+      "Un tipo de salsa",
+      "Un método de cocción"
+    ],
+    "respuesta_correcta": "El quinto sabor básico, descubierto por Kikunae Ikeda",
+    "dato_interesante": "El umami fue identificado en 1908 por el japonés Ikeda al estudiar el alga kombu; la palabra significa 'sabor delicioso'.",
+    "pista_estudio": "Investiga los cinco sabores básicos: dulce, salado, ácido, amargo y umami."
+  },
+  {
+    "id": 1112,
+    "categoria": "gastronomia",
+    "dificultad": "media",
+    "pregunta": "¿De qué país es originaria la cocina 'Pad Thai'?",
+    "opciones": [
+      "Vietnam",
+      "China",
+      "Tailandia",
+      "Malasia"
+    ],
+    "respuesta_correcta": "Tailandia",
+    "dato_interesante": "El Pad Thai fue promovido por el gobierno tailandés en los años 30 como plato nacional para unificar al país.",
+    "pista_estudio": "Investiga la gastronomía del Sudeste Asiático y los platos más representativos de cada país."
+  },
+  {
+    "id": 1113,
+    "categoria": "gastronomia",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es el ingrediente que le da color amarillo al curry?",
+    "opciones": [
+      "Azafrán",
+      "Cúrcuma",
+      "Curry en polvo",
+      "Pimienta"
+    ],
+    "respuesta_correcta": "Cúrcuma",
+    "dato_interesante": "La curcumina de la cúrcuma también tiene propiedades antiinflamatorias reconocidas por la ciencia.",
+    "pista_estudio": "Investiga las especias más importantes de la cocina asiática y sus beneficios medicinales."
+  },
+  {
+    "id": 1114,
+    "categoria": "gastronomia",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es el restaurante con más estrellas Michelin en el mundo?",
+    "opciones": [
+      "El Celler de Can Roca (España)",
+      "Noma (Dinamarca)",
+      "Robuchon au Dôme (Macao)",
+      "Schloss Schauenstein (Suiza)"
+    ],
+    "respuesta_correcta": "Robuchon au Dôme (Macao)",
+    "dato_interesante": "Joël Robuchon fue el chef con más estrellas Michelin en el mundo, con 32 estrellas acumuladas en su carrera.",
+    "pista_estudio": "Investiga la Guía Michelin y cómo otorgan las estrellas a los restaurantes del mundo."
+  },
+  {
+    "id": 1115,
+    "categoria": "gastronomia",
+    "dificultad": "media",
+    "pregunta": "¿Cuál es el aceite más usado en la cocina mediterránea?",
+    "opciones": [
+      "Aceite de girasol",
+      "Aceite de oliva",
+      "Aceite de canola",
+      "Aceite de coco"
+    ],
+    "respuesta_correcta": "Aceite de oliva",
+    "dato_interesante": "El aceite de oliva extra virgen es rico en ácido oleico y polifenoles, beneficiosos para la salud cardiovascular.",
+    "pista_estudio": "Investiga la dieta mediterránea y el papel fundamental del aceite de oliva en ella."
+  },
+  {
+    "id": 1116,
+    "categoria": "gastronomia",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es el plato de arroz frito más famoso de la cocina española?",
+    "opciones": [
+      "Risotto",
+      "Arroz con leche",
+      "Paella",
+      "Arroz negro"
+    ],
+    "respuesta_correcta": "Paella",
+    "dato_interesante": "La paella valenciana original se hace con conejo, pollo, judías y azafrán; el marisco llegó después.",
+    "pista_estudio": "Investiga el origen de la paella y la polémica sobre sus ingredientes auténticos."
+  },
+  {
+    "id": 1117,
+    "categoria": "gastronomia",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué técnica usa el hielo seco en gastronomía para crear efectos de humo?",
+    "opciones": [
+      "Flambear",
+      "Nitrógeno líquido",
+      "Dry Ice (CO2 sólido)",
+      "Reducción"
+    ],
+    "respuesta_correcta": "Dry Ice (CO2 sólido)",
+    "dato_interesante": "El hielo seco se sublima a -78.5°C creando el efecto de niebla que fascina en la presentación de platos.",
+    "pista_estudio": "Investiga las técnicas de la cocina de vanguardia y el uso de la química en la gastronomía moderna."
+  },
+  {
+    "id": 1118,
+    "categoria": "gastronomia",
+    "dificultad": "media",
+    "pregunta": "¿De qué país es originario el sushi?",
+    "opciones": [
+      "China",
+      "Corea",
+      "Vietnam",
+      "Japón"
+    ],
+    "respuesta_correcta": "Japón",
+    "dato_interesante": "El sushi original era un método de conservar pescado en arroz fermentado; el arroz se tiraba.",
+    "pista_estudio": "Investiga la evolución del sushi desde sus orígenes en el sureste asiático hasta la forma moderna japonesa."
+  },
+  {
+    "id": 1119,
+    "categoria": "gastronomia",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es el postre más famoso de Francia hecho con masa choux?",
+    "opciones": [
+      "Éclair",
+      "Croissant",
+      "Macaron",
+      "Crème brûlée"
+    ],
+    "respuesta_correcta": "Éclair",
+    "dato_interesante": "El éclair es un pastel alargado relleno de crema y cubierto de fondant; su nombre significa 'relámpago'.",
+    "pista_estudio": "Investiga la pastelería francesa y sus técnicas de masa choux, hojaldre y genoise."
+  },
+  {
+    "id": 1120,
+    "categoria": "gastronomia",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es la diferencia entre 'maridaje' y 'armonía' en el vino?",
+    "opciones": [
+      "Son sinónimos",
+      "Maridaje es vino con comida; armonía es vino con vino",
+      "No existe el término armonía",
+      "Maridaje es técnico y armonía es casual"
+    ],
+    "respuesta_correcta": "Son sinónimos",
+    "dato_interesante": "En España se prefiere 'maridaje' y en Latinoamérica 'armonía' pero ambos describen la combinación ideal de vino y comida.",
+    "pista_estudio": "Investiga los principios del maridaje de vinos y los factores que determinan una buena combinación."
+  },
+  {
+    "id": 1121,
+    "categoria": "gastronomia",
+    "dificultad": "media",
+    "pregunta": "¿Cuál es el corte de carne más caro de la res?",
+    "opciones": [
+      "Sirloin",
+      "Rib eye",
+      "Filete (tenderloin)",
+      "New York"
+    ],
+    "respuesta_correcta": "Filete (tenderloin)",
+    "dato_interesante": "El filete o tenderloin es el músculo menos ejercitado de la res, por eso es el más tierno y costoso.",
+    "pista_estudio": "Investiga los diferentes cortes de res y cómo varía su textura y precio según el músculo."
+  },
+  {
+    "id": 1122,
+    "categoria": "gastronomia",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es el ingrediente principal del hummus?",
+    "opciones": [
+      "Lentejas",
+      "Garbanzos",
+      "Frijoles blancos",
+      "Soja"
+    ],
+    "respuesta_correcta": "Garbanzos",
+    "dato_interesante": "El hummus tiene más de 700 años de historia en el Medio Oriente; se hace con garbanzos, tahini, limón y ajo.",
+    "pista_estudio": "Investiga la gastronomía del Medio Oriente y sus ingredientes más representativos."
+  },
+  {
+    "id": 1123,
+    "categoria": "gastronomia",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué chef francés es considerado el padre de la cocina clásica francesa moderna?",
+    "opciones": [
+      "Paul Bocuse",
+      "Auguste Escoffier",
+      "Alain Ducasse",
+      "Michel Guérard"
+    ],
+    "respuesta_correcta": "Auguste Escoffier",
+    "dato_interesante": "Escoffier codificó las recetas de la cocina francesa en 'Le Guide Culinaire' (1903) que sigue siendo referencia.",
+    "pista_estudio": "Investiga la historia de la cocina francesa y el papel de Escoffier en su sistematización."
+  },
+  {
+    "id": 1124,
+    "categoria": "gastronomia",
+    "dificultad": "media",
+    "pregunta": "¿Cuál es el plato más representativo de la cocina peruana mundialmente reconocido?",
+    "opciones": [
+      "Lomo saltado",
+      "Arroz con leche",
+      "Ceviche",
+      "Causa limeña"
+    ],
+    "respuesta_correcta": "Ceviche",
+    "dato_interesante": "El ceviche peruano fue declarado Patrimonio Cultural de la Nación en Perú; tiene más de 2,000 años de historia.",
+    "pista_estudio": "Investiga la gastronomía peruana y por qué Lima es considerada la capital culinaria de América Latina."
+  },
+  {
+    "id": 1125,
+    "categoria": "gastronomia",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es la fruta más consumida en el mundo?",
+    "opciones": [
+      "Manzana",
+      "Naranja",
+      "Plátano (banana)",
+      "Mango"
+    ],
+    "respuesta_correcta": "Plátano (banana)",
+    "dato_interesante": "El plátano es la fruta más consumida del mundo, con más de 120 millones de toneladas producidas al año.",
+    "pista_estudio": "Investiga los cultivos frutícolas más importantes del mundo y sus regiones de producción."
+  },
+  {
+    "id": 1126,
+    "categoria": "gastronomia",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es el proceso que convierte la leche en queso a través de bacterias?",
+    "opciones": [
+      "Pasteurización",
+      "Fermentación y coagulación",
+      "Homogeneización",
+      "Esterilización"
+    ],
+    "respuesta_correcta": "Fermentación y coagulación",
+    "dato_interesante": "Las bacterias lácticas fermentan la lactosa y el cuajo (renina) coagula las proteínas para formar el queso.",
+    "pista_estudio": "Investiga el proceso de elaboración del queso y los distintos tipos de bacterias y hongos usados."
+  },
+  {
+    "id": 1127,
+    "categoria": "gastronomia",
+    "dificultad": "media",
+    "pregunta": "¿Cuál es el ingrediente que le da sabor picante a los chiles?",
+    "opciones": [
+      "Ácido cítrico",
+      "Capsaicina",
+      "Piperina",
+      "Alicina"
+    ],
+    "respuesta_correcta": "Capsaicina",
+    "dato_interesante": "La capsaicina se mide en Unidades Scoville (SHU); el chile más picante del mundo, el Pepper X, supera los 2.69 millones SHU.",
+    "pista_estudio": "Investiga la escala Scoville y los chiles más picantes del mundo."
+  },
+  {
+    "id": 1128,
+    "categoria": "gastronomia",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es el cereal más consumido en el mundo?",
+    "opciones": [
+      "Trigo",
+      "Maíz",
+      "Arroz",
+      "Cebada"
+    ],
+    "respuesta_correcta": "Arroz",
+    "dato_interesante": "El arroz es el alimento base de más de la mitad de la población mundial, especialmente en Asia.",
+    "pista_estudio": "Investiga los cereales más importantes del mundo y su distribución geográfica."
+  },
+  {
+    "id": 1129,
+    "categoria": "gastronomia",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es la denominación que protege los alimentos con origen geográfico específico en Europa?",
+    "opciones": [
+      "ISO Alimentario",
+      "DOP (Denominación de Origen Protegida)",
+      "Fair Trade",
+      "GI (Indicación Geográfica)"
+    ],
+    "respuesta_correcta": "DOP (Denominación de Origen Protegida)",
+    "dato_interesante": "El champán, el jamón serrano, el parmesano y la mozzarella tienen DOP que protege su autenticidad.",
+    "pista_estudio": "Investiga las denominaciones de origen y cómo protegen los alimentos tradicionales europeos."
+  },
+  {
+    "id": 1130,
+    "categoria": "gastronomia",
+    "dificultad": "media",
+    "pregunta": "¿Cuál es el plato de fideos más popular de Japón?",
+    "opciones": [
+      "Udon",
+      "Soba",
+      "Ramen",
+      "Somen"
+    ],
+    "respuesta_correcta": "Ramen",
+    "dato_interesante": "El ramen tiene sus orígenes en la cocina china y fue adoptado y transformado por los japoneses.",
+    "pista_estudio": "Investiga los diferentes tipos de ramen japonés y sus caldos característicos: tonkotsu, shoyu, miso y shio."
+  },
+  {
+    "id": 1131,
+    "categoria": "gastronomia",
+    "dificultad": "facil",
+    "pregunta": "¿De qué animal proviene el foie gras?",
+    "opciones": [
+      "Cerdo",
+      "Pato o ganso",
+      "Ternera",
+      "Conejo"
+    ],
+    "respuesta_correcta": "Pato o ganso",
+    "dato_interesante": "El foie gras es el hígado graso de pato o ganso sobrealimentado; es un lujo gastronómico pero muy controvertido.",
+    "pista_estudio": "Investiga la gastronomía de lujo francesa y la controversia ética en torno al foie gras."
+  },
+  {
+    "id": 1132,
+    "categoria": "gastronomia",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué sustancia química le da su sabor característico al chocolate amargo?",
+    "opciones": [
+      "Glucosa",
+      "Teobromina",
+      "Cafeína",
+      "Taninos"
+    ],
+    "respuesta_correcta": "Teobromina",
+    "dato_interesante": "La teobromina es el principal alcaloide del cacao; es tóxica para perros y gatos pero inofensiva para humanos.",
+    "pista_estudio": "Investiga la química del chocolate y los compuestos que le dan sus propiedades únicas."
+  },
+  {
+    "id": 1133,
+    "categoria": "gastronomia",
+    "dificultad": "media",
+    "pregunta": "¿Cuál es el método de cocción que usa el vapor sin contacto directo con el agua?",
+    "opciones": [
+      "Hervir",
+      "Escalfar",
+      "Cocer al vapor",
+      "Pochetar"
+    ],
+    "respuesta_correcta": "Cocer al vapor",
+    "dato_interesante": "La cocción al vapor preserva mejor los nutrientes que el hervido; es muy común en la cocina asiática.",
+    "pista_estudio": "Investiga los métodos de cocción y cómo afectan el valor nutricional de los alimentos."
+  },
+  {
+    "id": 1134,
+    "categoria": "gastronomia",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es el origen del chocolate?",
+    "opciones": [
+      "África",
+      "Europa",
+      "México y Centroamérica (Mesoamérica)",
+      "India"
+    ],
+    "respuesta_correcta": "México y Centroamérica (Mesoamérica)",
+    "dato_interesante": "Los mayas y aztecas consumían el cacao como bebida amarga y lo usaban como moneda.",
+    "pista_estudio": "Investiga el origen del cacao y cómo los europeos lo transformaron al añadirle azúcar."
+  },
+  {
+    "id": 1135,
+    "categoria": "gastronomia",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué es la 'reducción' en técnicas culinarias?",
+    "opciones": [
+      "Cortar los ingredientes en piezas pequeñas",
+      "Evaporar líquido para concentrar sabores",
+      "Enfriar rápidamente un preparado",
+      "Batir ingredientes hasta emulsionar"
+    ],
+    "respuesta_correcta": "Evaporar líquido para concentrar sabores",
+    "dato_interesante": "La reducción es clave en salsas; al evaporar el agua, los sabores se concentran y la textura se espesa.",
+    "pista_estudio": "Investiga las técnicas básicas de cocina francesa como reducción, liaison y liaison à la crème."
+  },
+  {
+    "id": 1136,
+    "categoria": "gastronomia",
+    "dificultad": "media",
+    "pregunta": "¿Cuál es el queso suizo famoso por sus agujeros?",
+    "opciones": [
+      "Gruyère",
+      "Emmental",
+      "Raclette",
+      "Appenzeller"
+    ],
+    "respuesta_correcta": "Emmental",
+    "dato_interesante": "Los agujeros del emmental son producidos por bacterias Propionibacterium que generan dióxido de carbono.",
+    "pista_estudio": "Investiga por qué algunos quesos tienen agujeros y la ciencia detrás de la fermentación quesera."
+  },
+  {
+    "id": 1137,
+    "categoria": "gastronomia",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es el plato más representativo de Argentina?",
+    "opciones": [
+      "Empanadas",
+      "Milanesa",
+      "Asado",
+      "Alfajor"
+    ],
+    "respuesta_correcta": "Asado",
+    "dato_interesante": "El asado argentino es mucho más que una comida; es un ritual social y un elemento de identidad nacional.",
+    "pista_estudio": "Investiga la cultura del asado en Argentina y sus técnicas de cocción específicas."
+  },
+  {
+    "id": 1138,
+    "categoria": "gastronomia",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es la temperatura interna recomendada para un bistec 'medium rare' (término medio rojo)?",
+    "opciones": [
+      "52-57°C",
+      "60-65°C",
+      "70-74°C",
+      "75-80°C"
+    ],
+    "respuesta_correcta": "52-57°C",
+    "dato_interesante": "El medium rare es el punto preferido por los conocedores porque preserva la jugosidad y el sabor de la carne.",
+    "pista_estudio": "Investiga los puntos de cocción de la carne de res y cómo medirlos con termómetro."
+  },
+  {
+    "id": 1139,
+    "categoria": "gastronomia",
+    "dificultad": "media",
+    "pregunta": "¿De qué país es originaria la bebida 'mate'?",
+    "opciones": [
+      "Brasil",
+      "Chile",
+      "Argentina y Uruguay",
+      "Paraguay"
+    ],
+    "respuesta_correcta": "Argentina y Uruguay",
+    "dato_interesante": "El mate tiene su origen en los pueblos guaraníes; hoy es la bebida nacional de Argentina, Uruguay y Paraguay.",
+    "pista_estudio": "Investiga la cultura del mate y su importancia social en el Cono Sur de América."
+  },
+  {
+    "id": 1140,
+    "categoria": "gastronomia",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es el plato de pasta más sencillo de la cocina italiana que solo usa queso y pimienta negra?",
+    "opciones": [
+      "Carbonara",
+      "Cacio e pepe",
+      "Aglio e olio",
+      "Amatriciana"
+    ],
+    "respuesta_correcta": "Cacio e pepe",
+    "dato_interesante": "Cacio e pepe (queso y pimienta) es uno de los cuatro platos clásicos de Roma junto con carbonara, amatriciana y gricia.",
+    "pista_estudio": "Investiga los cuatro platos clásicos romanos y qué los distingue entre sí."
+  },
+  {
+    "id": 1141,
+    "categoria": "gastronomia",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es el nombre del método de cocción rápida en aceite muy caliente de la cocina china?",
+    "opciones": [
+      "Bao (al vapor)",
+      "Wok stir-fry (saltear en wok)",
+      "Red braising",
+      "Slow poaching"
+    ],
+    "respuesta_correcta": "Wok stir-fry (saltear en wok)",
+    "dato_interesante": "El wok alcanza temperaturas de más de 300°C; su forma cónica concentra el calor para cocinar en segundos.",
+    "pista_estudio": "Investiga las técnicas de cocción chinas y el papel central del wok en su gastronomía."
+  },
+  {
+    "id": 1142,
+    "categoria": "gastronomia",
+    "dificultad": "media",
+    "pregunta": "¿Cuál es el plato emblemático de la cocina india hecho con pollo en salsa de yogur y especias?",
+    "opciones": [
+      "Biryani",
+      "Tikka Masala",
+      "Butter Chicken",
+      "Saag Paneer"
+    ],
+    "respuesta_correcta": "Butter Chicken",
+    "dato_interesante": "El Butter Chicken (murgh makhani) fue creado en los años 50 en el restaurante Moti Mahal de Delhi.",
+    "pista_estudio": "Investiga la gastronomía india y la complejidad de sus mezclas de especias (masalas)."
+  },
+  {
+    "id": 1143,
+    "categoria": "gastronomia",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es el vegetal más consumido en el mundo?",
+    "opciones": [
+      "Zanahoria",
+      "Papa (patata)",
+      "Tomate",
+      "Cebolla"
+    ],
+    "respuesta_correcta": "Papa (patata)",
+    "dato_interesante": "La papa es originaria de los Andes peruanos; los españoles la llevaron a Europa en el siglo XVI.",
+    "pista_estudio": "Investiga la historia de la papa y cómo cambió la alimentación mundial tras su llegada a Europa."
+  },
+  {
+    "id": 1144,
+    "categoria": "gastronomia",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué significa 'blanquear' verduras en cocina?",
+    "opciones": [
+      "Cocinar a fuego lento en agua",
+      "Sumergir brevemente en agua hirviendo y luego en agua helada",
+      "Marinar en vinagre",
+      "Asar sin aceite"
+    ],
+    "respuesta_correcta": "Sumergir brevemente en agua hirviendo y luego en agua helada",
+    "dato_interesante": "Blanquear las verduras fija su color, textura y nutrientes mientras inactiva las enzimas que las degradan.",
+    "pista_estudio": "Investiga las técnicas de preparación de vegetales: blanquear, confitar, glasear y escalfar."
+  },
+  {
+    "id": 1145,
+    "categoria": "gastronomia",
+    "dificultad": "media",
+    "pregunta": "¿Cuál es el nombre del vino espumoso francés más famoso del mundo?",
+    "opciones": [
+      "Prosecco",
+      "Cava",
+      "Champagne",
+      "Crémant"
+    ],
+    "respuesta_correcta": "Champagne",
+    "dato_interesante": "Solo el vino espumoso producido en la región de Champagne, Francia, puede llamarse champán.",
+    "pista_estudio": "Investiga las denominaciones de origen del vino espumoso y las diferencias entre champán, cava y prosecco."
+  },
+  {
+    "id": 1146,
+    "categoria": "gastronomia",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es el platillo guatemalteco más conocido hecho con masa y relleno envuelto en hoja?",
+    "opciones": [
+      "Tamal",
+      "Enchilada",
+      "Pupusa",
+      "Nacatamal"
+    ],
+    "respuesta_correcta": "Tamal",
+    "dato_interesante": "Los tamales tienen más de 7,000 años de historia en Mesoamérica y existen en cientos de variantes.",
+    "pista_estudio": "Investiga la historia del tamal y sus distintas versiones a lo largo de México y Centroamérica."
+  },
+  {
+    "id": 1147,
+    "categoria": "gastronomia",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es la diferencia entre 'grilling' y 'broiling' en cocina anglosajona?",
+    "opciones": [
+      "Son lo mismo",
+      "Grilling es calor desde abajo; broiling es calor desde arriba",
+      "Grilling es húmedo; broiling es seco",
+      "No existe diferencia práctica"
+    ],
+    "respuesta_correcta": "Grilling es calor desde abajo; broiling es calor desde arriba",
+    "dato_interesante": "El broiling es equivalente al gratinado en horno; el grilling equivale a la parrilla o asador.",
+    "pista_estudio": "Investiga los métodos de cocción en seco y cómo el calor directo afecta los alimentos."
+  },
+  {
+    "id": 1148,
+    "categoria": "gastronomia",
+    "dificultad": "media",
+    "pregunta": "¿Cuál es el ingrediente que da color negro al arroz negro o 'risotto nero'?",
+    "opciones": [
+      "Tinta de calamar",
+      "Carbón activo",
+      "Trufa negra",
+      "Salsa de soja"
+    ],
+    "respuesta_correcta": "Tinta de calamar",
+    "dato_interesante": "La tinta de calamar tiene un sabor marino intenso y es rica en aminoácidos y minerales.",
+    "pista_estudio": "Investiga los ingredientes que dan color a los platos y su origen en la cocina tradicional."
+  },
+  {
+    "id": 1149,
+    "categoria": "gastronomia",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es la bebida sin alcohol más consumida en el mundo después del agua?",
+    "opciones": [
+      "Café",
+      "Jugo de naranja",
+      "Té",
+      "Leche"
+    ],
+    "respuesta_correcta": "Té",
+    "dato_interesante": "Se estima que cada día se consumen más de 3 millones de tazas de té en el mundo.",
+    "pista_estudio": "Investiga los tipos de té (verde, negro, oolong, blanco) y sus regiones de producción."
+  },
+  {
+    "id": 1150,
+    "categoria": "gastronomia",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué es la 'maillard reaction' en cocina?",
+    "opciones": [
+      "La reacción que carameliza el azúcar",
+      "La reacción química entre proteínas y azúcares que dora los alimentos",
+      "La fermentación alcohólica",
+      "El proceso de gelificación"
+    ],
+    "respuesta_correcta": "La reacción química entre proteínas y azúcares que dora los alimentos",
+    "dato_interesante": "La reacción de Maillard ocurre a partir de los 140°C y es responsable del color y sabor de la costra del pan, la carne asada y el café tostado.",
+    "pista_estudio": "Investiga la reacción de Maillard y por qué es fundamental para el sabor de los alimentos cocinados."
   }
 ]

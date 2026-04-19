@@ -186,12 +186,12 @@ canvas {
 <script>
 const ITEMS = [
   'Ciencias','Historia','Tecnología','Geografía','Cultura',
-  'Música','Videojuegos','Deportes','Biblia'
+  'Música','Videojuegos','Deportes','Biblia','Películas y series','Autos','Gastronomía'
 ];
 
 const COLORS = [
   '#ffb3c6','#a0c4ff','#caffbf','#ffd6a5',
-  '#bdb2ff','#fdffb6','#9bf6ff','#ffc6ff','#d4f4dd'
+  '#bdb2ff','#fdffb6','#9bf6ff','#ffc6ff','#d4f4dd','#ffcbf2','#c5d1ff','#ffe5b4'
 ];
 
 const canvas = document.getElementById('wheel');
@@ -275,15 +275,18 @@ function spin() {
       const index = Math.floor(normalized / ARC);
 
           const mapeo = {
-          'Ciencias':    'ciencia',
-          'Historia':    'historia',
-          'Tecnología':  'tecnologia',
-          'Geografía':   'geografia',
-          'Cultura':     'cultura',
-          'Música':      'musica',
-          'Videojuegos': 'videojuegos',
-          'Deportes':    'deportes',
-          'Biblia':      'biblia'
+          'Ciencias':         'ciencia',
+          'Historia':         'historia',
+          'Tecnología':       'tecnologia',
+          'Geografía':        'geografia',
+          'Cultura':          'cultura',
+          'Música':           'musica',
+          'Videojuegos':      'videojuegos',
+          'Deportes':         'deportes',
+          'Biblia':           'biblia',
+          'Películas y series':'peliculas_series',
+          'Autos':            'autos',
+          'Gastronomía':      'gastronomia'
       };
 
       localStorage.setItem("categoria", mapeo[ITEMS[index]]);
