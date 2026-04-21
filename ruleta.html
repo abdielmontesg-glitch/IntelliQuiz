@@ -157,10 +157,82 @@ canvas {
   from { transform: scale(0.7); opacity: 0; }
   to   { transform: scale(1); opacity: 1; }
 }
+
+/* Botón Música */
+.btn-music {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 3px solid #000;
+  font-size: 22px;
+  cursor: pointer;
+  box-shadow: 4px 4px 0px #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+  z-index: 1000;
+}
+
+.btn-music:hover {
+  transform: scale(1.1);
+}
+
+.btn-music:active {
+  transform: scale(0.9);
+  box-shadow: 2px 2px 0px #000;
+}
+
+.btn-music.on {
+  background: #caffbf;
+}
+
+.btn-music.off {
+  background: #ffb3c6;
+}
+
+/* Footer */
+footer {
+  font-size: 11px;
+  color: #555;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 2px solid #e0e0e0;
+  line-height: 1.4;
+}
+
+footer a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #0052a3;
+}
 </style>
 </head>
 
 <body>
+
+<!-- Musica -->
+<audio id="bgMusic" loop>
+  <source src="musica/Modern Attempt.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Sonido de giro -->
+<audio id="spinSound">
+  <source src="musica/Spinning Prize Wheel Sound Effect.mp3" type="audio/mpeg">
+</audio>
+
+<button id="btnMusic" class="btn-music off" onclick="toggleMusic()">
+  🔇
+</button>
 
 <div class="ruleta-container">
   <div class="titulo">🎡 Ruleta</div>
@@ -172,7 +244,16 @@ canvas {
   </div>
 
   <button class="btn-ruleta" id="spinBtn" onclick="spin()">¡Girar!</button>
+
+  <!-- Footer de créditos -->
+  <footer>
+    Roulette sound effect by 
+    <a href="https://www.youtube.com/@brandnameaudio" target="_blank">
+      Brand Name Audio
+    </a> - Free & royalty-free audio (used with attribution)
+  </footer>
 </div>
+
 
 <!-- MODAL -->
 <div class="modal" id="modal">
@@ -245,6 +326,13 @@ function spin() {
   if (spinning) return;
   spinning = true;
 
+  const spinSound = document.getElementById("spinSound");
+  spinSound.currentTime = 0;
+  spinSound.play().catch(() => {
+    console.log("El navegador bloqueó el autoplay del sonido de giro");
+  });
+  
+
   document.getElementById('spinBtn').disabled = true;
 
   const extra = (6 + Math.random() * 4) * Math.PI * 2;
@@ -252,7 +340,7 @@ function spin() {
   const total = extra + offset;
 
   let start = null;
-  const duration = 4000;
+  const duration = 10000;
 
   function ease(t) {
     return 1 - Math.pow(1 - t, 4);
@@ -302,7 +390,72 @@ function spin() {
   requestAnimationFrame(animate);
 }
 
+// =====================
+// Control de la música
+// =====================
+const musicaPlayer = document.getElementById("bgMusic");
+const btnMusicPlayer = document.getElementById("btnMusic");
+let musicaActiva = false;
 
+function toggleMusic(){
+  if(musicaActiva){
+    musicaPlayer.pause();
+    btnMusicPlayer.classList.remove("on");
+    btnMusicPlayer.classList.add("off");
+    btnMusicPlayer.textContent = "🔇";
+    musicaActiva = false;
+  } else {
+    musicaPlayer.volume = 0.3;
+    musicaPlayer.play().catch(() => {
+      console.log("El navegador bloqueó el autoplay");
+    });
+    btnMusicPlayer.classList.remove("off");
+    btnMusicPlayer.classList.add("on");
+    btnMusicPlayer.textContent = "🔊";
+    musicaActiva = true;
+  }
+  localStorage.setItem("musicaActiva", musicaActiva);
+  
+  setInterval(() => {
+    if (!musicaPlayer.paused) {
+      localStorage.setItem("tiempoMusica", musicaPlayer.currentTime);
+    }
+  }, 1000);
+}
+
+// =====================
+// Cargar música donde se quedó
+// =====================
+window.addEventListener("load", () => {
+  const musicaElement = document.getElementById("bgMusic");
+  const activa = localStorage.getItem("musicaActiva") === "true";
+
+  if (activa) {
+    musicaElement.volume = 0.3;
+
+    const tiempo = localStorage.getItem("tiempoMusica");
+    if (tiempo) {
+      musicaElement.currentTime = tiempo;
+    }
+
+    musicaElement.play().catch(() => {
+      console.log("Esperando interacción...");
+    });
+
+    // Actualizar botón visual
+    const btn = document.getElementById("btnMusic");
+    btn.classList.remove("off");
+    btn.classList.add("on");
+    btn.textContent = "🔊";
+  }
+});
+
+// Guardar tiempo de la música
+setInterval(() => {
+  if (!musicaPlayer.paused) {
+    localStorage.setItem("tiempoMusica", musicaPlayer.currentTime);
+  }
+}, 1000);
 
 </script>
 
